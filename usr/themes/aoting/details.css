@@ -1,0 +1,35 @@
+.details_content{
+    overflow:hidden;
+    margin-top:20px;
+}
+
+.details_content h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.details_content h3{
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.details_content h3 a{
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}    
+.details_content p{
+    padding-bottom: 10px;
+}
+
+.details_content img{
+    margin-top:20px
+}
+
+
+.page-navigator{
+text-align:center;}
