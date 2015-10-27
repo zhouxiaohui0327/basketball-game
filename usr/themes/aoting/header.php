@@ -74,13 +74,6 @@
 
 
 
-<?php if ($this->is('category') || $this->is('post')): ?>
-<style type="text/css">
-#mycategory{width:100%;height:180px;display:block;background:url(<?php $this->options->themeUrl('images/category' . $this->categories[0]['order'] . '.jpg'); ?>) no-repeat;border-top:1px solid #CFD9DA;margin-bottom:3px;border-top:0;}
-.mycategory_txt{position:relative;left:600px;top:100px;font-size:16px;font-weight:bold;color:#fefefe;font-family: \5FAE\8F6F\96C5\9ED1, sans-serif;}
-</style>
-<div id="mycategory">
-   <div class="mycategory_txt"><?php echo $this->categories[0]['name']; ?></div>
-</div>
-<?php endif; ?>
+
+
     

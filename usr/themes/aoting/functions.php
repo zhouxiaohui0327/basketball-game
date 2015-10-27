@@ -24,3 +24,17 @@ function themeFields($layout) {
 }
 */
 
+function thumbnail($content) {
+    $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';
+
+    if (preg_match_all($pattern, $content, $thumbUrl)) {
+        $imgSrc = $thumbUrl[1][0];
+        echo $imgSrc;
+    } else {
+        echo 'http://demo.trip007.cn/usr/uploads/2015/10/noimage.jpg';
+    }
+}
+
+
+
+

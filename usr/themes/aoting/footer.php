@@ -20,15 +20,15 @@
                     <div class="right-side left">
                          <div class="contact">
                              <p>邮箱：</p>
-                             <p style="width: 345px;text-align: center"></p>
+                             <p style="width: 345px;"></p>
                          </div>
                         <div class="contact">
                             <p>地址：</p>
-                            <p style="width: 345px;text-align: center">杭州市江干区民心路华润大厦1103室</p>
+                            <p style="width: 345px;">杭州市江干区民心路华润大厦1103室</p>
                         </div>
                         <div class="contact">
                             <p>电话：</p>
-                            <p style="width: 345px;text-align: center"></p>
+                            <p style="width: 345px;"></p>
                         </div>
                     </div>
                     </div>

@@ -54,11 +54,55 @@ $stat = Typecho_Widget::widget('Widget_Stat');
                 <?php endif; ?>
             </div>
 
+            <div class="col-mb-12 col-tb-4" role="complementary">
+                <section class="latest-link">
+                    <h3><?php _e('最近发布的文章'); ?></h3>
+                    <?php Typecho_Widget::widget('Widget_Contents_Post_Recent', 'pageSize=10')->to($posts); ?>
+                    <ul>
+                    <?php if($posts->have()): ?>
+                    <?php while($posts->next()): ?>
+                        <li>
+                            <span><?php $posts->date('n.j'); ?></span>
+                            <a href="<?php $posts->permalink(); ?>" class="title"><?php $posts->title(); ?></a>
+                        </li>
+                    <?php endwhile; ?>
+                    <?php else: ?>
+                        <li><em><?php _e('暂时没有文章'); ?></em></li>
+                    <?php endif; ?>
+                    </ul>
+                </section>
+            </div>
 
+            <div class="col-mb-12 col-tb-4" role="complementary">
+                <section class="latest-link">
+                    <h3><?php _e('最近得到的回复'); ?></h3>
+                    <ul>
+                        <?php Typecho_Widget::widget('Widget_Comments_Recent', 'pageSize=10')->to($comments); ?>
+                        <?php if($comments->have()): ?>
+                        <?php while($comments->next()): ?>
+                        <li>
+                            <span><?php $comments->date('n.j'); ?></span>
+                            <a href="<?php $comments->permalink(); ?>" class="title"><?php $comments->author(true); ?></a>:
+                            <?php $comments->excerpt(35, '...'); ?>
+                        </li>
+                        <?php endwhile; ?>
+                        <?php else: ?>
+                        <li><?php _e('暂时没有回复'); ?></li>
+                        <?php endif; ?>
+                    </ul>
+                </section>
+            </div>
 
-
-
-
+            <div class="col-mb-12 col-tb-4" role="complementary">
+                <section class="latest-link">
+                    <h3><?php _e('官方最新日志'); ?></h3>
+                    <div id="typecho-message">
+                        <ul>
+                            <li><?php _e('读取中...'); ?></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
 </div>
@@ -90,9 +134,26 @@ $(document).ready(function () {
         }, 'json');
     }
 
+    function applyUpdate(update) {
+        if (update.available) {
+            $('<div class="update-check"><p>'
+                + '<?php _e('您当前使用的版本是 %s'); ?>'.replace('%s', update.current) + '<br />'
+                + '<strong><a href="' + update.link + '" target="_blank">'
+                + '<?php _e('官方最新版本是 %s'); ?>'.replace('%s', update.latest) + '</a></strong></p></div>')
+            .appendTo('.welcome-board').effect('highlight');
+        }
+    }
 
-
-
+    if (!!update) {
+        applyUpdate($.parseJSON(update));
+    } else {
+        update = '';
+        $.get('<?php $options->index('/action/ajax?do=checkVersion'); ?>', function (o, status, resp) {
+            applyUpdate(o);
+            cache.setItem('update', resp.responseText);
+        }, 'json');
+    }
+});
 
 </script>
 <?php include 'footer.php'; ?>

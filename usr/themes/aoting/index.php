@@ -12,7 +12,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  $this->need('header.php');
  ?>
   
-   
+
 <!--轮播style-->
 <style type="text/css">
         #banner {position:relative; width:397px; height:200px;float:left;}
@@ -57,23 +57,35 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                             <li><span>3</span></li>
                         </ul>
                         <div id="banner_list">
-                            <a href=""><img src="<?php $this->options->themeUrl(); ?>img/20121022071035_28489.jpg";?/></a>
-                            <a href=""><img src="<?php $this->options->themeUrl(); ?>img/20121022071035_28489.jpg";?/></a>
-                            <a href=""><img src="<?php $this->options->themeUrl(); ?>img/20121022071035_28489.jpg";?/></a>
+                         
+             
+
+<?php $this->widget('Widget_Archive@index', 'pageSize=3&type=category', 'mid=6')->to($categoryPosts); ?>
+            <?php while($categoryPosts->next()): ?>
+                <a href="<?php $categoryPosts->permalink(); ?>"><img src="<?php echo thumbnail($categoryPosts->content); ?>"></a>
+            <?php endwhile; ?>
+
+
                         </div>
                     </div>
                 </div>
   
 
-
+           
 
                  <div class="carousel-text left">
                     <div class="carousel-text-head">            <!--新闻轮播-->
                         <p>联赛新闻快讯/ News</p>
                     </div>
                     <div id="banner_text_list">
-                       <?php $this->widget('Widget_Archive@index')->parse('<a href="{permalink}">{title}</a>'); ?>
-                    </div>
+            
+<?php $this->widget('Widget_Archive@index', 'pageSize=3&type=category', 'mid=6')->to($categoryPosts); ?>
+            <?php while($categoryPosts->next()): ?>
+                <a href="<?php $categoryPosts->permalink(); ?>"><?php echo $categoryPosts->title; ?></a>
+            <?php endwhile; ?>
+
+
+        </div>
                 </div>
 
 
@@ -174,4 +186,3 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 
 <?php $this->need('footer.php'); ?>
-<?php echo $this->category;?>
