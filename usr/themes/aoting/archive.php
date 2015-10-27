@@ -35,7 +35,7 @@
      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
          <ul>
              <li class="left" itemprop="name headline" style="line-height:40px;"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></li>
-             <li class="right"><?php _e('时间: '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('F j, Y'); ?></time></li>
+             <li class="right"><?php _e('时间: '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></li>
          </ul>
 
          

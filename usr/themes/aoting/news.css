@@ -1,6 +1,7 @@
 .news_content_wrap{
     position:relative;
     height: 400px
+    
 }
 .news_content_wrap .news_content{
     position: relative;
@@ -11,6 +12,7 @@
 }
 .news-text-wrap{
     min-height:400px;
+    background-color:#ebe5e7;
 }
 
 .news-text-wrap .news-text-nav{
