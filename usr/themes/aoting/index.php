@@ -171,12 +171,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 <div class="yellow_box_wrap">
                     <div class="left-side left">
                         <div class="left-side-img left">
-                            <img src="<?php $this->options->themeUrl(); ?>img/code.png"  alt=""/>
+                            <img src="<?php $this->options->themeUrl(); ?>img/logo-bottom.png" style="margin-left:50px;width:180px;" alt=""/>
                         </div>
-                        <div class="left-side-text left">
-                            <p>关注官方微信</p>
-                            <p>获取更多咨询</p>
-                        </div>
+                       
                     </div>
                     <div class="right-side left">
                          <div class="contact">

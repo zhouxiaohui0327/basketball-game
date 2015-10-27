@@ -190,6 +190,7 @@ li {
 .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{
     margin-left: 60px;
     margin-top: 16px;
+    width:255px;
 }
 .wrap .content .content_below .yellow_box_wrap .left-side .left-side-text{
     margin-left: 40px;
