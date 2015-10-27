@@ -20,10 +20,6 @@
             </ul>
         </div>
     </div>
-</div>
-
-
-
 <div class="details_content w-800">
    <div class="col-mb-12 col-8" id="main" role="main">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -34,6 +30,11 @@
     </article>
    </div>
 </div>
+</div>
+
+
+
+
 
 
 <style>

@@ -17,7 +17,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <style type="text/css">
         #banner {position:relative; width:397px; height:200px;float:left;}
         #banner ul {position:absolute;list-style-type:none;filter: Alpha(Opacity=80);z-index:1002;
-            margin:0; padding:0; bottom:10px;   left: 103%;width: 160px;}
+            margin:0; padding:0; bottom:10px;   left: 107%;width: 160px;}
         #banner ul li {display: inline-block;
             width: 34px;
             height: 4px;
@@ -35,7 +35,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 <div class="wrap">
     <div class="big-pic">
-        <img src="<?php $this->options->themeUrl(); ?>img/big-pic.png" alt=""/>
+        <img src="<?php $this->options->themeUrl(); ?>img/big-pic.jpg" alt=""/>
     </div>
     <div class="content">
         <div class="w-800">
@@ -45,6 +45,38 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
                     <p>联赛排行榜 /</p>
                     <p>Rarking list</p>
+					<div class="participants_list left">
+                        <ul class="list_nav list">
+                            <li>排名</li>
+                            <li>学校</li>
+                            <li>分数</li>
+                        </ul>
+                        <ul class="list_text list">
+                            <li>1</li>
+                            <li>浙大</li>
+                            <li>100</li>
+                        </ul>
+						<ul class="list_text list">
+                            <li>1</li>
+                            <li>浙大</li>
+                            <li>100</li>
+                        </ul>
+						<ul class="list_text list">
+                            <li>1</li>
+                            <li>浙大</li>
+                            <li>100</li>
+                        </ul>
+						<ul class="list_text list">
+                            <li>1</li>
+                            <li>浙大</li>
+                            <li>100</li>
+                        </ul>
+						<ul class="list_text list">
+                            <li>1</li>
+                            <li>浙大</li>
+                            <li>100</li>
+                        </ul>
+                    </div>
                 </div>
 
 
@@ -87,98 +119,79 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
         </div>
                 </div>
+				<div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/zuba.png" alt=""/>
+                </div>
+				<div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/IMG_6635.jpg)-45px 0;background-size: 272px 203px;">
+                </div>
+				<div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+               <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/zuba.png" alt=""/>
+                </div>
+                
+                <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+                <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+                
+                <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+                
+                <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+				<div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/IMG_6611.jpg)-45px 0;background-size: 280px 203px;">
+                </div>
+                <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+				<div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/8124891_165010261000_2.jpg)-67px -30px;background-size: 389px 254px;">
+                </div>
+                
+                <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+                <div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+                </div>
+				<div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/51b29b42da227.jpg)-45px 0;background-size: 294px 203px;">
 
-
-
-
-                <div class="list_wrap">
-                    <div class="participants_list left">
-                        <p>本科男篮</p>
-                        <ul class="list_nav list">
-                            <li>排名</li>
-                            <li>学校</li>
-                            <li>分数</li>
-                        </ul>
-                        <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
-                        </ul>
-                    </div>
-                    <div class="participants_list left">
-                        <p>本科女篮</p>
-                        <ul class="list_nav list">
-                            <li>排名</li>
-                            <li>学校</li>
-                            <li>分数</li>
-                        </ul>
-                        <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
-                        </ul>
-                    </div>
-                    <div class="participants_list left">
-                        <p>专科男篮</p>
-                        <ul class="list_nav list">
-                            <li>排名</li>
-                            <li>学校</li>
-                            <li>分数</li>
-                        </ul>
-                        <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
-                        </ul>
-                    </div>
-                    <div class="participants_list left">
-                        <p>专科女篮</p>
-                        <ul class="list_nav list">
-                            <li>排名</li>
-                            <li>学校</li>
-                            <li>分数</li>
-                        </ul>
-                        <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
-                        </ul>
-                    </div>
+                </div>
+				<div class="every_pic left">
+                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
                 </div>
             </div>
-            <div class="content_middle">
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                </div>
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                </div>
-                <div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/IMG_6635.jpg)-45px 0;background-size: 272px 203px;">
-                </div>
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                </div>
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                </div>
-                <div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/IMG_6611.jpg)-45px 0;background-size: 280px 203px;">
-                </div>
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                </div>
-                <div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/8124891_165010261000_2.jpg)-67px -30px;background-size: 389px 254px;">
-                </div>
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                </div>
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                </div>
-                <div class="every_pic left" style="background: url(<?php $this->options->themeUrl(); ?>img/51b29b42da227.jpg)-45px 0;background-size: 294px 203px;">
-
-                </div>
-                <div class="every_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
+            
+			<div class="content_below">
+                <div class="yellow_box_wrap">
+                    <div class="left-side left">
+                        <div class="left-side-img left">
+                            <img src="<?php $this->options->themeUrl(); ?>img/code.png"  alt=""/>
+                        </div>
+                        <div class="left-side-text left">
+                            <p>关注官方微信</p>
+                            <p>获取更多咨询</p>
+                        </div>
+                    </div>
+                    <div class="right-side left">
+                         <div class="contact">
+                             <p>邮箱：</p>
+                             <p style="width: 345px;text-align: center"></p>
+                         </div>
+                        <div class="contact">
+                            <p>地址：</p>
+                            <p style="width: 345px;text-align: center">杭州市江干区民心路华润大厦1103室</p>
+                        </div>
+                        <div class="contact">
+                            <p>电话：</p>
+                            <p style="width: 345px;text-align: center"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

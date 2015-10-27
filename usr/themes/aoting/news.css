@@ -9,7 +9,9 @@
     width: 100%;
     height: 400px;
 }
-
+.news-text-wrap{
+    min-height:400px;
+}
 
 .news-text-wrap .news-text-nav{
     background-color: #dddddd;
