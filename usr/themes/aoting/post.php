@@ -20,14 +20,7 @@
                 <li>><?php $this->title() ?></li>
             </ul>
         </div>
-    </div>
-</div>
-
-
-
-
-
-<div class="details_content w-800">
+        <div class="details_content w-800">
 <div class="col-mb-12 col-8" id="main" role="main">
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="post-title" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
@@ -51,6 +44,14 @@
 </div><!-- end #main-->
 
 </div>
+    </div>
+</div>
+
+
+
+
+
+
 
 
 

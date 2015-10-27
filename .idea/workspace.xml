@@ -25,57 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Plugin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usr/plugins/Thumbnail/Plugin.php">
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="3895">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="399">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Archive.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/var/Widget/Archive.php">
+      <file leaf-file-name="Menu.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/var/Widget/Menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1402.0358" vertical-offset="39466" max-vertical-offset="39824">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <marker date="1413004272000" expanded="true" signature="47523:49726" placeholder="..." />
-                <marker date="1413004272000" expanded="true" signature="47538:49713" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="47568:49710" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="47598:47657" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="47702:47903" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="47797:47861" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="47943:49159" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="48326:48574" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="48373:48516" placeholder="{&quot;name&quot;: 'parent'...}" />
-                <marker date="1413004272000" expanded="true" signature="48687:48896" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="48737:48811" placeholder="{&quot;id&quot;: 'comment-form-place-holder'...}" />
-                <marker date="1413004272000" expanded="true" signature="49073:49122" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="49196:49704" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="49385:49453" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="49487:49531" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="50161:51465" placeholder="..." />
-                <marker date="1413004272000" expanded="true" signature="50176:51452" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="50222:50319" placeholder="{&quot;add&quot;: 'addEventListener'...}" />
-                <marker date="1413004272000" expanded="true" signature="50322:50406" placeholder="{&quot;add&quot;: 'attachEvent'...}" />
-                <marker date="1413004272000" expanded="true" signature="50457:51448" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="50546:51442" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="50638:51432" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="50805:51418" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="50872:51398" placeholder="{...}" />
-                <marker date="1413004272000" expanded="true" signature="50910:51376" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Feedback.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/var/Widget/Feedback.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="33.82143" vertical-offset="6210" max-vertical-offset="6555">
-              <caret line="277" column="18" selection-start-line="277" selection-start-column="18" selection-end-line="277" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.12204007" vertical-offset="2251" max-vertical-offset="6631">
+              <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -91,11 +55,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comments.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Comments.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/var/Widget/Abstract/Comments.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3333335" vertical-offset="8490" max-vertical-offset="8835">
+            <state vertical-scroll-proportion="65.71429" vertical-offset="8490" max-vertical-offset="8835">
               <caret line="350" column="9" selection-start-line="350" selection-start-column="9" selection-end-line="350" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/var/Widget/Comments/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5357144" vertical-offset="2171" max-vertical-offset="2907">
+              <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Archive.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/var/Widget/Comments/Archive.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="79.03571" vertical-offset="5975" max-vertical-offset="9975">
+              <caret line="198" column="9" selection-start-line="198" selection-start-column="9" selection-end-line="198" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ping.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/var/Widget/Comments/Ping.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="37.42857" vertical-offset="2834" max-vertical-offset="3192">
+              <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/var/Widget/Contents/Attachment/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="38.785713" vertical-offset="2131" max-vertical-offset="2489">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/var/Widget/Contents/Post/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="40.214287" vertical-offset="1373" max-vertical-offset="2983">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usr/themes/default/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2857144" vertical-offset="877" max-vertical-offset="1235">
+              <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -106,10 +130,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/var/Widget/Menu.php" />
         <option value="$PROJECT_DIR$/usr/themes/aoting/img/jquery.js" />
         <option value="$PROJECT_DIR$/usr/themes/aoting/jquery.js" />
         <option value="$PROJECT_DIR$/usr/themes/aoting/footer.php" />
+        <option value="$PROJECT_DIR$/var/Widget/Menu.php" />
       </list>
     </option>
   </component>
@@ -152,6 +176,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="trip007.cn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trip007.cn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basketball-game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trip007.cn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basketball-game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -207,13 +255,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="6" width="1364" height="727" extended-state="1" />
-    <editor active="true" />
+    <frame x="3" y="6" width="1364" height="727" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -264,6 +312,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="6631">
           <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -309,6 +358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="6631">
           <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -347,6 +397,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="6631">
           <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -369,21 +420,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6631">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="399">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/var/Widget/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="6631">
-          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -437,31 +474,31 @@
         <state vertical-scroll-proportion="1402.0358" vertical-offset="39466" max-vertical-offset="39824">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <marker date="1413004272000" expanded="true" signature="47523:49726" placeholder="..." />
-            <marker date="1413004272000" expanded="true" signature="47538:49713" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="47568:49710" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="47598:47657" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="47702:47903" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="47797:47861" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="47943:49159" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="48326:48574" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="48373:48516" placeholder="{&quot;name&quot;: 'parent'...}" />
-            <marker date="1413004272000" expanded="true" signature="48687:48896" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="48737:48811" placeholder="{&quot;id&quot;: 'comment-form-place-holder'...}" />
-            <marker date="1413004272000" expanded="true" signature="49073:49122" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="49196:49704" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="49385:49453" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="49487:49531" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="50161:51465" placeholder="..." />
-            <marker date="1413004272000" expanded="true" signature="50176:51452" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="50222:50319" placeholder="{&quot;add&quot;: 'addEventListener'...}" />
-            <marker date="1413004272000" expanded="true" signature="50322:50406" placeholder="{&quot;add&quot;: 'attachEvent'...}" />
-            <marker date="1413004272000" expanded="true" signature="50457:51448" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="50546:51442" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="50638:51432" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="50805:51418" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="50872:51398" placeholder="{...}" />
-            <marker date="1413004272000" expanded="true" signature="50910:51376" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: 'parent'...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{&quot;id&quot;: 'comment-form-place-holder'...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{&quot;add&quot;: 'addEventListener'...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{&quot;add&quot;: 'attachEvent'...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1413004272000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -484,8 +521,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/var/Widget/Abstract/Comments.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="8490" max-vertical-offset="8835">
+        <state vertical-scroll-proportion="65.71429" vertical-offset="8490" max-vertical-offset="8835">
           <caret line="350" column="9" selection-start-line="350" selection-start-column="9" selection-end-line="350" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/Widget/Comments/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5357144" vertical-offset="2171" max-vertical-offset="2907">
+          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/Widget/Comments/Archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="79.03571" vertical-offset="5975" max-vertical-offset="9975">
+          <caret line="198" column="9" selection-start-line="198" selection-start-column="9" selection-end-line="198" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/Widget/Comments/Ping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="37.42857" vertical-offset="2834" max-vertical-offset="3192">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/Widget/Contents/Attachment/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="38.785713" vertical-offset="2131" max-vertical-offset="2489">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/Widget/Contents/Post/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="40.214287" vertical-offset="1373" max-vertical-offset="2983">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usr/themes/default/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2857144" vertical-offset="877" max-vertical-offset="1235">
+          <caret line="51" column="72" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0357144" vertical-offset="0" max-vertical-offset="399">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/Widget/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12204007" vertical-offset="2251" max-vertical-offset="6631">
+          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
           <folding />
         </state>
       </provider>
