@@ -15,7 +15,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 <!--轮播style-->
 <style type="text/css">
-        #banner {position:relative; width:397px; height:200px;float:left;}
+        #banner {position:relative; width:100%; height:200px;float:left;}
         #banner ul {position:absolute;list-style-type:none;filter: Alpha(Opacity=80);z-index:1002;
             margin:0; padding:0; bottom:10px;   left: 107%;width: 160px;}
         #banner ul li {display: inline-block;
@@ -28,8 +28,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
             display:none;
         }
         #banner ul li.on { background:red}
-        #banner_list a{position:absolute;}
-        #banner_text_list a{position:absolute;color:white;font-size:14px;line-height:20px}
+        #banner_list a{position:absolute;width:100%;}
+        #banner_text_list a{position:absolute;color:white;font-size:14px;line-height:20px;margin-left:2%;margin-right:2%;margin-top:10px;}
     </style>
 
 

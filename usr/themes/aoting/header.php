@@ -48,7 +48,7 @@
                 <div class="logo_wrap left">
                     <img src="<?php $this->options->themeUrl(); ?>img/logo.png" class="logo" alt=""/>
                 </div>
-                <div class="nav left id="nav-menu"">
+                <div class="nav left" id="nav-menu" style="width:59%">
                     <ul>
                        <li> <a<?php if($this->is('index')): ?> class="current"<?php endif; ?> href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a></li>
                       

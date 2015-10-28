@@ -15,8 +15,9 @@ li {
     display: inline-block;
 }
 .w-800{
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
+	min-width:800px;
 }
 .left{
     float: left;
@@ -49,12 +50,13 @@ li {
 }
 .header .header-wrap .w-800 .nav-bar ul li{
     text-align: center;
-    width: 86px;
+    margin-left:3.2%
 
 }
 .header .header-wrap .w-800 .nav-bar ul li a{
     color: #F09b00;
     line-height: 70px;
+	font-size:20px;
 }
 .header .header-wrap .w-800 .nav-bar ul li a:hover{
     color: #ed2847;
@@ -95,6 +97,7 @@ li {
 }
 .wrap .big-pic img{
     width: 100%;
+	min-width:800px;
 }
 .wrap .content{
      width: 100%;
@@ -108,40 +111,42 @@ li {
     overflow: hidden;
  }
 .wrap .content .content_above .logo_pic{
-    margin-top: 20px;
-  margin-right: 32px;
-  text-align: center;
-  width: 168px;
+     text-align: center;
+     width: 25%;
 }
 .wrap .content .content_above .logo_pic img{
-    width: 168px;
-	margin-left: 15px;
+    width:100%;
 }
 .wrap .content .content_above .logo_pic p{
     color:#ed961f;
-	  margin-left: 30px
 }
 .wrap .content .content_above .carousel-pic{
     height: 198px;
-    width:400px ;
+    width:50%; ;
 }
 .wrap .content .content_above .carousel-pic img{
     height: 198px;
-    width: 400px;
+    width: 100%;
 }
 .wrap .content .content_above .carousel-text{
-    background-color: #201921;
-    color: white;
-    padding: 20px;
-    width: 160px;
-    height: 158px;
+      background-color: #201921;
+      color: white;
+      height: 198px;
+      width: 25%;
 }
+.carousel-text-head{
+margin-top: 20px;
+  text-align: center
+  }
+
+  
+
 
  .participants_list{
     text-align: center;
     width: 25%;
 	margin-top:20px;
-	width:192px;
+	width:100%;
 }
 
 .participants_list .list li{
@@ -159,13 +164,13 @@ li {
 }
 
  .every_pic{
-    width: 200px;
+    width:25%;
     text-align: center;
     overflow: hidden;
     height: 200px;
 }
  .every_pic img{
-    width: 200px;
+    width: 100%;
     height: 200px;
 }
 
@@ -185,7 +190,7 @@ li {
     margin-bottom: 30px;
     position: absolute;
     background-color: #f7a013;
-    width: 150%;
+    width: 200%;
 }
 .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{
     margin-left: 60px;
