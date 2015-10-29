@@ -31,11 +31,12 @@
 }
 
 .news-text-content {
-    /*width: 600px;*/
-    /*margin-right: 335px;*/
     margin-top: 10px;
     font-size: 13px;
     overflow:hidden;
+}
+.news-text-content a{
+    color:black;
 }
 .news-text-content ul{
     overflow: hidden;

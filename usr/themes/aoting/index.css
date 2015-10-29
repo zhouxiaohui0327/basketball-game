@@ -105,6 +105,9 @@ li {
      margin-bottom:20px;
 	 overflow:hidden;
  }
+ @media (min-width:1366px){
+     .wrap .content{margin-top:-300px;}
+ }
 .wrap .content .content_above{
     background-color: #02254d;
     position: relative;
