@@ -178,14 +178,18 @@ margin-top: 20px;
 }
 .content_table .th_red{
     background-color: #B21c33;
-    text-align: left
+    text-align: left;
+
 }
 .content_table .th_red .th_red_above{
     margin-left: 10px;
+    font-family: '黑体';
 }
 .content_table .th_red .th_red_above p{
-    /*font-family: '黑体';*/
+    font-family: '黑体';
     color:white;
+    font-weight: 100;
+
 }
 .content_table .th_red .th_red_bottom{
     margin-top: 40px;
@@ -196,14 +200,17 @@ margin-top: 20px;
     font-family: '黑体';
     color:white;
     margin-top: 10px;
-    font-size: 14px;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 20px;
 }
 .content_table .th_gray_above{
     width:100%;
 }
 .content_table .th_gray_above p{
     font-family: '黑体';
-    color:#6f706c
+    color:#6f706c;
+    font-weight: 100;
 }
 .content_table .th_gray_bottom{
     margin-top: 40px;
@@ -215,7 +222,9 @@ margin-top: 20px;
     font-family: '黑体';
     color:#6f706c;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
 }
 
 

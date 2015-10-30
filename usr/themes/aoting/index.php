@@ -226,9 +226,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_red_bottom">
                             <a href="">
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
                             </a>
                         </div>
                     </th>
@@ -242,9 +240,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
                             </a>
                         </div>
                     </th>
@@ -255,9 +251,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
                             </a>
                         </div>
                     </th>
@@ -271,9 +265,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom" >
                             <a href="">
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
                             </a>
                         </div>
                     </th>
@@ -284,9 +276,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
-                                <p>&nbsp</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
                             </a>
                         </div>
                     </th>
