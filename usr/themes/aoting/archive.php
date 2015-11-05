@@ -3,9 +3,28 @@
 <style>.header{
             position: absolute;top: 40px;z-index:1;
             height: 70px;}
+
 </style>
 <?php $this->need('header.php'); ?>
 <div class="news_content_wrap">
+
+
+    <div class="left-slide-nav"  style="position: absolute;z-index:2000">
+        <div class="left-above">
+            <img class="logo-above" src="<?php $this->options->themeUrl(); ?>img/logo-above.png" alt=""/>
+            <img class="logo-text" src="<?php $this->options->themeUrl(); ?>img/logo-text.png" alt=""/>
+        </div>
+        <div class="left-bottom">
+            <ul>
+                <li><a href="">公司新闻</a></li>
+                <li><a href="">新闻公告</a></li>
+                <li><a href="">行业动态</a></li>
+                <li><a href="">媒体关注</a></li>
+            </ul>
+        </div>
+    </div>
+
+
     <div class="news_content">
         <img src="<?php $this->options->themeUrl(); ?>img/new-bg.png" class="news-text-bg" alt=""/>
     </div>
@@ -69,10 +88,10 @@
 <style>
         .header .header-wrap{
             background-color: rgba(240, 248, 255, 0.56);}
-        /*.w-800{*/
-            /*margin: 0 0;*/
-            /*float: right;*/
-            /*margin-right: 10%;}*/
+        .w-800{
+            margin: 0 0;
+            float: right;
+            margin-right: 10%;}
 </style>
 
 	
