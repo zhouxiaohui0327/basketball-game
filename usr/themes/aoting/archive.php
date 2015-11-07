@@ -87,11 +87,14 @@
 
 <style>
         .header .header-wrap{
-            background-color: rgba(240, 248, 255, 0.56);}
+            background-color: rgba(240, 248, 255, 0.68);}
         .w-800{
             margin: 0 0;
             float: right;
-            margin-right: 10%;}
+            width: 58%;
+            margin-right: 8%;
+            min-width: 300px;
+        }
 </style>
 
 	

@@ -45,6 +45,9 @@ li {
 .header .header-wrap .w-800 .nav-bar .logo_wrap .logo{
     width: 110px;
 }
+.nav{
+    width:59%;
+}
 .header .header-wrap .w-800 .nav-bar ul{
     width: 100%;
 }
@@ -67,12 +70,13 @@ li {
     margin-top:24px;
     font-size:15px;
     overflow:hidden;
+    width: 23%;
 }
 .header .header-wrap .w-800 .nav-bar .search-frame input{
     border: none;
     border-radius: 15px;
     height: 22px;
-    width:170px;
+    width:70%;
 	background-color:#ececec;
 }
 .header .header-wrap .w-800 .nav-bar .search-frame .sure{
@@ -287,6 +291,43 @@ margin-top: 20px;
   border-top:1px solid darkgray;
   }
 
-
-
+@media screen and (max-width:800px){
+    .header .header-wrap .w-800 .nav-bar .logo_wrap .logo{width: 100px;}
+    .w-800{min-width:320px;width: 100%}
+    .header .header-wrap .w-800 .nav-bar ul li a{font-size: 18px}
+    .nav{width:60%}
+    #banner{height: 180px}
+    .wrap .content .content_above .carousel-pic img{height: 180px}
+    .wrap .content .content_above .carousel-text{height: 180px;}
+    .content_table th{height: 180px}
+}
+@media screen and (max-width:720px){
+    .header .header-wrap .w-800 .nav-bar ul li{margin-left: 5%}
+    .header .header-wrap .w-800 .nav-bar ul li a{font-size: 16px;line-height: 60px}
+    .nav{width:80%}
+    .header .header-wrap .w-800 .nav-bar .search-frame{width:50%;float:none;margin-top: 0;margin:0 auto}
+    #banner{height: 160px}
+    .wrap .content .content_above .carousel-pic img{height: 160px}
+    .wrap .content .content_above .carousel-text{height: 160px;}
+    .content_table th{height: 160px}
+    .content_table .th_red .th_red_bottom{margin-top: 20px}
+    .content_table .th_gray_bottom{margin-top: 20px}
+}
+@media screen and (max-width:670px){
+    .wrap .content .content_above .list_wrap .participants_list{width: 50%;margin-bottom: 10px}
+    .content_table .th_red .th_red_bottom{display:none}
+    .content_table .th_gray_bottom{display: none}
+    .carousel-text-head p{font-size: 12px}
+}
+@media screen and (max-width:600px){
+    .content_table th{height: 140px}
+    .wrap .content .content_above .carousel-pic img{height: 140px}
+    .wrap .content .content_above .carousel-text{height: 140px;}
+}
+@media screen and (max-width:540px){
+    .header .header-wrap .w-800 .nav-bar .logo_wrap .logo{width: 90px;}
+    .header .header-wrap .w-800 .nav-bar ul li a{font-size: 13px}
+    .header .header-wrap .w-800 .nav-bar ul li{margin-left: 3%}
+    .nav{width:75%}
+}
 /*...............................................................................................................*/

@@ -15,7 +15,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 <!--轮播style-->
 <style type="text/css">
-        #banner {position:relative; width:100%; height:200px;float:left;}
+        #banner {position:relative; width:100%;float:left;}
         #banner ul {position:absolute;list-style-type:none;filter: Alpha(Opacity=80);z-index:1002;
             margin:0; padding:0; bottom:10px;   left: 107%;width: 160px;}
         #banner ul li {display: inline-block;
