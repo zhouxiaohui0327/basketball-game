@@ -1,8 +1,11 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
 <style>.header{
-            position: absolute;top: 40px;z-index:1;
-            height: 70px;}
+        position: absolute;top: 40px;z-index:1;
+    }
+    @media screen and (max-width:414px){
+        .header{top:10px}
+    }
 </style>
 <?php $this->need('header.php'); ?>
 <div class="news_content_wrap">

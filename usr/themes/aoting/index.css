@@ -128,8 +128,8 @@ li {
     color:#DA7826;
 }
 .wrap .content .content_above .carousel-pic{
-    height: 198px;
     width:50%; ;
+    height: 198px;
 }
 .wrap .content .content_above .carousel-pic img{
     height: 198px;
@@ -146,7 +146,7 @@ margin-top: 20px;
   text-align: center
   }
 
-
+#banner{height: 200px}
 
 
 .wrap .content .content_above .list_wrap{
@@ -178,7 +178,9 @@ margin-top: 20px;
 }
 .content_table th{
     width: 25%;
-    height: 200px;
+}
+.click_text{
+    margin-top: 5px;
 }
 .content_table .th_red{
     background-color: #B21c33;
@@ -249,6 +251,7 @@ margin-top: 20px;
     position: absolute;
     background-color: #f7a013;
     width: 200%;
+    overflow: hidden;
 }
 .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{
     margin-left: 60px;
@@ -271,6 +274,7 @@ margin-top: 20px;
     margin-top: 25px;
     margin-left: 50px;
     font-size: 14px;
+    width: 25%;
 }
 .wrap .content .content_below .yellow_box_wrap .right-side .contact{
     margin-bottom: 20px;
@@ -299,7 +303,6 @@ margin-top: 20px;
     #banner{height: 180px}
     .wrap .content .content_above .carousel-pic img{height: 180px}
     .wrap .content .content_above .carousel-text{height: 180px;}
-    .content_table th{height: 180px}
 }
 @media screen and (max-width:720px){
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 5%}
@@ -309,25 +312,104 @@ margin-top: 20px;
     #banner{height: 160px}
     .wrap .content .content_above .carousel-pic img{height: 160px}
     .wrap .content .content_above .carousel-text{height: 160px;}
-    .content_table th{height: 160px}
     .content_table .th_red .th_red_bottom{margin-top: 20px}
     .content_table .th_gray_bottom{margin-top: 20px}
+    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
+    .wrap .content .content_below .yellow_box_wrap{margin-left: 10px}
+    .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px}
 }
 @media screen and (max-width:670px){
     .wrap .content .content_above .list_wrap .participants_list{width: 50%;margin-bottom: 10px}
     .content_table .th_red .th_red_bottom{display:none}
     .content_table .th_gray_bottom{display: none}
     .carousel-text-head p{font-size: 12px}
+    .wrap .content .content_above .carousel-pic{height: 140px}
+
 }
 @media screen and (max-width:600px){
-    .content_table th{height: 140px}
+    #banner{height: 140px}
     .wrap .content .content_above .carousel-pic img{height: 140px}
     .wrap .content .content_above .carousel-text{height: 140px;}
+    .wrap .content .content_below{height: 350px}
+    .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
+    .left-side{overflow: hidden;display: block;float:none}
+    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
+    .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px}
+    .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
+    .wrap .content .content_below .yellow_box_wrap .right-side{width:44%}
+    .wrap .content .content_below{margin-bottom: 10px}
 }
 @media screen and (max-width:540px){
+
     .header .header-wrap .w-800 .nav-bar .logo_wrap .logo{width: 90px;}
     .header .header-wrap .w-800 .nav-bar ul li a{font-size: 13px}
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 3%}
     .nav{width:75%}
+}
+@media screen and (max-width:429px){
+    #banner{height: 120px}
+    .wrap .content .content_above .carousel-pic img{height: 120px}
+    .wrap .content .content_above .carousel-text{height: 120px;}
+    .wrap .content .content_above .logo_pic p{font-size:10px}
+    .wrap .content .content_above .list_wrap{margin-top: 0}
+    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 10px;width: 45px;line-height: 10px}
+    #banner_text_list a{font-size: 9px}
+    .carousel-text-head{margin-top: 10px}
+    .carousel-text-head p{font-size: 8px}
+    .wrap .content .content_above .logo_pic img{margin-bottom: 5px}
+    .wrap .content .content_above .list_wrap .participants_list p{margin-top:0}
+    .content_table th{height: 80px}
+    .wrap .content .content_above .carousel-pic{height:120px}
+    .nav{width:100%}
+    .header .header-wrap .w-800 .nav-bar ul li a{line-height: 30px}
+    .header .header-wrap .w-800 .nav-bar .search-frame{float:none;margin-top: 20px;margin-left: 190px}
+    .click_text{font-size: 10px;margin-top: 1px}
+    .content_table .th_red .th_red_above p{font-size: 10px}
+    .content_table .th_gray_above p{font-size: 10px}
+    .wrap .content{margin-top: -300px}
+    .wrap .content .content_below{height: 350px}
+    .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
+    .left-side{overflow: hidden;display: block;float:none}
+    .header .header-wrap .w-800 .nav-bar ul li{margin-left: 6%}
+}
+
+@media screen and (max-width:413px){
+    .header .header-wrap .w-800 .nav-bar ul li{margin-left: 5%}
+    .header .header-wrap .w-800 .nav-bar .search-frame{margin-left: 175px}
+}
+@media screen and (max-width:374px){
+    .header .header-wrap .w-800 .nav-bar ul li{margin-left: 4.5%}
+    .header .header-wrap .w-800 .nav-bar .search-frame{margin-left: 170px}
+}
+@media screen and (max-width:359px){
+    #banner{height: 100px}
+    .header .header-wrap .w-800 .nav-bar ul li{margin-left: 3%}
+    .wrap .content .content_above .carousel-pic img{height: 100px}
+    .wrap .content .content_above .carousel-text{height: 100px;}
+    .wrap .content .content_above .logo_pic p{font-size:10px}
+    .wrap .content .content_above .list_wrap{margin-top: 0}
+    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 10px;width: 45px;line-height: 10px}
+    #banner_text_list a{font-size: 9px}
+    .carousel-text-head{margin-top: 10px}
+    .carousel-text-head p{font-size: 8px}
+    .wrap .content .content_above .logo_pic img{margin-bottom: 5px}
+    .wrap .content .content_above .list_wrap .participants_list p{margin-top:0}
+    .content_table th{height: 80px}
+    .wrap .content .content_above .carousel-pic{height:100px}
+    .nav{width:100%}
+    .header .header-wrap .w-800 .nav-bar ul li a{line-height: 30px}
+    .header .header-wrap .w-800 .nav-bar .search-frame{float:none;margin-top: 20px;margin-left: 150px}
+    .click_text{font-size: 10px;margin-top: 1px}
+    .content_table .th_red .th_red_above p{font-size: 10px}
+    .content_table .th_gray_above p{font-size: 10px}
+    .wrap .content{margin-top: -300px}
+    .wrap .content .content_below{height: 350px}
+    .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
+    .left-side{overflow: hidden;display: block;float:none}
+    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
+    .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px}
+    .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
+    .wrap .content .content_below .yellow_box_wrap .right-side{width:44%}
+    .wrap .content .content_below{margin-bottom: 10px}
 }
 /*...............................................................................................................*/

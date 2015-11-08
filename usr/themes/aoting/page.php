@@ -2,7 +2,10 @@
 
 <style>.header{
             position: absolute;top: 40px;z-index:1;
-            height: 70px;}
+    }
+    @media screen and (max-width:414px){
+        .header{top:10px}
+    }
 </style>
 <?php $this->need('header.php'); ?>
 <div class="news_content_wrap">

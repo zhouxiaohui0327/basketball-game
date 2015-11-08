@@ -2,12 +2,11 @@
     position:relative;
 }
 .left-slide-nav{
-    position: absolute;
-    z-index:2000;
     left: 8%;
     background-color: #e0e0e0;
     padding:0 10px;
     width: 18%;
+    min-width: 66px;
 }
 .left-slide-nav .left-above{
     border-bottom: 1px solid #aaaaaa;

@@ -1,10 +1,6 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-<style>.header{
-            position: absolute;top: 40px;z-index:1;
-            height: 70px;}
 
-</style>
 <?php $this->need('header.php'); ?>
 <div class="news_content_wrap">
 
@@ -33,7 +29,7 @@
 <div class="news-text-wrap">
     <div class="news-text-nav">
         <div class="w-800">
-            <ul>
+            <ul  style="margin-left: 2%">
                 <li><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a></li>
                 <li>><?php $this->archiveTitle(array(
             
@@ -54,34 +50,21 @@
      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
          <ul>
              <li class="left" itemprop="name headline" style="line-height:40px;"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></li>
-             <li class="right"><?php _e('时间: '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></li>
+             <li class="time right"><?php _e('时间: '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></li>
          </ul>
-
-         
      </article>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
     	<?php endwhile; ?>
         <?php else: ?>
+
             <article class="post">
                 <h2 class="post-title"style="text-align:center"><?php _e('没有找到内容'); ?></h2>
             </article>
         <?php endif; ?>
 
-        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
-    </div><!-- end #main -->
 
+    </div><!-- end #main -->
+    <div class="w-800 right" style="margin-top: 20px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
 </div>
 
 
@@ -96,6 +79,64 @@
             min-width: 300px;
         }
 </style>
-
+<style>.header{
+        position: absolute;top: 40px;z-index:1;
+    }
+    @media screen and (max-width:1350px){
+        .header{top:10px}
+        .logo_wrap{display: none}
+        .nav{width:75%}
+    }
+    @media screen and (max-width:1120px){
+        .header .header-wrap .w-800 .nav-bar ul li a{font-size: 18px}
+        .header .header-wrap .w-800 .nav-bar .search-frame input{width: 65%}
+    }
+    @media screen and (max-width:970px){
+        .w-800{margin-right:4%;width:70%}
+        .left-slide-nav{left:4%}
+    }
+    @media screen and (max-width:810px){
+        .header .header-wrap .w-800 .nav-bar ul li a{font-size: 15px;line-height: 50px}
+        .header .header-wrap .w-800 .nav-bar .search-frame{margin-top: 13px}
+        .header .header-wrap .w-800 .nav-bar .search-frame input{width: 60%}
+        .w-800{margin-right:2%;width:75%}
+        .left-slide-nav{left:2%}
+        .left-slide-nav .left-bottom ul li a{font-size: 18px}
+    }
+    @media screen and (max-width:721px){
+        .nav{width: 100%}
+        .header .header-wrap .w-800 .nav-bar ul li a{font-size: 15px;line-height: 50px}
+        .header .header-wrap .w-800 .nav-bar .search-frame{margin-top: 13px}
+        .header .header-wrap .w-800 .nav-bar .search-frame input{width: 60%}
+        .w-800{margin-right:2%;width:75%}
+        .left-slide-nav{left:2%;width: 13%}
+        .left-slide-nav .left-bottom ul li a{font-size: 15px;line-height: 50px}
+        .left-slide-nav .left-bottom ul{margin-top: 10px;margin-bottom: 50px}
+        .left-slide-nav .left-above .logo-text{margin-bottom: 10px}
+        .left-slide-nav .left-above .logo-above{margin-top: 20px}
+        .time{display:none}
+    }
+    @media screen and (max-width:640px){
+        .w-800{margin-right:0;width:75%}
+        .left-slide-nav{left:2%}
+        .left-slide-nav .left-bottom ul li a{font-size: 12px;line-height: 40px}
+    }
+    @media screen and (max-width:500px){
+        .left-slide-nav .left-bottom ul li a{font-size: 10px}
+        .left-slide-nav .left-bottom ul{margin-top: 10px;margin-bottom: 30px}
+        .left-slide-nav{padding:0 1px;width: 15%;}
+        .header .header-wrap .w-800 .nav-bar ul li a{font-size: 13px;line-height: 30px}
+    }
+    @media screen and (max-width:430px){
+        .w-800{min-width: 200px;width:80%}
+        .header .header-wrap .w-800 .nav-bar ul li{margin-left: 2%}
+        .header .header-wrap .w-800 .nav-bar .search-frame{margin:0 auto}
+    }
+    @media screen and (max-width:376px){
+        .w-800{width:77%}
+        .header .header-wrap .w-800 .nav-bar ul li{margin-left: 1%}
+        .header .header-wrap .w-800 .nav-bar .search-frame{margin:0 auto}
+    }
+</style>
 	
 	<?php $this->need('footer.php'); ?>
