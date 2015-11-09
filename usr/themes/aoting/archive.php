@@ -49,7 +49,7 @@
           <div class="news-text-content w-800">
      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
          <ul>
-             <li class="left" itemprop="name headline" style="line-height:40px;"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></li>
+             <li class="left" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></li>
              <li class="time right"><?php _e('时间: '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></li>
          </ul>
      </article>
@@ -64,7 +64,7 @@
 
 
     </div><!-- end #main -->
-    <div class="w-800 right" style="margin-top: 20px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
+    <div class="w-800 right" style="margin-top: 40px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
 </div>
 
 
@@ -123,19 +123,24 @@
     }
     @media screen and (max-width:500px){
         .left-slide-nav .left-bottom ul li a{font-size: 10px}
-        .left-slide-nav .left-bottom ul{margin-top: 10px;margin-bottom: 30px}
+        .left-slide-nav .left-bottom ul{margin-top: 10px;margin-bottom: 40px}
         .left-slide-nav{padding:0 1px;width: 15%;}
         .header .header-wrap .w-800 .nav-bar ul li a{font-size: 13px;line-height: 30px}
+        .news-text-content ul li{text-indent:0}
     }
     @media screen and (max-width:430px){
         .w-800{min-width: 200px;width:80%}
         .header .header-wrap .w-800 .nav-bar ul li{margin-left: 2%}
         .header .header-wrap .w-800 .nav-bar .search-frame{margin:0 auto}
     }
-    @media screen and (max-width:376px){
+    @media screen and (max-width:374px){
         .w-800{width:77%}
-        .header .header-wrap .w-800 .nav-bar ul li{margin-left: 1%}
+        .header .header-wrap .w-800 .nav-bar ul li{margin-left: 12%}
+        .header .header-wrap .w-800 .nav-bar ul li a{line-height: 25px}
         .header .header-wrap .w-800 .nav-bar .search-frame{margin:0 auto}
+        .news-text-content ul li{line-height: 30px;}
+        .news-text-content ul li a{font-size: 11px}
+
     }
 </style>
 	
