@@ -140,7 +140,6 @@
         .header .header-wrap .w-800 .nav-bar .search-frame{margin:0 auto}
         .news-text-content ul li{line-height: 30px;}
         .news-text-content ul li a{font-size: 11px}
-
     }
 </style>
 	

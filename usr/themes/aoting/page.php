@@ -47,6 +47,11 @@
             /*margin: 0 0;*/
             /*float: right;*/
             /*margin-right: 10%;}*/
+        @media screen and (max-width:359px){
+            .details_content p{margin-left: 10px;margin-right: 5px}
+        }
+
 </style>
+
 
 <?php $this->need('footer.php'); ?>

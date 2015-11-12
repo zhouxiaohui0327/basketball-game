@@ -414,6 +414,7 @@ margin-top: 20px;
     .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
     .wrap .content .content_below .yellow_box_wrap .right-side{width:44%}
     .wrap .content .content_below{margin-bottom: 10px}
+    .details_content p{margin-left: 5px;margin-right: 5px}
 }
 /*...............................................................................................................*/
 @media (min-width:1024px){
