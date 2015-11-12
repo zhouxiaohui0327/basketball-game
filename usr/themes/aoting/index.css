@@ -369,7 +369,7 @@ margin-top: 20px;
     .click_text{font-size: 10px;margin-top: 1px}
     .content_table .th_red .th_red_above p{font-size: 10px}
     .content_table .th_gray_above p{font-size: 10px}
-    .wrap .content{margin-top: -300px}
+    .wrap .content{margin-top: -250px}
     .wrap .content .content_below{height: 350px}
     .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
     .left-side{overflow: hidden;display: block;float:none}
@@ -379,10 +379,12 @@ margin-top: 20px;
 @media screen and (max-width:413px){
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 5%}
     .header .header-wrap .w-800 .nav-bar .search-frame{margin-left: 175px}
+
 }
 @media screen and (max-width:374px){
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 4.5%}
     .header .header-wrap .w-800 .nav-bar .search-frame{margin-left: 170px}
+
 }
 @media screen and (max-width:359px){
     #banner{height: 100px}
@@ -405,7 +407,6 @@ margin-top: 20px;
     .click_text{font-size: 10px;margin-top: 1px}
     .content_table .th_red .th_red_above p{font-size: 10px}
     .content_table .th_gray_above p{font-size: 10px}
-    .wrap .content{margin-top: -300px}
     .wrap .content .content_below{height: 350px}
     .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
     .left-side{overflow: hidden;display: block;float:none}
