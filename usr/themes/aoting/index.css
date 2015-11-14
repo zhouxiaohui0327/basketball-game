@@ -100,7 +100,7 @@ li {
 }
 .wrap .big-pic img{
     width: 100%;
-	min-width:800px;
+    display:block;
 }
 .wrap .content{
      width: 100%;
@@ -306,6 +306,7 @@ margin-top: 20px;
     #banner{height: 180px}
     .wrap .content .content_above .carousel-pic img{height: 180px}
     .wrap .content .content_above .carousel-text{height: 180px;}
+    .wrap .content{margin-top:0}
 }
 @media screen and (max-width:720px){
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 5%}
@@ -333,13 +334,12 @@ margin-top: 20px;
     #banner{height: 140px}
     .wrap .content .content_above .carousel-pic img{height: 140px}
     .wrap .content .content_above .carousel-text{height: 140px;}
-    .wrap .content .content_below{height: 350px}
-    .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
-    .left-side{overflow: hidden;display: block;float:none}
+    .wrap .content .content_below{width: 100%}
+    .wrap .content .content_below .yellow_box_wrap{width:94%; text-align: center;margin-left: 3%}
+    .left-side{overflow: hidden;display: inline-block;float:none}
     .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
-    .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px}
+    .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px;width:44%;display: none}
     .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
-    .wrap .content .content_below .yellow_box_wrap .right-side{width:44%}
     .wrap .content .content_below{margin-bottom: 10px}
 }
 @media screen and (max-width:540px){
@@ -369,11 +369,8 @@ margin-top: 20px;
     .click_text{font-size: 10px;margin-top: 1px}
     .content_table .th_red .th_red_above p{font-size: 10px}
     .content_table .th_gray_above p{font-size: 10px}
-    .wrap .content{margin-top: -250px}
-    .wrap .content .content_below{height: 350px}
-    .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
-    .left-side{overflow: hidden;display: block;float:none}
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 6%}
+    .wrap .content .content_below{height:195px}
 }
 
 @media screen and (max-width:413px){
