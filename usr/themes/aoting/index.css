@@ -405,13 +405,13 @@ margin-top: 20px;
     .content_table .th_red .th_red_above p{font-size: 10px}
     .content_table .th_gray_above p{font-size: 10px}
     .wrap .content .content_below{height: 350px}
-    .wrap .content .content_below .yellow_box_wrap{height:300px;margin-left: 10px}
+    .wrap .content .content_below .yellow_box_wrap{height:150px}
     .left-side{overflow: hidden;display: block;float:none}
     .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
     .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px}
     .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
     .wrap .content .content_below .yellow_box_wrap .right-side{width:44%}
-    .wrap .content .content_below{margin-bottom: 10px}
+    .wrap .content .content_below{margin-bottom: 10px;height:200px;}
     .details_content p{margin-left: 5px;margin-right: 5px}
 }
 /*...............................................................................................................*/
