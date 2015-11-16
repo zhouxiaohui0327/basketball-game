@@ -165,7 +165,7 @@ margin-top: 20px;
 }
 .wrap .content .content_above .list_wrap .participants_list .list li{
     font-size: 12px;
-    width: 50px;
+    width: 45%;
     line-height: 20px;
     color: #DA7826;
 }
@@ -179,6 +179,7 @@ margin-top: 20px;
 .click_text{
     margin-top: 5px;
 }
+.clickImg{width: 50%}
 .content_table .th_red{
     background-color: #B21c33;
     text-align: left;
@@ -328,6 +329,8 @@ margin-top: 20px;
     .content_table .th_gray_bottom{display: none}
     .carousel-text-head p{font-size: 12px}
     .wrap .content .content_above .carousel-pic{height: 140px}
+    .footer img{display: none;}
+    .footer{height: 20px}
 
 }
 @media screen and (max-width:600px){
@@ -341,6 +344,7 @@ margin-top: 20px;
     .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px;width:44%;display: none}
     .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
     .wrap .content .content_below{margin-bottom: 10px}
+    .clickImg{width: 35%}
 }
 @media screen and (max-width:540px){
 
@@ -355,7 +359,7 @@ margin-top: 20px;
     .wrap .content .content_above .carousel-text{height: 120px;}
     .wrap .content .content_above .logo_pic p{font-size:10px}
     .wrap .content .content_above .list_wrap{margin-top: 0}
-    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 10px;width: 45px;line-height: 10px}
+    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 10px;line-height: 10px}
     #banner_text_list a{font-size: 9px}
     .carousel-text-head{margin-top: 10px}
     .carousel-text-head p{font-size: 8px}
@@ -366,7 +370,7 @@ margin-top: 20px;
     .nav{width:100%}
     .header .header-wrap .w-800 .nav-bar ul li a{line-height: 30px}
     .header .header-wrap .w-800 .nav-bar .search-frame{float:none;margin-top: 20px;margin-left: 190px}
-    .click_text{font-size: 10px;margin-top: 1px}
+    .click_text{font-size: 8px;margin-top: 1px}
     .content_table .th_red .th_red_above p{font-size: 10px}
     .content_table .th_gray_above p{font-size: 10px}
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 6%}
@@ -390,7 +394,7 @@ margin-top: 20px;
     .wrap .content .content_above .carousel-text{height: 100px;}
     .wrap .content .content_above .logo_pic p{font-size:10px}
     .wrap .content .content_above .list_wrap{margin-top: 0}
-    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 10px;width: 45px;line-height: 10px}
+    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 10px;line-height: 10px}
     #banner_text_list a{font-size: 9px}
     .carousel-text-head{margin-top: 10px}
     .carousel-text-head p{font-size: 8px}
@@ -401,7 +405,7 @@ margin-top: 20px;
     .nav{width:100%}
     .header .header-wrap .w-800 .nav-bar ul li a{line-height: 30px}
     .header .header-wrap .w-800 .nav-bar .search-frame{float:none;margin-top: 20px;margin-left: 150px}
-    .click_text{font-size: 10px;margin-top: 1px}
+    .click_text{font-size: 8px;margin-top: 1px}
     .content_table .th_red .th_red_above p{font-size: 10px}
     .content_table .th_gray_above p{font-size: 10px}
     .wrap .content .content_below{height: 350px}

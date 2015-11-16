@@ -91,32 +91,26 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <ul class="list_nav list">
                             <li>排名</li>
                             <li>学校</li>
-                            <li>分数</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第一名</li>
+                            <li>浙江大学</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第二名</li>
+                            <li>中国计量学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第三名</li>
+                            <li>宁波工程学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第四名</li>
+                            <li>温州大学</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第五名</li>
+                            <li>树人大学</li>
                         </ul>
                     </div>
                     <div class="participants_list left">
@@ -124,32 +118,26 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <ul class="list_nav list">
                             <li>排名</li>
                             <li>学校</li>
-                            <li>分数</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第一名</li>
+                            <li>浙江理工大学</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第二名</li>
+                            <li>浙江大学</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第三名</li>
+                            <li>浙江树人大学</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第四名</li>
+                            <li>温州大学</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
-                            <li>100</li>
+                            <li>第五名</li>
+                            <li>浙江警察学院</li>
                         </ul>
 
                     </div>
@@ -158,32 +146,26 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <ul class="list_nav list">
                             <li>排名</li>
                             <li>学校</li>
-                            <li>分数</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
 
                     </div>
@@ -192,32 +174,26 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <ul class="list_nav list">
                             <li>排名</li>
                             <li>学校</li>
-                            <li>分数</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                         <ul class="list_text list">
                             <li>1</li>
                             <li>浙大</li>
-                            <li>100</li>
                         </ul>
                     </div>
                 </div>
@@ -238,7 +214,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                     </th>
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic1.jpg" style="width: 100%;display: block" alt=""/></th>
-                    <th><a href=""><img src="<?php $this->options->themeUrl(); ?>img/icon_14.png" alt="" style="width:50%"/></a><p class="click_text" style="color:#B21C33">点击查看更多球星库信息</p></th>
+                    <th><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_14.png" alt="" /></a><p class="click_text" style="color:#B21C33">点击查看更多球星库信息</p></th>
                 </tr>
                 <tr>
                     <th>
@@ -265,7 +241,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic3.png" style="width: 100%;display: block" alt=""/></th>
                 </tr>
                 <tr>
-                    <th style="background-color:#005088"><a href=""><img src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" style="width:50%"/></a><p class="click_text" style="color:white">点击查看更多数据库信息</p></th>
+                    <th style="background-color:#005088"><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多数据库信息</p></th>
                     <th>
                         <div class="th_gray_above">
                             <a href=""><p style="font-family: '黑体';color:#6f706c;">Files</p><p style="font-family: '黑体';color:#6f706c;">联赛数据库 /</p></a>
