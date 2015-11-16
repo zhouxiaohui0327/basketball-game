@@ -35,7 +35,7 @@
 }
 .left-slide-nav .left-bottom ul li{
     display: block;
-    width: 83%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     border-bottom: 1px dotted #b8b8b8;
@@ -63,6 +63,7 @@
 }
 .news_content_wrap .news_content .news-text-bg{
     width: 100%;
+    display: block;
 }
 .news-text-wrap{
     min-height:400px;

@@ -285,17 +285,13 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 
                     <div class="right-side left">
-                         <div class="contact">
-                             <p>邮箱：</p>
-                             <p style="width: 80%;text-align: center"></p>
-                         </div>
                         <div class="contact">
                             <p>地址：</p>
-                            <p style="width: 80%;text-align: center">杭州市江干区民心路华润大厦1103室</p>
+                            <p style="width: 80%;text-align: center;font-size: 13px">杭州市江干区民心路华润大厦1103室(万象城西面)</p>
                         </div>
                         <div class="contact">
                             <p>电话：</p>
-                            <p style="width: 80%;text-align: center"></p>
+                            <p style="width: 80%;text-align: center;font-size: 13px">0571-87611126</p>
                         </div>
                     </div>
                 </div>

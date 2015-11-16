@@ -16,6 +16,8 @@
                 <li><a href="">新闻公告</a></li>
                 <li><a href="">行业动态</a></li>
                 <li><a href="">媒体关注</a></li>
+                <li><a href="category/sport">体坛新闻</a></li>
+                <li><a href="category/ZUBA">ZUBA新闻</a></li>
             </ul>
         </div>
     </div>

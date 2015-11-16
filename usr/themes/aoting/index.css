@@ -272,7 +272,8 @@ margin-top: 20px;
     margin-top: 25px;
     margin-left: 50px;
     font-size: 14px;
-    width: 25%;
+    width: 24%;
+    line-height: 28px;
 }
 .wrap .content .content_below .yellow_box_wrap .right-side .contact{
     margin-bottom: 20px;
