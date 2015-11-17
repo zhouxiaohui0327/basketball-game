@@ -198,9 +198,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     </div>
                 </div>
             </div>
-            <table class="content_table" style="width: 100%">
+            <table class="content_table" style="width: 100%;position: relative" cellspacing="0" cellpadding="0">
                 <tr>
-                    <th>
+                    <th  bgcolor="#E6E5E2">
                         <img src="<?php $this->options->themeUrl(); ?>img/icon_11.png" alt="" style="width:50%"/>
                     </th>
                     <th class="th_red">
@@ -214,10 +214,10 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                     </th>
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic1.jpg" style="width: 100%;display: block" alt=""/></th>
-                    <th><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_14.png" alt="" /></a><p class="click_text" style="color:#B21C33">点击查看更多球星库信息</p></th>
+                    <th bgcolor="#E6E5E2"><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_14.png" alt="" /></a><p class="click_text" style="color:#B21C33">点击查看更多球星库信息</p></th>
                 </tr>
                 <tr>
-                    <th>
+                    <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
                             <a href=""><p>Video</p><p>球场掠影 /</p></a>
                         </div>
@@ -227,8 +227,8 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                             </a>
                         </div>
                     </th>
-                    <th><img src="<?php $this->options->themeUrl(); ?>img/pic2.jpg" style="width: 100%;display: block" alt=""/></th>
-                    <th>
+                    <th bgcolor="#E6E5E2"><img src="<?php $this->options->themeUrl(); ?>img/pic2.jpg" style="width: 100%;display: block" alt=""/></th>
+                    <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
                             <a href=""><p style="font-family: '黑体';color:#6f706c;">Sports products</p><p style="font-family: '黑体';color:#6f706c;">运动产品 /</p></a>
                         </div>
@@ -242,7 +242,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 </tr>
                 <tr>
                     <th style="background-color:#005088"><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多数据库信息</p></th>
-                    <th>
+                    <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
                             <a href=""><p style="font-family: '黑体';color:#6f706c;">Files</p><p style="font-family: '黑体';color:#6f706c;">联赛数据库 /</p></a>
                         </div>
@@ -253,7 +253,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                     </th>
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic4.jpg" style="width: 100%;display: block" alt=""/></th>
-                    <th>
+                    <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
                             <a href=""><p style="font-family: '黑体';color:#6f706c;">Registration</p><p style="font-family: '黑体';color:#6f706c;">培训班报名 /</p></a>
                         </div>
