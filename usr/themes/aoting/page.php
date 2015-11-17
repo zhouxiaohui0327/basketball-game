@@ -50,6 +50,7 @@
         @media screen and (max-width:600px){
             .details_content p{margin-left: 40px;margin-right: 40px}
             .details_content h3{margin-left: 40px;}
+            .details_content h2{margin-left: 20px;margin-right: 20px;font-size: 18px}
         }
 
 </style>
