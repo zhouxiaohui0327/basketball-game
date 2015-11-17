@@ -7,15 +7,11 @@
 
     <div class="left-slide-nav"  style="position: absolute;z-index:2000">
         <div class="left-above">
-            <img class="logo-above" src="<?php $this->options->themeUrl(); ?>img/logo-above.png" alt=""/>
-            <img class="logo-text" src="<?php $this->options->themeUrl(); ?>img/logo-text.png" alt=""/>
+            <img class="logo-above" src="<?php $this->options->themeUrl(); ?>img/aotinglogo.png" alt=""/>
         </div>
         <div class="left-bottom">
             <ul>
                 <li><a href="">公司新闻</a></li>
-                <li><a href="">新闻公告</a></li>
-                <li><a href="">行业动态</a></li>
-                <li><a href="">媒体关注</a></li>
                 <li><a href="/index.php/category/sport/">体坛新闻</a></li>
                 <li><a href="/index.php/category/ZUBA/">ZUBA新闻</a></li>
             </ul>
@@ -114,8 +110,7 @@
         .left-slide-nav{left:2%;width: 13%}
         .left-slide-nav .left-bottom ul li a{font-size: 15px;line-height: 50px}
         .left-slide-nav .left-bottom ul{margin-top: 10px;margin-bottom: 50px}
-        .left-slide-nav .left-above .logo-text{margin-bottom: 10px}
-        .left-slide-nav .left-above .logo-above{margin-top: 20px}
+        .left-slide-nav .left-above .logo-above{margin-top: 20px;margin-bottom: 10px}
         .time{display:none}
     }
     @media screen and (max-width:640px){

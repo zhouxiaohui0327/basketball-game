@@ -48,8 +48,8 @@
             /*float: right;*/
             /*margin-right: 10%;}*/
         @media screen and (max-width:600px){
-            .details_content p{margin-left: 10px;margin-right: 10px}
-            .details_content h3{margin-left: 10px;}
+            .details_content p{margin-left: 40px;margin-right: 40px}
+            .details_content h3{margin-left: 40px;}
         }
 
 </style>
