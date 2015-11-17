@@ -53,13 +53,13 @@ li {
 }
 .header .header-wrap .w-800 .nav-bar ul li{
     text-align: center;
-    margin-left:3.2%
+    margin-left:7%
 
 }
 .header .header-wrap .w-800 .nav-bar ul li a{
     color: #F09b00;
     line-height: 70px;
-	font-size:20px;
+	font-size:15px;
 }
 .header .header-wrap .w-800 .nav-bar ul li a:hover{
     color: #ed2847;
@@ -177,9 +177,12 @@ margin-top: 20px;
     width: 25%;
 }
 .click_text{
-    margin-top: 5px;
+    font-size: 13px;
+    margin-top: 8px;
 }
-.clickImg{width: 50%}
+.clickImg{
+    width: 40%
+}
 .content_table .th_red{
     background-color: #B21c33;
     text-align: left;
@@ -187,10 +190,8 @@ margin-top: 20px;
 }
 .content_table .th_red .th_red_above{
     margin-left: 10px;
-    font-family: '黑体';
 }
 .content_table .th_red .th_red_above p{
-    font-family: '黑体';
     color:white;
     font-weight: 100;
 
@@ -201,7 +202,6 @@ margin-top: 20px;
     margin-right:10px;
 }
 .content_table .th_red .th_red_bottom p{
-    font-family: '黑体';
     color:white;
     margin-top: 10px;
     font-weight: 100;
@@ -212,18 +212,16 @@ margin-top: 20px;
     width:100%;
 }
 .content_table .th_gray_above p{
-    font-family: '黑体';
     color:#6f706c;
     font-weight: 100;
 }
 .content_table .th_gray_bottom{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left:10px;
     margin-right:10px;
     text-align: left;
 }
 .content_table .th_gray_bottom p{
-    font-family: '黑体';
     color:#6f706c;
     margin-top: 10px;
     font-size: 12px;
@@ -406,7 +404,7 @@ margin-top: 20px;
     .nav{width:100%}
     .header .header-wrap .w-800 .nav-bar ul li a{line-height: 30px}
     .header .header-wrap .w-800 .nav-bar .search-frame{float:none;margin-top: 20px;margin-left: 150px}
-    .click_text{font-size: 8px;margin-top: 1px}
+    .click_text{font-size: 7px;margin-top: 1px}
     .content_table .th_red .th_red_above p{font-size: 10px}
     .content_table .th_gray_above p{font-size: 10px}
     .wrap .content .content_below{height: 350px}
@@ -447,9 +445,31 @@ margin-top: 20px;
     .wrap .content .content_above .carousel-pic img{height: 240px}
     .wrap .content .content_above .carousel-text{height: 240px;}
     .wrap .content .content_above .list_wrap .participants_list p{font-size: 17px;}
-    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 14px;width: 65px;line-height: 29px;}
+    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 14px;width:45%;line-height: 29px;}
     .carousel-text-head{font-size: 20px;margin-top:30px;}
     #banner_text_list a{font-size: 17px;}
+    .content_table .th_red .th_red_above p{font-size: 20px;}
+    .content_table .th_red .th_red_bottom p{font-size: 14px;}
+    .click_text{font-size: 20px;}
+    .header .header-wrap .w-800 .nav-bar ul li{margin-left: 6%}
+    .header .header-wrap .w-800 .nav-bar ul li a{font-size: 20px}
+    .content_table .th_gray_above p{font-size:20px}
+    .content_table .th_gray_bottom p {font-size:14px}
+    .wrap .content .content_below{height: 240px;}
+    .wrap .content .content_below .yellow_box_wrap{height: 180px;}
+    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 50px;  margin-top: 33px;  margin-right: 40px;}
+    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-text{margin-top:60px}
+    .wrap .content .content_below .yellow_box_wrap .right-side{font-size: 20px;  width: 28%;}
+}
+@media (min-width:2560px){
+    .wrap .content{margin-top:-500px;}
+    #banner{height: 320px}
+    .wrap .content .content_above .carousel-pic img{height: 320px}
+    .wrap .content .content_above .carousel-text{height: 320px;}
+    .wrap .content .content_above .list_wrap .participants_list p{font-size: 19px;}
+    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 14px;width: 45%;line-height: 35px;}
+    .carousel-text-head{font-size: 23px;margin-top:40px;}
+    #banner_text_list a{font-size: 19px;}
     .content_table .th_red .th_red_above p{font-size: 20px;}
     .content_table .th_red .th_red_bottom p{font-size: 14px;}
     .click_text{font-size: 20px;}
