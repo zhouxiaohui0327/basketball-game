@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+    /*font-family:"Comic Sans MS","幼圆","黑体",sans-serif;*/
 }
 a{
     text-decoration: none;
@@ -154,7 +155,7 @@ margin-top: 20px;
 .wrap .content .content_above .list_wrap .participants_list{
     text-align: center;
     width: 25%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .wrap .content .content_above .list_wrap .participants_list p{
     color: white;
@@ -166,7 +167,7 @@ margin-top: 20px;
 .wrap .content .content_above .list_wrap .participants_list .list li{
     font-size: 12px;
     width: 45%;
-    line-height: 20px;
+    line-height: 27px;
     color: #DA7826;
 }
 
@@ -194,12 +195,13 @@ margin-top: 20px;
 .content_table .th_red .th_red_above p{
     color:white;
     font-weight: 100;
+    text-align: center;
 
 }
 .content_table .th_red .th_red_bottom{
     margin-top: 40px;
-    margin-left: 10px;
-    margin-right:10px;
+    margin-left: 12%;
+    margin-right:12%;
 }
 .content_table .th_red .th_red_bottom p{
     color:white;
@@ -217,8 +219,8 @@ margin-top: 20px;
 }
 .content_table .th_gray_bottom{
     margin-top: 30px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:12%;
+    margin-right:12%;
     text-align: left;
 }
 .content_table .th_gray_bottom p{
@@ -240,7 +242,7 @@ margin-top: 20px;
     margin-bottom: 30px;
 }
 .wrap .content .content_below .yellow_box_wrap{
-    height:145px;
+    height:150px;
     margin-top: 25px;
     margin-left: 40px;
     margin-bottom: 30px;
@@ -249,37 +251,55 @@ margin-top: 20px;
     width: 200%;
     overflow: hidden;
 }
-.wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{
-    margin-left: 60px;
-    margin-top: 16px;
-    margin-right: 40px;
-}
-.left-side .left-side-img img{
+
+.right-side .right-side-img img{
     width: 115px;
 }
-.wrap .content .content_below .yellow_box_wrap .left-side .left-side-text{
-    margin-top: 50px;
+
+.wrap .content .content_below .yellow_box_wrap .right-side .right-side-img{
+    margin-top: 18px;
+    margin-right: 40px;
 }
-.wrap .content .content_below .yellow_box_wrap .left-side .left-side-text p{
+.wrap .content .content_below .yellow_box_wrap .right-side .right-side-text{
+    margin-top: 70px;
+}
+.wrap .content .content_below .yellow_box_wrap .right-side .right-side-text p{
     line-height: 25px;
     color:white;
     font-weight: 600;
+    font-size: 17px;
 }
-.wrap .content .content_below .yellow_box_wrap .right-side{
-    color:white;
+
+
+.wrap .content .content_below .yellow_box_wrap .left-side{
     margin-top: 25px;
-    margin-left: 50px;
-    font-size: 14px;
-    width: 24%;
-    line-height: 28px;
+    margin-left: 3%;
+    width: 25%;
 }
-.wrap .content .content_below .yellow_box_wrap .right-side .contact{
-    margin-bottom: 20px;
-    border-bottom: 1px solid white;
+.wrap .content .content_below .yellow_box_wrap .left-side ul ,.left-side a{
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
 }
-.wrap .content .content_below .yellow_box_wrap .right-side .contact p{
-    display: inline-block;
+.left-side .first{
+    font-size: 15px;
+    font-weight: 600;
 }
+.left-side .number-first{
+    font-size: 16px;
+}
+.left-side .number{
+    font-size: 17px;
+    margin-right: 4%;
+}
+.wrap .content .content_below .yellow_box_wrap .left-side ul li{
+    line-height: 33px;
+    margin-right: 8%;
+}
+
+/*.wrap .content .content_below .yellow_box_wrap .right-side .contact p{*/
+    /*display: inline-block;*/
+/*}*/
 
 /* footer*/
 
@@ -289,14 +309,9 @@ margin-top: 20px;
   background-color:#E6E5E2;
   border-top:1px solid darkgray;
   text-align: center;
+    height: 20px;
   }
-.footer img{
-    width: 13%;
-    min-width: 100px;
-}
-.friend_sport{
-    margin-right:2%;
-}
+
 
 @media screen and (max-width:800px){
     .header .header-wrap .w-800 .nav-bar .logo_wrap .logo{width: 100px;}
@@ -318,7 +333,6 @@ margin-top: 20px;
     .wrap .content .content_above .carousel-text{height: 160px;}
     .content_table .th_red .th_red_bottom{margin-top: 20px}
     .content_table .th_gray_bottom{margin-top: 20px}
-    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
     .wrap .content .content_below .yellow_box_wrap{margin-left: 10px}
     .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px}
 }
@@ -328,8 +342,6 @@ margin-top: 20px;
     .content_table .th_gray_bottom{display: none}
     .carousel-text-head p{font-size: 12px}
     .wrap .content .content_above .carousel-pic{height: 140px}
-    .footer img{display: none;}
-    .footer{height: 20px}
 
 }
 @media screen and (max-width:600px){
@@ -338,10 +350,8 @@ margin-top: 20px;
     .wrap .content .content_above .carousel-text{height: 140px;}
     .wrap .content .content_below{width: 100%}
     .wrap .content .content_below .yellow_box_wrap{width:94%; text-align: center;margin-left: 3%}
-    .left-side{overflow: hidden;display: inline-block;float:none}
-    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
-    .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px;width:44%;display: none}
-    .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
+    .right-side{overflow: hidden;display: inline-block;float:none}
+    .wrap .content .content_below .yellow_box_wrap .left-side {margin-left:10px;width:44%;display: none}
     .wrap .content .content_below{margin-bottom: 10px}
     .clickImg{width: 35%}
 }
@@ -409,11 +419,6 @@ margin-top: 20px;
     .content_table .th_gray_above p{font-size: 10px}
     .wrap .content .content_below{height: 350px}
     .wrap .content .content_below .yellow_box_wrap{height:150px}
-    .left-side{overflow: hidden;display: block;float:none}
-    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 10px}
-    .wrap .content .content_below .yellow_box_wrap .right-side {margin-left:10px}
-    .wrap .content .content_below .yellow_box_wrap .right-side .contact{width:105%}
-    .wrap .content .content_below .yellow_box_wrap .right-side{width:44%}
     .wrap .content .content_below{margin-bottom: 10px;height:200px;}
     .details_content p{margin-left: 5px;margin-right: 5px}
 }
@@ -444,8 +449,10 @@ margin-top: 20px;
     #banner{height: 240px}
     .wrap .content .content_above .carousel-pic img{height: 240px}
     .wrap .content .content_above .carousel-text{height: 240px;}
+    .wrap .content .content_above .logo_pic p{font-size: 20px}
+    .wrap .content .content_above .list_wrap .participants_list{margin-bottom: 30px}
     .wrap .content .content_above .list_wrap .participants_list p{font-size: 17px;}
-    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 14px;width:45%;line-height: 29px;}
+    .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 16px;width:45%;line-height: 42px;}
     .carousel-text-head{font-size: 20px;margin-top:30px;}
     #banner_text_list a{font-size: 17px;}
     .content_table .th_red .th_red_above p{font-size: 20px;}
@@ -457,15 +464,16 @@ margin-top: 20px;
     .content_table .th_gray_bottom p {font-size:14px}
     .wrap .content .content_below{height: 240px;}
     .wrap .content .content_below .yellow_box_wrap{height: 180px;}
-    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 50px;  margin-top: 33px;  margin-right: 40px;}
-    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-text{margin-top:60px}
-    .wrap .content .content_below .yellow_box_wrap .right-side{font-size: 20px;  width: 28%;}
+    .wrap .content .content_below .yellow_box_wrap .right-side .right-side-img{ margin-top: 33px;  margin-right: 40px;}
+    .wrap .content .content_below .yellow_box_wrap .right-side .right-side-text{margin-top:80px}
+    .wrap .content .content_below .yellow_box_wrap .left-side ul li{line-height: 40px}
 }
 @media (min-width:2560px){
     .wrap .content{margin-top:-500px;}
     #banner{height: 320px}
     .wrap .content .content_above .carousel-pic img{height: 320px}
     .wrap .content .content_above .carousel-text{height: 320px;}
+    .wrap .content .content_above .logo_pic p{  font-size: 25px}
     .wrap .content .content_above .list_wrap .participants_list p{font-size: 19px;}
     .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 14px;width: 45%;line-height: 35px;}
     .carousel-text-head{font-size: 23px;margin-top:40px;}
@@ -477,9 +485,5 @@ margin-top: 20px;
     .header .header-wrap .w-800 .nav-bar ul li a{font-size: 20px}
     .content_table .th_gray_above p{font-size:20px}
     .content_table .th_gray_bottom p {font-size:14px}
-    .wrap .content .content_below{height: 240px;}
-    .wrap .content .content_below .yellow_box_wrap{height: 180px;}
-    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-img{margin-left: 50px;  margin-top: 33px;  margin-right: 40px;}
-    .wrap .content .content_below .yellow_box_wrap .left-side .left-side-text{margin-top:60px}
-    .wrap .content .content_below .yellow_box_wrap .right-side{font-size: 20px;  width: 28%;}
+
 }

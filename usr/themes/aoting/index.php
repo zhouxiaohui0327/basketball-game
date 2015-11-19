@@ -209,7 +209,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_red_bottom">
                             <a href="">
-                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。</p>
                             </a>
                         </div>
                     </th>
@@ -223,7 +223,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
-                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。</p>
                             </a>
                         </div>
                     </th>
@@ -234,7 +234,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
-                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。</p>
                             </a>
                         </div>
                     </th>
@@ -248,7 +248,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom" >
                             <a href="">
-                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。</p>
                             </a>
                         </div>
                     </th>
@@ -259,7 +259,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
-                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。浙江省大学生篮球联赛</p>
+                                <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。</p>
                             </a>
                         </div>
                     </th>
@@ -273,27 +273,52 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 			<div class="content_below">
                 <div class="yellow_box_wrap">
 
+<!--                    <div class="left-side left">-->
+<!--                        <div class="left-side-img left">-->
+<!--                            <img src="--><?php //$this->options->themeUrl(); ?><!--img/code.png"  alt=""/>-->
+<!--                        </div>-->
+<!--                        <div class="left-side-text left">-->
+<!--                            <p>关注官方微信</p>-->
+<!--                            <p>获取更多咨询</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
                     <div class="left-side left">
-                        <div class="left-side-img left">
+                        <ul>
+                            <li class="first">关于我们</li>
+                            <li>服务保障</li>
+                            <li><a href="/index.php/contact.html">联系我们</a></li>
+                            <li>加入我们</li>
+                        </ul>
+                        <ul>
+                            <li class="first">友情链接</li>
+                            <li><a href="http://www.zjedu.gov.cn/default.html">浙江省教育厅</a></li>
+                            <li><a href="http://www.zjsports.gov.cn/">浙江省体育局</a></li>
+                        </ul>
+                        <ul>
+                            <li class="number-first">奥廷体育服务热线：</li>
+                            <li class="number"><i>0571-87611126</i></li>
+                        </ul>
+                    </div>
+                    <div class="right-side left">
+                        <div class="right-side-img left">
                             <img src="<?php $this->options->themeUrl(); ?>img/code.png"  alt=""/>
                         </div>
-                        <div class="left-side-text left">
+                        <div class="right-side-text left">
                             <p>关注官方微信</p>
                             <p>获取更多咨询</p>
                         </div>
                     </div>
 
-
-                    <div class="right-side left">
-                        <div class="contact">
-                            <p>地址：</p>
-                            <p style="width: 80%;text-align: center;font-size: 13px">杭州市江干区民心路华润大厦1103室(万象城西面)</p>
-                        </div>
-                        <div class="contact">
-                            <p>电话：</p>
-                            <p style="width: 80%;text-align: center;font-size: 13px">0571-87611126</p>
-                        </div>
-                    </div>
+<!--                    <div class="right-side left">-->
+<!--                        <div class="contact">-->
+<!--                            <p>地址：</p>-->
+<!--                            <p style="width: 80%;text-align: center;font-size: 13px">杭州市江干区民心路华润大厦1103室(万象城西面)</p>-->
+<!--                        </div>-->
+<!--                        <div class="contact">-->
+<!--                            <p>电话：</p>-->
+<!--                            <p style="width: 80%;text-align: center;font-size: 13px">0571-87611126</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
