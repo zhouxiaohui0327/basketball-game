@@ -230,7 +230,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <th bgcolor="#E6E5E2"><img src="<?php $this->options->themeUrl(); ?>img/pic2.jpg" style="width: 100%;display: block" alt=""/></th>
                     <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
-                            <a href=""><p style="font-family: '黑体';color:#6f706c;">Sports products</p><p style="font-family: '黑体';color:#6f706c;">运动产品</p></a>
+                            <a href=""><p style="color:#6f706c;">Sports products</p><p style="color:#6f706c;">运动产品</p></a>
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
@@ -244,7 +244,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <th style="background-color:#005088"><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多数据库信息</p></th>
                     <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
-                            <a href=""><p style="font-family: '黑体';color:#6f706c;">Files</p><p style="font-family: '黑体';color:#6f706c;">联赛数据库</p></a>
+                            <a href=""><p style="color:#6f706c;">Files</p><p style="color:#6f706c;">联赛数据库</p></a>
                         </div>
                         <div class="th_gray_bottom" >
                             <a href="">
@@ -255,7 +255,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic4.jpg" style="width: 100%;display: block" alt=""/></th>
                     <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
-                            <a href=""><p style="font-family: '黑体';color:#6f706c;">Registration</p><p style="font-family: '黑体';color:#6f706c;">培训班报名</p></a>
+                            <a href=""><p style="color:#6f706c;">Registration</p><p style="color:#6f706c;">培训班报名</p></a>
                         </div>
                         <div class="th_gray_bottom">
                             <a href="">
