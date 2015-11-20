@@ -1,18 +1,12 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-<style>.header{
-        position: absolute;top: 40px;z-index:1;
-    }
-    @media screen and (max-width:414px){
-        .header{top:10px}
-    }
-</style>
+
 <?php $this->need('header.php'); ?>
-<div class="news_content_wrap">
-    <div class="news_content">
-        <img src="<?php $this->options->themeUrl(); ?>img/new-bg.png" class="news-text-bg" alt=""/>
-    </div>
-</div>
+<!--<div class="news_content_wrap">-->
+<!--    <div class="news_content">-->
+<!--        <img src="--><?php //$this->options->themeUrl(); ?><!--img/new-bg.png" class="news-text-bg" alt=""/>-->
+<!--    </div>-->
+<!--</div>-->
 
 <div class="news-text-wrap">
     <div class="news-text-nav">
@@ -60,7 +54,7 @@
 
 <style>
         .header .header-wrap{
-            background-color: rgba(240, 248, 255, 0.56);}
+            background-color: #dddddd}
         /*.w-800{*/
             /*margin: 0 0;*/
             /*float: right;*/
