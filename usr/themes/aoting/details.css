@@ -28,8 +28,11 @@
 }
 
 .details_content img{
+
+    width: 80%;
+    display: block;
+    margin: 0 auto;
     margin-top:20px;
-    width: 100%;
 }
 
 

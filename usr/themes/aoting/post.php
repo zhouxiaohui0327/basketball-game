@@ -66,6 +66,7 @@
             .news-text-wrap .news-text-nav{line-height: 20px}
             .news-text-wrap .news-text-nav ul li{line-height: 40px}
             .details_content h1{font-size: 18px;margin-left: 10px;margin-right: 10px;}
+            .details_content img{width: 100%}
         }
 </style>
 
