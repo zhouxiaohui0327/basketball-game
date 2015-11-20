@@ -480,10 +480,20 @@ margin-top: 20px;
     #banner_text_list a{font-size: 19px;}
     .content_table .th_red .th_red_above p{font-size: 20px;}
     .content_table .th_red .th_red_bottom p{font-size: 14px;}
-    .click_text{font-size: 20px;}
+    .click_text{font-size: 20px;margin-top: 10px;}
     .header .header-wrap .w-800 .nav-bar ul li{margin-left: 6%}
     .header .header-wrap .w-800 .nav-bar ul li a{font-size: 20px}
     .content_table .th_gray_above p{font-size:20px}
     .content_table .th_gray_bottom p {font-size:14px}
+    .wrap .content .content_below .yellow_box_wrap .left-side{width: 27%;margin-top: 30px;}
+    .wrap .content .content_below .yellow_box_wrap .left-side ul, .left-side a{font-size: 15px;}
+    .left-side .number-first{font-size: 19px;}
+    .left-side .number{font-size: 20px;}
+    .wrap .content .content_below{height: 270px;}
+    .wrap .content .content_below .yellow_box_wrap{height: 220px;}
+    .wrap .content .content_below .yellow_box_wrap .right-side .right-side-img{ margin-top: 50px;  margin-right: 50px;}
+    .wrap .content .content_below .yellow_box_wrap .right-side .right-side-text{margin-top:110px}
+    .wrap .content .content_below .yellow_box_wrap .left-side ul li{line-height: 55px;margin-left: 15%}
+    .left-side .first{font-size: 18px;}
 
 }
