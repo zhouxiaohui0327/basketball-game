@@ -241,7 +241,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic3.png" style="width: 100%;display: block" alt=""/></th>
                 </tr>
                 <tr>
-                    <th style="background-color:#005088"><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多数据库信息</p></th>
+                    <th style="background-color:#005088"><a href="/picture.php"><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多数据库信息</p></th>
                     <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
                             <a href=""><p style="color:#6f706c;">Files</p><p style="color:#6f706c;">联赛数据库</p></a>
@@ -301,7 +301,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     </div>
                     <div class="right-side left">
                         <div class="right-side-img left">
-                            <img src="<?php $this->options->themeUrl(); ?>img/code.png"  alt=""/>
+                            <img src="<?php $this->options->themeUrl(); ?>img/code.jpg"  alt=""/>
                         </div>
                         <div class="right-side-text left">
                             <p>关注官方微信</p>

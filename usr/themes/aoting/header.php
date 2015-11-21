@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php $this->options->themeUrl(); ?>img/1234.png" media="screen" />
     <title><?php $this->archiveTitle(array(
             'category'  =>  _t(' %s '),
             'search'    =>  _t('包含关键字 %s 的文章'),

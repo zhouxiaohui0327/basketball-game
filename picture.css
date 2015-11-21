@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+    /*font-family:"Comic Sans MS","幼圆","黑体",sans-serif;*/
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding:0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+.w-800{
+    width: 70%;
+    margin: 0 auto;
+    min-width:800px;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+}
+
+
+/*header*/
+.header{
+    width: 100%;
+    overflow: hidden;
+}
+
+.header .header-wrap{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+
+}
+.header .header-wrap .w-800 .nav-bar{
+    width: 100%;
+    overflow: hidden;
+    margin-top:10px;
+}
+.header .header-wrap .w-800 .nav-bar .logo_wrap .logo{
+    width: 110px;
+}
+.nav{
+    width:59%;
+}
+.header .header-wrap .w-800 .nav-bar ul{
+    width: 100%;
+}
+.header .header-wrap .w-800 .nav-bar ul li{
+    text-align: center;
+    margin-left:9%
+
+}
+.header .header-wrap .w-800 .nav-bar ul li a{
+    color: #F09b00;
+    line-height: 70px;
+    font-size:15px;
+}
+.header .header-wrap .w-800 .nav-bar ul li a:hover{
+    color: #ed2847;
+    font-weight: 600;
+
+}
+.header .header-wrap .w-800 .nav-bar .search-frame{
+    margin-top:24px;
+    font-size:15px;
+    overflow:hidden;
+    width: 23%;
+}
+.header .header-wrap .w-800 .nav-bar .search-frame input{
+    border: none;
+    border-radius: 15px;
+    height: 22px;
+    width:70%;
+    background-color:#ececec;
+}
+.header .header-wrap .w-800 .nav-bar .search-frame .sure{
+    border: none;
+    height: 22px;
+    width: 44px;
+    border-radius: 10px;
+    color: darkgray;
+    line-height: 22px;
+    cursor: pointer;
+    background-color:#ececec;
+}
+/*header  end....................................................................................................................................*/
+.main_nav_wrap{
+    background-color: lightgrey;
+    border: 1px solid gray;
+}
+.main_nav_wrap ul{
+
+    text-align: center;
+    margin: 0;
+
+}
+.main_nav_wrap ul li{
+    text-align: center;
+    font-size: 12px;
+    width: 13.5%;
+    margin: 0;
+    line-height: 40px;
+}
