@@ -13,12 +13,13 @@ ul{
 }
 li {
     list-style-type: none;
-    display: inline-block;
+    display: inline;
 }
 .w-800{
     width: 70%;
     margin: 0 auto;
     min-width:800px;
+    overflow: hidden;
 }
 .left{
     float: left;
@@ -67,6 +68,7 @@ li {
 .header .header-wrap .w-800 .nav-bar ul li a:hover{
     color: #ed2847;
     font-weight: 600;
+    text-decoration: none;
 
 }
 .header .header-wrap .w-800 .nav-bar .search-frame{
@@ -96,17 +98,68 @@ li {
 .main_nav_wrap{
     background-color: lightgrey;
     border: 1px solid gray;
+    height: 42px;
 }
 .main_nav_wrap ul{
-
     text-align: center;
     margin: 0;
-
 }
 .main_nav_wrap ul li{
     text-align: center;
     font-size: 12px;
-    width: 13.5%;
-    margin: 0;
+    width: 14.2%;
     line-height: 40px;
+    margin-bottom: -1px;
+    float: left;
+}
+.main_nav_wrap ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+.active{
+    border-top: 2px solid darkred;
+    background-color: white;
+    border-bottom:1px solid white;
+    z-index: 1;
+    position: relative;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+
+.picBox{
+    overflow: hidden;
+    margin-bottom: 50px;
+    display: none;
+}
+.on{
+    display: block;
+}
+.pic_wrap .pic_box{
+    width: 22.5%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #d6d6d6;
+
+}
+.pic_wrap .pic_box_img{
+    height: 159px;
+}
+.pic_wrap .pic_box_img img{
+    width: 100%;
+    vertical-align: middle;
+}
+.pic_box_text{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    height: 50px;
+    color: #999;
+}
+.nav_wrap{
+    text-align: center;
+    margin-bottom: 40px;
 }

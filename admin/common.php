@@ -1,4 +1,8 @@
 <?php
+if(defined('__TYPECHO_ADMIN__')) {
+    return;
+}
+
 if (!defined('__DIR__')) {
     define('__DIR__', dirname(__FILE__));
 }
