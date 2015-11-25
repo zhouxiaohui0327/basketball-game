@@ -59,7 +59,7 @@
 
 
     </div><!-- end #main -->
-    <div class="w-800 right" style="margin-top: 40px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
+    <div class="w-800" style="margin-top: 40px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
 </div>
 
 <style>

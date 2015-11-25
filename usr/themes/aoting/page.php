@@ -40,7 +40,7 @@
             /*margin: 0 0;*/
             /*float: right;*/
             /*margin-right: 10%;}*/
-        .details_content h2{font-size: 17px}
+
         @media screen and (max-width:600px){
             .details_content p{margin-left: 40px;margin-right: 40px}
             .details_content h3{margin-left: 40px;}
@@ -48,6 +48,11 @@
         }
 
 </style-->
-
+<style>
+    .details_content h2{font-size: 20px}
+    @media screen and (max-width:600px){
+        .details_content h2{margin-left: 20px;margin-right: 20px;font-size: 18px}
+    }
+</style>
 
 <?php $this->need('footer.php'); ?>
