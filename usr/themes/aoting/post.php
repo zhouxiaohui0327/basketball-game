@@ -13,7 +13,7 @@
         <div class="w-800">
             <ul>
                 <li><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a></li>
-                <li><a href="/index.php/category/news/"><?php _e('>新闻中心');?></a></li>
+                <li><a href="/index.php/category/news/"><?php _e('> 新闻中心');?></a></li>
 <!--                <li>>--><?php //$this->title() ?><!--</li>-->
             </ul>
         </div>
@@ -50,7 +50,7 @@
 
 
 
-<style>
+<!--style>
         .header .header-wrap{
             background-color: #dddddd}
         /*.w-800{*/
@@ -66,6 +66,6 @@
             .details_content h1{font-size: 18px;margin-left: 10px;margin-right: 10px;}
             .details_content img{width: 100%}
         }
-</style>
+</style-->
 
 <?php $this->need('footer.php'); ?>

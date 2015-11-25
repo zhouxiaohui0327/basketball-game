@@ -1,12 +1,12 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-<style>.header{
+<!--style>.header{
             position: absolute;top: 40px;z-index:1;
     }
     @media screen and (max-width:414px){
         .header{top:10px}
     }
-</style>
+</style-->
 <?php $this->need('header.php'); ?>
 <div class="news_content_wrap">
     <div class="news_content">
@@ -23,16 +23,9 @@
             </ul>
         </div>
     </div>
-<div class="details_content w-800">
-   <div class="col-mb-12 col-8" id="main" role="main">
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-        
-        <div class="post-content" itemprop="articleBody">
-            <?php $this->content(); ?>
-        </div>
-    </article>
-   </div>
-</div>
+	<div class="content">
+	<?php $this->content(); ?>
+	</div>
 </div>
 
 
@@ -40,7 +33,7 @@
 
 
 
-<style>
+<!--style>
         .header .header-wrap{
             background-color: rgba(240, 248, 255, 0.56);}
         /*.w-800{*/
@@ -54,7 +47,7 @@
             .details_content h2{margin-left: 20px;margin-right: 20px;font-size: 18px}
         }
 
-</style>
+</style-->
 
 
 <?php $this->need('footer.php'); ?>

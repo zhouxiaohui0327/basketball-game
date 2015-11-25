@@ -15,17 +15,16 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 
-    <!-- 使用url函数转换相关路径 -->
-    
+	<!-- 使用url函数转换相关路径 -->
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.staticfile.org/normalize/2.1.3/normalize.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('index.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('news.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('details.css'); ?>">
-    
-    <script src="usr/themes/aoting/jquery-1.8.3.min.js"></script>
-   
-    <script src="usr/themes/aoting/carousel.js"></script> 
-   
+
+	<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="/usr/themes/aoting/carousel.js"></script> 
 
 
     <!--[if lt IE 9]>
@@ -45,31 +44,35 @@
 
 <div class="header">
     <div class="header-wrap">
-        <div class="w-800">
-            <div class="nav-bar">
-                <div class="logo_wrap left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/logo.png" class="logo" alt=""/>
-                </div>
-                <div class="nav left" id="nav-menu">
-                    <ul>
-                       <li> <a<?php if($this->is('index')): ?> class="current"<?php endif; ?> href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a></li>
-                      
-                       <li><a href="/index.php/category/news/"><?php _e('新闻中心'); ?></a></li>
-                    
-                    <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
-                    <?php while($pages->next()): ?>
-                    <li><a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a></li>
-                    <?php endwhile; ?>
-                   </ul>
-                </div>
-                <div class="search-frame right">
-                    <form id="search" method="post" action="./" role="search">
-                        <input type="text"name="s" class="text left" placeholder="  <?php _e('Search'); ?>" />
-                        <button type="submit" class="sure left" ><?php _e('搜索'); ?></button>
-                    </form>
-                </div>
-            </div>
-        </div>
+		<div class="container w-800">
+			<div class="navbar-header">
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="../" class="navbar-brand">
+					<img src="<?php $this->options->themeUrl(); ?>img/logo.png" class="logo" alt="" width="110px"/>
+				</a>
+			</div>
+			<nav id="bs-navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li> <a<?php if($this->is('index')): ?> class="current"<?php endif; ?> href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a></li>
+					<li><a href="/index.php/category/news/"><?php _e('新闻中心'); ?></a></li>
+					<?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
+					<?php while($pages->next()): ?>
+					<li><a<?php if($this->is('page', $pages->slug)): ?> class="current"<?php endif; ?> href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a></li>
+					<?php endwhile; ?>
+				</ul>
+				<div class="search-frame right hidden-sm hidden-md hidden-xs">
+					<form id="search" method="post" action="./" role="search">
+						<input type="text"name="s" class="text left" placeholder="  <?php _e('输入关键词'); ?>" />
+						<button type="submit" class="sure left" ><?php _e('搜索'); ?></button>
+					 </form>
+				</div>
+			</nav>
+		</div>
     </div>
 </div>
     

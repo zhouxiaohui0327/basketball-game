@@ -2,13 +2,18 @@
     overflow:hidden;
     margin-top:20px;
     color:black;
+	background:#fff;
+	font-size:14px;
+	padding:20px;
+	line-height:24px;
 }
 
 .details_content h1{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+	font-weight:500;
 
 }
 .details_content h3{
@@ -28,12 +33,14 @@
 }
 
 .details_content img{
-    width: 80%;
+    width: 100%;
     display: block;
     margin: 0 auto;
     margin-top:20px;
 }
-
-
+.details_content .post { margin:0 auto; }
+.post .post-title a {color:#333;font-size:22px; font-weight:500;}
+.details_content .post-near {text-align:center; margin:10px; font-size:13px; }
+.details_content .post-near li { margin-right:20px; }
 .page-navigator{
 text-align:center;}

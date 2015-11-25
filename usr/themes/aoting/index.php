@@ -200,9 +200,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
             </div>
             <table class="content_table" style="width: 100%;position: relative" cellspacing="0" cellpadding="0">
                 <tr>
-                    <th  bgcolor="#E6E5E2">
-                        <img src="<?php $this->options->themeUrl(); ?>img/icon_11.png" alt="" style="width:50%"/>
-                    </th>
                     <th class="th_red">
                         <div class="th_red_above">
                             <a href=""><p>Star library</p><p>联赛球星库</p></a>
@@ -212,6 +209,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                                 <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。</p>
                             </a>
                         </div>
+                    </th>
+                    <th  bgcolor="#E6E5E2">
+                        <img src="<?php $this->options->themeUrl(); ?>img/icon_11.png" alt="" style="width:50%"/>
                     </th>
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic1.jpg" style="width: 100%;display: block" alt=""/></th>
                     <th bgcolor="#E6E5E2"><a href=""><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_14.png" alt="" /></a><p class="click_text" style="color:#B21C33">点击查看更多球星库信息</p></th>
@@ -290,16 +290,14 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                             <li>加入我们</li>
                         </ul>
                         <ul>
-                            <li class="first">友情链接</li>
-                            <li><a href="http://www.zjedu.gov.cn/default.html">浙江省教育厅</a></li>
-                            <li><a href="http://www.zjsports.gov.cn/">浙江省体育局</a></li>
-                        </ul>
-                        <ul>
                             <li class="number-first">奥廷体育服务热线：</li>
                             <li class="number"><i>0571-87611126</i></li>
                         </ul>
+                        <ul>
+                            <li class="first">友情链接：<a href="http://www.zjedu.gov.cn/default.html">浙江省教育厅</a> &nbsp;&nbsp;<a href="http://www.zjsports.gov.cn/">浙江省体育局</a></li>
+                        </ul>
                     </div>
-                    <div class="right-side left">
+                    <div class="right-side right">
                         <div class="right-side-img left">
                             <img src="<?php $this->options->themeUrl(); ?>img/code.jpg"  alt=""/>
                         </div>

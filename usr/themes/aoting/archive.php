@@ -3,12 +3,10 @@
 
 <?php $this->need('header.php'); ?>
 <div class="news_content_wrap">
-
-
-    <div class="left-slide-nav"  style="position: absolute;z-index:2000">
-        <div class="left-above">
+    <div class="left-slide-nav hidden-xs hidden-sm"  style="position: absolute;z-index:2000">
+        <!--div class="left-above">
             <img class="logo-above" src="<?php $this->options->themeUrl(); ?>img/aotinglogo.png" alt=""/>
-        </div>
+        </div-->
         <div class="left-bottom">
             <ul>
                 <li><a href="">公司新闻</a></li>
@@ -18,7 +16,6 @@
         </div>
     </div>
 
-
     <div class="news_content">
         <img src="<?php $this->options->themeUrl(); ?>img/new-bg.png" class="news-text-bg" alt=""/>
     </div>
@@ -27,7 +24,7 @@
 <div class="news-text-wrap">
     <div class="news-text-nav">
         <div class="w-800">
-            <ul  style="margin-left: 2%">
+            <ul>
                 <li><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a></li>
                 <li>><?php $this->archiveTitle(array(
             
@@ -46,10 +43,10 @@
             
           <div class="news-text-content w-800">
      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-         <ul>
-             <li class="left" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></li>
-             <li class="time right"><?php _e('时间: '); ?><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></li>
-         </ul>
+         <div class="row">
+             <div class="col-xs-8 col-md-9 title" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></div>
+             <div class="col-xs-4 col-md-3 time"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></div>
+         </div>
      </article>
   </div>
     	<?php endwhile; ?>
@@ -65,8 +62,15 @@
     <div class="w-800 right" style="margin-top: 40px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
 </div>
 
-
 <style>
+	.left-slide-nav {
+    position: absolute;
+    z-index: 2000;
+    bottom: 0;
+    opacity: 0.8;
+    border-radius: 5px 5px 0 0;}
+</style>
+<!--style>
         .header .header-wrap{
             background-color: rgba(240, 248, 255, 0.68);}
         .w-800{
@@ -138,6 +142,6 @@
         .news-text-content ul li{line-height: 30px;}
         .news-text-content ul li a{font-size: 11px}
     }
-</style>
+</style-->
 	
 	<?php $this->need('footer.php'); ?>
