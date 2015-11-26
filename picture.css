@@ -19,7 +19,7 @@ li {
     width: 70%;
     margin: 0 auto;
     min-width:930px;
-    overflow: hidden;
+    overflow:scroll ;
     webkit-overflow-scrolling: touch;
 }
 .left{
