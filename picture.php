@@ -6,8 +6,8 @@
  * Time: 13:08
  */
 
-if(strpos($_SERVER['HTTP_ACCEPT'],'wap')!==false)     //判断是否是手机浏览器访问
-{header("Location:/picture_mobile.php");}
+//if(strpos($_SERVER['HTTP_ACCEPT'],'wap')!==false)     //判断是否是手机浏览器访问
+//{header("Location:/picture_mobile.php");}
 ?>
 <?php
 require_once "mysql.php";
@@ -60,9 +60,10 @@ $pic7_list=get_list('typecho_gallery','7');
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>图片集 - 奥廷体育</title>
     <link rel="shortcut icon" type="image/x-icon" href="/usr/themes/aoting/img/1234.png" media="screen" />
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./picture.css"/>
     <script src="jquery-2.1.4.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
             $(".main_nav_wrap ul li").click(function(){
@@ -79,31 +80,38 @@ $pic7_list=get_list('typecho_gallery','7');
 <body>
 <div class="header">
     <div class="header-wrap">
-        <div class="w-800">
-            <div class="nav-bar">
-                <div class="logo_wrap left">
-                    <img src="/usr/themes/aoting/img/logo.png" class="logo" alt=""/>
-                </div>
-                <div class="nav left" id="nav-menu">
-                    <ul>
-                        <li> <a href="/index.php">首页</a></li>
-                        <li><a href="/index.php/category/news/">新闻中心</a></li>
-                        <li><a href="/index.php/game.html">篮球联赛</a></li>
-                        <li><a href="/index.php/aoting.html">奥廷体育</a></li>
-                        <li><a href="/index.php/contact.html/">联系我们</a></li>
-                    </ul>
-                </div>
-                <div class="search-frame right">
+        <div class="container w-800">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="../" class="navbar-brand">
+                    <img src="/usr/themes/aoting/img/logo.png" class="logo" alt="" style="width: 110px" />
+                </a>
+            </div>
+            <nav id="bs-navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li> <a href="/index.php">首页</a></li>
+                    <li><a href="/index.php/category/news/">新闻中心</a></li>
+                    <li><a href="/index.php/game.html">篮球联赛</a></li>
+                    <li><a href="/index.php/aoting.html">奥廷体育</a></li>
+                    <li><a href="/index.php/contact.html/">联系我们</a></li>
+                </ul>
+                <div class="search-frame right hidden-sm hidden-md hidden-xs">
                     <form id="search" method="post" action="./" role="search">
-                        <input type="text"name="s" class="text left" placeholder="  Search" />
+                        <input type="text"name="s" class="text left" placeholder="  输入关键词" />
                         <button type="submit" class="sure left" >搜索</button>
                     </form>
                 </div>
-            </div>
+            </nav>
         </div>
     </div>
 </div>
-<h2 style="text-align: center;margin-bottom: 20px;color:#F09b00">2015年浙江省大学生篮球联赛</h2>
+
+<!--<h2 style="text-align: center;margin-bottom: 20px;color:#F09b00">2015年浙江省大学生篮球联赛</h2>-->
 <div class="main_nav_wrap">
     <div class="w-800">
         <ul>

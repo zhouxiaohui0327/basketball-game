@@ -16,7 +16,7 @@
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 
 	<!-- 使用url函数转换相关路径 -->
-	<link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://cdn.staticfile.org/normalize/2.1.3/normalize.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('index.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('news.css'); ?>">

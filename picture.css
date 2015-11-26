@@ -18,8 +18,9 @@ li {
 .w-800{
     width: 70%;
     margin: 0 auto;
-    min-width:800px;
+    min-width:930px;
     overflow: hidden;
+    webkit-overflow-scrolling: touch;
 }
 .left{
     float: left;
@@ -46,49 +47,56 @@ li {
     overflow: hidden;
     margin-top:10px;
 }
-.header .header-wrap .w-800 .nav-bar .logo_wrap .logo{
-    width: 110px;
-}
-.nav{
-    width:59%;
-}
-.header .header-wrap .w-800 .nav-bar ul{
-    width: 100%;
-}
-.header .header-wrap .w-800 .nav-bar ul li{
-    text-align: center;
-    margin-left:9%
 
-}
-.header .header-wrap .w-800 .nav-bar ul li a{
+.navbar-nav{margin-top: 25px}
+.navbar-nav a {
     color: #F09b00;
-    line-height: 70px;
-    font-size:15px;
 }
-.header .header-wrap .w-800 .nav-bar ul li a:hover{
-    color: #ed2847;
-    font-weight: 600;
-    text-decoration: none;
+.navbar-nav>li>a{
+    line-height: 30px;
+}
+.nav>li>a {
+    padding: 10px 25px;
+}
+.navbar-header{height:80px}
+.navbar-toggle .icon-bar{
+    background-color: #F09b00;
+}
+.navbar-header .navbar-toggle {
+    border-color: #eee;
+    margin-top: 30px;
+}
+@media screen and (max-width: 930px){
+    .w-800 {
+        min-width: 320px;
+        width: 100%;
+    }
+}
 
-}
-.header .header-wrap .w-800 .nav-bar .search-frame{
-    margin-top:24px;
-    font-size:15px;
+
+.header .search-frame{
+    margin-top:25px;
+    font-size:12px;
     overflow:hidden;
     width: 23%;
+    padding-top: 15px;
 }
-.header .header-wrap .w-800 .nav-bar .search-frame input{
+.header .search-frame input{
     border: none;
-    border-radius: 15px;
+    border-radius: 15px 0 0 15px;
     height: 22px;
     width:70%;
     background-color:#ececec;
+    padding-left: 10px;
 }
-.header .header-wrap .w-800 .nav-bar .search-frame .sure{
+.header .search-frame input:focus{
+    outline: none;
+}
+.header .search-frame .sure{
     border: none;
     height: 22px;
     width: 44px;
-    border-radius: 10px;
+    border-radius: 0 15px 15px 0;
     color: darkgray;
     line-height: 22px;
     cursor: pointer;
@@ -102,12 +110,14 @@ li {
 }
 .main_nav_wrap ul{
     text-align: center;
+    overflow: hidden;
     margin: 0;
+    min-width: 770px;
 }
 .main_nav_wrap ul li{
     text-align: center;
     font-size: 12px;
-    width: 14.2%;
+    width: 110px;
     line-height: 40px;
     margin-bottom: -1px;
     float: left;
