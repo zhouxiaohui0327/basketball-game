@@ -15,12 +15,14 @@ li {
     list-style-type: none;
     display: inline;
 }
+body{
+    background-color: #E6E5E2;
+}
 .w-800{
     width: 70%;
     margin: 0 auto;
     min-width:930px;
-    overflow:scroll ;
-    webkit-overflow-scrolling: touch;
+    overflow:hidden;
 }
 .left{
     float: left;
@@ -105,7 +107,6 @@ li {
 /*header  end....................................................................................................................................*/
 .main_nav_wrap{
     background-color: lightgrey;
-    border: 1px solid gray;
     height: 42px;
 }
 .main_nav_wrap ul{
@@ -132,8 +133,6 @@ li {
     border-bottom:1px solid white;
     z-index: 1;
     position: relative;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
 }
 
 
@@ -152,6 +151,7 @@ li {
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid #d6d6d6;
+    background-color: #fff;
 
 }
 .pic_wrap .pic_box_img{
@@ -162,12 +162,12 @@ li {
     vertical-align: middle;
 }
 .pic_box_text{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 20px;
     font-size: 13px;
-    height: 50px;
     color: #999;
+}
+.pic_box_text a{
+    color:#333;
 }
 .nav_wrap{
     text-align: center;

@@ -6,8 +6,8 @@
  * Time: 13:08
  */
 
-//if(strpos($_SERVER['HTTP_ACCEPT'],'wap')!==false)     //判断是否是手机浏览器访问
-//{header("Location:/picture_mobile.php");}
+if(strpos($_SERVER['HTTP_ACCEPT'],'wap')!==false)     //判断是否是手机浏览器访问
+{header("Location:/picture_mobile.php");}
 ?>
 <?php
 require_once "mysql.php";
@@ -111,18 +111,20 @@ $pic7_list=get_list('typecho_gallery','7');
     </div>
 </div>
 
-<!--<h2 style="text-align: center;margin-bottom: 20px;color:#F09b00">2015年浙江省大学生篮球联赛</h2>-->
+<h2 style="text-align: center;margin-bottom: 20px;color:#F09b00">2015年浙江省大学生篮球联赛</h2>
 <div class="main_nav_wrap">
     <div class="w-800">
-        <ul>
-            <li class="active">2015男子甲A组</li>
-            <li>2015女子甲组</li>
-            <li>2015男子甲B组</li>
-            <li>2015男子乙B组</li>
-            <li>2015男子乙A组</li>
-            <li>2015女子乙组</li>
-            <li>2015丙丁组</li>
-        </ul>
+        <div class="navBar_grey" style="width: 100%;">
+            <ul>
+                <li class="active">2015男子甲A组</li>
+                <li>2015女子甲组</li>
+                <li>2015男子甲B组</li>
+                <li>2015男子乙B组</li>
+                <li>2015男子乙A组</li>
+                <li>2015女子乙组</li>
+                <li>2015丙丁组</li>
+            </ul>
+        </div>
     </div>
 </div>
 <div class="pic_wrap w-800">
@@ -130,10 +132,20 @@ $pic7_list=get_list('typecho_gallery','7');
         <?php foreach($pic1_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <img src="<?php echo $row['image'] ?>" alt=""/>
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text">
-                    <p><?php echo $row['description'] ?></p>
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
+                </div>
+            </div>
+        <?php endforeach;?>
+        <?php foreach($pic1_list as $row):?>
+            <div class="pic_box">
+                <div class="pic_box_img">
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
+                </div>
+                <div class="pic_box_text">
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
                 </div>
             </div>
         <?php endforeach;?>
@@ -142,10 +154,10 @@ $pic7_list=get_list('typecho_gallery','7');
         <?php foreach($pic2_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <img src="<?php echo $row['image'] ?>" alt=""/>
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text">
-                    <p><?php echo $row['description'] ?></p>
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
                 </div>
             </div>
         <?php endforeach;?>
@@ -154,10 +166,10 @@ $pic7_list=get_list('typecho_gallery','7');
         <?php foreach($pic3_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <img src="<?php echo $row['image'] ?>" alt=""/>
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text">
-                    <p><?php echo $row['description'] ?></p>
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
                 </div>
             </div>
         <?php endforeach;?>
@@ -166,10 +178,10 @@ $pic7_list=get_list('typecho_gallery','7');
         <?php foreach($pic4_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <img src="<?php echo $row['image'] ?>" alt=""/>
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text">
-                    <p><?php echo $row['description'] ?></p>
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
                 </div>
             </div>
         <?php endforeach;?>
@@ -178,10 +190,10 @@ $pic7_list=get_list('typecho_gallery','7');
         <?php foreach($pic5_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <img src="<?php echo $row['image'] ?>" alt=""/>
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text">
-                    <p><?php echo $row['description'] ?></p>
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
                 </div>
             </div>
         <?php endforeach;?>
@@ -190,10 +202,10 @@ $pic7_list=get_list('typecho_gallery','7');
         <?php foreach($pic6_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <img src="<?php echo $row['image'] ?>" alt=""/>
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text">
-                    <p><?php echo $row['description'] ?></p>
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
                 </div>
             </div>
         <?php endforeach;?>
@@ -202,10 +214,10 @@ $pic7_list=get_list('typecho_gallery','7');
         <?php foreach($pic7_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <img src="<?php echo $row['image'] ?>" alt=""/>
+                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text">
-                    <p><?php echo $row['description'] ?></p>
+                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
                 </div>
             </div>
         <?php endforeach;?>
