@@ -19,7 +19,7 @@ function is_mobile() {
     return $is_mobile;
 }
 if( is_mobile() ){
-    header("Location:/picture_mobile.php");
+    header("Location:/picture_mobile.php");                     //判断是否是手机用户
 }
 
 ?>
@@ -57,13 +57,13 @@ function get_list($table_name,$sort){
         return $list;
     }
 }
-$pic1_list=get_list('typecho_gallery','1');
-$pic2_list=get_list('typecho_gallery','2');
-$pic3_list=get_list('typecho_gallery','3');
-$pic4_list=get_list('typecho_gallery','4');
-$pic5_list=get_list('typecho_gallery','5');
-$pic6_list=get_list('typecho_gallery','6');
-$pic7_list=get_list('typecho_gallery','7');
+if(!isset($_GET['id'])){
+    $id=1;
+}else{
+    $id=$_GET['id'];
+}
+
+$pic_list=get_list('typecho_gallery',$id);
 ?>
 
 
@@ -75,19 +75,24 @@ $pic7_list=get_list('typecho_gallery','7');
     <title>图片集 - 奥廷体育</title>
     <link rel="shortcut icon" type="image/x-icon" href="/usr/themes/aoting/img/1234.png" media="screen" />
     <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./picture.css"/>
-    <script src="jquery-2.1.4.js"></script>
+    <link rel="stylesheet" href="css/picture.css"/>
+    <script src="js/jquery-2.1.4.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--    <script>-->
+<!--        $(document).ready(function(){-->
+<!--            $(".main_nav_wrap ul li").click(function(){-->
+<!--                $(this).addClass("active");-->
+<!--                $(this).siblings(".active").removeClass("active");-->
+<!--                var x= $(this).index();-->
+<!--                $(".picBox").siblings(".on").removeClass("on");-->
+<!--                $(".picBox").eq(x).addClass("on");-->
+<!--            })-->
+<!--        })-->
+<!--    </script>-->
     <script>
         $(document).ready(function(){
-            $(".main_nav_wrap ul li").click(function(){
-                $(this).addClass("active");
-                $(this).siblings(".active").removeClass("active");
-                var x= $(this).index();
-
-                $(".picBox").siblings(".on").removeClass("on");
-                $(".picBox").eq(x).addClass("on");
-            })
+            var id = $(".navBar_grey ul").attr("id");
+            $(".navBar_grey ul li").eq(id-1).addClass("active");
         })
     </script>
 </head>
@@ -129,103 +134,21 @@ $pic7_list=get_list('typecho_gallery','7');
 <div class="main_nav_wrap">
     <div class="w-800">
         <div class="navBar_grey" style="width: 100%;">
-            <ul>
-                <li class="active">2015男子甲A组</li>
-                <li>2015女子甲组</li>
-                <li>2015男子甲B组</li>
-                <li>2015男子乙B组</li>
-                <li>2015男子乙A组</li>
-                <li>2015女子乙组</li>
-                <li>2015丙丁组</li>
+            <ul id="<?php echo $id ;?>">
+                <li><a href="/picture.php?id=1">2015男子甲A组</a></li>
+                <li><a href="/picture.php?id=2">2015女子甲组</a></li>
+                <li><a href="/picture.php?id=3">2015男子甲B组</a></li>
+                <li><a href="/picture.php?id=4">2015男子乙B组</a></li>
+                <li><a href="/picture.php?id=5">2015男子乙A组</a></li>
+                <li><a href="/picture.php?id=6">2015女子乙组</a></li>
+                <li><a href="/picture.php?id=7">2015丙丁组</a></li>
             </ul>
         </div>
     </div>
 </div>
 <div class="pic_wrap w-800">
     <div class="picBox on">
-        <?php foreach($pic1_list as $row):?>
-            <div class="pic_box">
-                <div class="pic_box_img">
-                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
-                </div>
-                <div class="pic_box_text">
-                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
-                </div>
-            </div>
-        <?php endforeach;?>
-        <?php foreach($pic1_list as $row):?>
-            <div class="pic_box">
-                <div class="pic_box_img">
-                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
-                </div>
-                <div class="pic_box_text">
-                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
-                </div>
-            </div>
-        <?php endforeach;?>
-    </div>
-    <div class="picBox">
-        <?php foreach($pic2_list as $row):?>
-            <div class="pic_box">
-                <div class="pic_box_img">
-                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
-                </div>
-                <div class="pic_box_text">
-                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
-                </div>
-            </div>
-        <?php endforeach;?>
-    </div>
-    <div class="picBox">
-        <?php foreach($pic3_list as $row):?>
-            <div class="pic_box">
-                <div class="pic_box_img">
-                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
-                </div>
-                <div class="pic_box_text">
-                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
-                </div>
-            </div>
-        <?php endforeach;?>
-    </div>
-    <div class="picBox">
-        <?php foreach($pic4_list as $row):?>
-            <div class="pic_box">
-                <div class="pic_box_img">
-                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
-                </div>
-                <div class="pic_box_text">
-                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
-                </div>
-            </div>
-        <?php endforeach;?>
-    </div>
-    <div class="picBox">
-        <?php foreach($pic5_list as $row):?>
-            <div class="pic_box">
-                <div class="pic_box_img">
-                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
-                </div>
-                <div class="pic_box_text">
-                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
-                </div>
-            </div>
-        <?php endforeach;?>
-    </div>
-    <div class="picBox">
-        <?php foreach($pic6_list as $row):?>
-            <div class="pic_box">
-                <div class="pic_box_img">
-                    <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
-                </div>
-                <div class="pic_box_text">
-                    <a href="/pic_details.php?id=<?php echo $row['gid'];?>"><?php echo $row['description'] ?></a>
-                </div>
-            </div>
-        <?php endforeach;?>
-    </div>
-    <div class="picBox">
-        <?php foreach($pic7_list as $row):?>
+        <?php foreach($pic_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
                     <a href="/pic_details.php?id=<?php echo $row['gid']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>

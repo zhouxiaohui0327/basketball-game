@@ -6,6 +6,7 @@
 }
 a{
     text-decoration: none;
+    color: #333;
 }
 ul{
     padding:0;
@@ -123,9 +124,10 @@ body{
     margin-bottom: -1px;
     float: left;
 }
-.main_nav_wrap ul li:hover{
+.main_nav_wrap ul li a:hover{
     cursor: pointer;
     color: red;
+    text-decoration: none;
 }
 .active{
     border-top: 2px solid darkred;
