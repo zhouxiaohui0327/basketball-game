@@ -6,7 +6,7 @@
 
 <?php if($this->category == "video") : ?>
     <div class="news_content">
-        <img src="<?php $this->options->themeUrl(); ?>img/123.png" class="news-text-bg" alt=""/>
+        <img src="<?php $this->options->themeUrl(); ?>img/123456.jpg" class="news-text-bg" alt=""/>
     </div>
 <?php else: ?>
     <div class="left-slide-nav hidden-xs hidden-sm"  style="position: absolute;z-index:2000">

@@ -126,11 +126,11 @@ body{
 }
 .main_nav_wrap ul li a:hover{
     cursor: pointer;
-    color: red;
+    color: #F09b00;
     text-decoration: none;
 }
 .active{
-    border-top: 2px solid darkred;
+    border-top: 2px solid #F09b00;
     background-color: white;
     border-bottom:1px solid white;
     z-index: 1;
