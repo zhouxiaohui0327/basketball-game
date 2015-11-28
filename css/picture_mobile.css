@@ -12,7 +12,14 @@
     height:auto;
 }
 .pic_box_text{
-    font-size: 18px;
+    font-size: 17px;
+    width: 75%;
+    display: inline-block;
+}
+.pic_box_text_right{
+    width: 20%;
+    float:right;
+    margin-top: 20px;
 }
 @media screen and (max-width:600px) {
     h2{font-size: 20px;}

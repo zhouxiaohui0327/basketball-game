@@ -145,7 +145,10 @@ $count = mysql_num_rows($query);
                     <a><img src="<?php echo $row['image'] ?>" id="<?php echo $row['sort']; ?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text" id="<?php echo $row['sort']; ?>">
-                    <p><?php echo $row['description'] ?>
+                    <?php echo $row['description'] ?>
+                </div>
+                <div class="pic_box_text_right">
+                    <p>
                         <script>
                             var order =$(".pic_box_text").parents(".pic_box").index()+1+"/";
                             document.write(order);

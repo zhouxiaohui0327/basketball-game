@@ -62,7 +62,9 @@ class HighSlide_Action extends Typecho_Widget implements Widget_Interface_Do
 	 */
 	public function deletegallery()
 	{
-		$gids = $this->request->filter('int')->gid;
+		//$gids = $this->request->get('gid');;
+
+        $gids = $_POST['gid'];
 
 		$deletecount = 0;
 		if ($gids && is_array($gids)) {
@@ -74,7 +76,7 @@ class HighSlide_Action extends Typecho_Widget implements Widget_Interface_Do
 		}
 
 		//返回原页并提示信息
-		$this->widget('Widget_Notice')->set($deletecount>0?_t('图片已从相册移除'):_t('图片没有被移除'),NULL,
+		$this->widget('Widget_Notice')->set($deletecount>0?_t('图片已从相册移除'):_t('没有图片被移除'),NULL,
 			$deletecount>0?'success':'notice');
 
 		$this->response->goBack();
