@@ -219,10 +219,10 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 <tr>
                     <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
-                            <a href=""><p>Video</p><p>球场掠影</p></a>
+                            <a href="/index.php/category/video/"><p>Video</p><p>球场掠影</p></a>
                         </div>
                         <div class="th_gray_bottom">
-                            <a href="">
+                            <a href="/index.php/category/video/">
                                 <p>浙江省篮球运动在各高校开展十分普及，校园篮球活动形式多样，氛围浓厚。</p>
                             </a>
                         </div>

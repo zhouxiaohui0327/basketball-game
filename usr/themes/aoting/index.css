@@ -490,3 +490,6 @@ margin-top: 20px;
     .nav>li>a{padding:10px 40px;font-size:18px}
 
 }
+a:hover{
+    text-decoration: none;
+}
