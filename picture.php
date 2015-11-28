@@ -147,7 +147,7 @@ $pic_list=get_list('typecho_gallery',$id);
     </div>
 </div>
 <div class="pic_wrap w-800">
-    <div class="picBox on">
+    <div class="picBox">
         <?php foreach($pic_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">

@@ -37,13 +37,25 @@ img{vertical-align: middle;}
     z-index: 1999;
     color: white;
     width:100%;
-    height: 120px;
+    height: 130px;
     text-align: left;
 }
 .bottom .bottom_inner{
     width:280px;
-    padding: 10px 20px 10px 20px;
+    padding: 0 20px 10px 20px;
     line-height: 20px;
-    height: 90px;
+    height: 100px;
     overflow:auto;
+}
+.pic{
+    border:none;
+}
+
+@media screen and (min-width:375px){
+    .bottom{height:170px}
+    .bottom .bottom_inner{height:140px;line-height: 20px;font-size: 17px}
+}
+@media screen and (min-width:414px){
+    .bottom{height:180px}
+    .bottom .bottom_inner{height:150px;line-height: 25px;font-size: 20px;width: 370px}
 }

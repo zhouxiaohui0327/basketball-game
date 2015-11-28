@@ -35,8 +35,10 @@ if(!isset($_GET['id'])){
 }else{
     $id=$_GET['id'];
 }
-
+$order = $_GET['order'];
 $pic_list=get_list('typecho_gallery',$id);
+$query = mysql_query("SELECT * FROM typecho_gallery WHERE sort=$id");
+$count = mysql_num_rows($query);
 ?>
 <html>
 <head>
@@ -54,15 +56,28 @@ $pic_list=get_list('typecho_gallery',$id);
             $(".pic").click(function(){
                 $(".above ,.bottom").slideToggle("fast");
             })
+        });
+        function returnBtn(){
+           var id = $(".above_left").attr("id");
+            window.location.href="picture_mobile.php?id="+id;
+        }
+    </script>
+    <script>
+        $(document).ready(function(){
+            var order = $(".swiper-wrapper").attr("order");
+            var newOrder = Number(order)+1;
+            var winwidth = $(window).width();
+            var Y = "translate3d("+ -Number(winwidth)*newOrder+"px,0px,0px)";
+            $(".swiper-wrapper").css({"-webkit-transform":Y})
         })
     </script>
 </head>
 <body>
 <div class="above">
-    <div class="above_left" onclick="javascript:history.go(-1)"></div>
+    <div class="above_left" id="<?php echo $id;?>" onclick="returnBtn()"></div>
 </div>
 <div class="swiper-container">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper" order="<?php echo $order;?>">
         <?php foreach($pic_list as $row):?>
             <div class="swiper-slide">
                 <table style="height:100%;width: 100%" cellspacing="0" cellpadding="0" >
@@ -74,6 +89,11 @@ $pic_list=get_list('typecho_gallery',$id);
                 </table>
                 <div class="bottom">
                     <div class="bottom_inner">
+                        <h4><script>
+                                var order =$(".bottom").parents(".swiper-slide").index()+1+"/";
+                                console.log(order);
+                                document.write(order);
+                            </script><?php echo $count ;?></h4>
                         <h5><?php echo $row['description'] ?></h5>
                     </div>
                 </div>

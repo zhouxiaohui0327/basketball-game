@@ -49,7 +49,8 @@ if(!isset($_GET['id'])){
 }
 
 $pic_list=get_list('typecho_gallery',$id);
-
+$query = mysql_query("SELECT * FROM typecho_gallery WHERE sort=$id");
+$count = mysql_num_rows($query);
 ?>
 
 
@@ -69,6 +70,20 @@ $pic_list=get_list('typecho_gallery',$id);
         $(document).ready(function(){
             var id = $(".navBar_grey ul").attr("id");
             $(".navBar_grey ul li").eq(id-1).addClass("active");
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".pic_box img").click(function(){
+                var id=$(this).attr("id");
+                var order=$(this).parents(".pic_box").index();
+                window.location.href="/album.php?id="+id+"&order="+order;
+            });
+            $(".pic_box_text").click(function(){
+                var id = $(this).attr("id");
+                var order =$(this).parents(".pic_box").index();
+                window.location.href="/album.php?id="+id+"&order="+order;
+            })
         })
     </script>
 </head>
@@ -123,14 +138,18 @@ $pic_list=get_list('typecho_gallery',$id);
     </div>
 </div>
 <div class="pic_wrap w-800">
-    <div class="picBox on">
+    <div class="picBox">
         <?php foreach($pic_list as $row):?>
-            <div class="pic_box">
+            <div class="pic_box" >
                 <div class="pic_box_img">
-                    <a href="/album.php?id=<?php echo $row['sort']; ?>"><img src="<?php echo $row['image'] ?>" alt=""/></a>
+                    <a><img src="<?php echo $row['image'] ?>" id="<?php echo $row['sort']; ?>" alt=""/></a>
                 </div>
-                <div class="pic_box_text">
-                    <a href="/album.php?id=<?php echo $row['sort'];?>"><?php echo $row['description'] ?></a>
+                <div class="pic_box_text" id="<?php echo $row['sort']; ?>">
+                    <p><?php echo $row['description'] ?>
+                        <script>
+                            var order =$(".pic_box_text").parents(".pic_box").index()+1+"/";
+                            document.write(order);
+                        </script><?php echo $count ;?></p>
                 </div>
             </div>
         <?php endforeach;?>

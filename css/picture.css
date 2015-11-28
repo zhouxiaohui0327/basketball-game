@@ -141,10 +141,7 @@ body{
 .picBox{
     overflow: hidden;
     margin-bottom: 50px;
-    display: none;
-}
-.on{
-    display: block;
+    display:block;
 }
 .pic_wrap .pic_box{
     width: 22.5%;
@@ -162,11 +159,13 @@ body{
 .pic_wrap .pic_box_img img{
     width: 100%;
     vertical-align: middle;
+    cursor:pointer;
 }
 .pic_box_text{
     padding: 20px;
     font-size: 13px;
-    color: #999;
+    color: #333;
+    cursor: pointer;
 }
 .pic_box_text a{
     color:#333;
