@@ -13,6 +13,9 @@ $query = mysql_query("SELECT * FROM typecho_gallery WHERE gid=$id");
 $count_arr = mysql_fetch_array($query);
 $image = $count_arr[2];
 $name = $count_arr[4];
+if($name==""):
+    $name="未命名";
+endif;
 $description =$count_arr[5];
 ?>
 
@@ -65,17 +68,15 @@ $description =$count_arr[5];
 </div>
 <div class="picWrap w-800">
     <div class="pic_Box">
-        
-            <p><?php echo $name;?></p>
-            <img src="<?php echo $image;?>" alt=""/>
-            <p><?php echo $description;?></p>
-
+            <div style="width: 95%;margin:0 auto">
+                <p class="name"><?php echo $name;?></p>
+                <img src="<?php echo $image;?>" alt=""/>
+                <p class="description"><?php echo $description;?></p>
+            </div>
     </div>
 </div>
-
-
 <!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="<?php echo $id;?>" data-title="" data-url=""></div>
+<div class="ds-thread w-800" data-thread-key="<?php echo $id;?>" data-title="<?php echo $name;?>" data-url="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];;?>"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
