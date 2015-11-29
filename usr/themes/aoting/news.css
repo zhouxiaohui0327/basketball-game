@@ -3,8 +3,6 @@ body {background:#E6E5E2;}
     position:relative;
 }
 .left-slide-nav{
-    left: 8%;
-    background-color: #e0e0e0;
     padding:0 10px;
     width: 18%;
     min-width: 66px;
@@ -36,11 +34,12 @@ body {background:#E6E5E2;}
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    border-bottom: 1px dotted #b8b8b8;
+    border: 1px solid #ccc;
+    background-color: white;
 }
 .left-slide-nav .left-bottom ul li a{
-    line-height: 70px;
-    font-size: 20px;
+    line-height: 40px;
+    font-size: 15px;
     color: #DA7826;
 }
 .news-text-content ul li{line-height: 40px}

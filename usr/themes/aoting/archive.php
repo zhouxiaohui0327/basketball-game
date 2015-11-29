@@ -6,37 +6,25 @@
 
 <?php if($this->category == "video") : ?>
     <div class="news_content">
-        <img src="<?php $this->options->themeUrl(); ?>img/123456.jpg" class="news-text-bg" alt=""/>
+        <img src="<?php $this->options->themeUrl(); ?>img/bg1.jpg" class="news-text-bg" alt=""/>
     </div>
 <?php else: ?>
-    <div class="left-slide-nav hidden-xs hidden-sm"  style="position: absolute;z-index:2000">
-        <!--div class="left-above">
-            <img class="logo-above" src="<?php $this->options->themeUrl(); ?>img/aotinglogo.png" alt=""/>
-        </div-->
-        <div class="left-bottom">
-            <ul>
-                <li><a href="">公司新闻</a></li>
-                <li><a href="/index.php/category/sport/">体坛新闻</a></li>
-                <li><a href="/index.php/category/ZUBA/">ZUBA新闻</a></li>
-            </ul>
-        </div>
-    </div>
     <div class="news_content">
-        <img src="<?php $this->options->themeUrl(); ?>img/new-bg.png" class="news-text-bg" alt=""/>
+        <img src="<?php $this->options->themeUrl(); ?>img/video_bg_yellow.jpg" class="news-text-bg" alt=""/>
     </div>
 <?php endif; ?>
 <!--    <div class="news_content">-->
 <!--        <img src="--><?php //$this->options->themeUrl(); ?><!--img/new-bg.png" class="news-text-bg" alt=""/>-->
 <!--    </div>-->
 </div>
-
 <div class="news-text-wrap">
     <div class="news-text-nav">
         <div class="w-800">
+
             <ul>
                 <li><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a></li>
                 <li>><?php $this->archiveTitle(array(
-            
+
             'search'    =>  _t('包含关键字 %s 的文章'),
             'tag'       =>  _t('标签 %s 下的文章'),
             'author'    =>  _t('%s 发布的文章')
@@ -46,39 +34,48 @@
     </div>
 
 
-    <div class="col-mb-12 col-8" id="main" role="main" style="overflow:hidden">
-        <?php if ($this->have()): ?>
-    	<?php while($this->next()): ?>
-            
-          <div class="news-text-content w-800">
-     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-         <div class="row">
-             <div class="col-xs-8 col-md-9 title" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></div>
-             <div class="col-xs-4 col-md-3 time"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></div>
-         </div>
-     </article>
-  </div>
-    	<?php endwhile; ?>
-        <?php else: ?>
 
-            <article class="post">
-                <h2 class="post-title"style="text-align:center"><?php _e('没有找到内容'); ?></h2>
-            </article>
-        <?php endif; ?>
+   <div class="w-800">
+       <div class="col-mb-12 col-8" id="main" role="main" style="overflow:hidden">
+           <?php if($this->category !== "video") : ?>
+           <div class="left-slide-nav hidden-xs hidden-sm left" >
+               <!--div class="left-above">
+            <img class="logo-above" src="<?php $this->options->themeUrl(); ?>img/aotinglogo.png" alt=""/>
+        </div-->
+               <div class="left-bottom">
+                   <ul>
+                       <li><a href="">公司新闻</a></li>
+                       <li><a href="/index.php/category/sport/">体坛新闻</a></li>
+                       <li><a href="/index.php/category/ZUBA/">ZUBA新闻</a></li>
+                   </ul>
+               </div>
+           </div>
+           <?php endif; ?>
+           <?php if ($this->have()): ?>
+               <?php while($this->next()): ?>
+
+                   <div class="news-text-content">
+                       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+                           <div class="row">
+                               <div class="col-xs-8 col-md-9 title" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></div>
+                               <div class="col-xs-4 col-md-3 time"><time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date('Y-m-d'); ?></time></div>
+                           </div>
+                       </article>
+                   </div>
+               <?php endwhile; ?>
+           <?php else: ?>
+
+               <article class="post">
+                   <h2 class="post-title"style="text-align:center"><?php _e('没有找到内容'); ?></h2>
+               </article>
+           <?php endif; ?>
 
 
-    </div><!-- end #main -->
-    <div class="w-800" style="margin-top: 40px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
+       </div><!-- end #main -->
+       <div class="w-800" style="margin-top: 40px"><?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?></div>
+   </div>
 </div>
 
-<style>
-	.left-slide-nav {
-    position: absolute;
-    z-index: 2000;
-    bottom: 0;
-    opacity: 0.8;
-    border-radius: 5px 5px 0 0;}
-</style>
 <!--style>
         .header .header-wrap{
             background-color: rgba(240, 248, 255, 0.68);}

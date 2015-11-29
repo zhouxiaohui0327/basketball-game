@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;
+}
+body{
+    background-color: #E6E5E2;
+}
+.w-800{
+    width: 50%;
+    min-width: 800px;
+    overflow: hidden;
+    margin:0 auto;
+}
+.pic_Box{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.pic_Box img{
+    /*margin: 0 auto;*/
+    display: block;
+    width: 640px;
+}
+.nav>li>a{
+    padding: 10px 15px;
+}
