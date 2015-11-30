@@ -237,5 +237,20 @@ $count = mysql_num_rows($query);
         </nav>
     </div>
 </div>
+<script>
+    var x = $(".pic_box img").width();
+    var y = $(".pic_box img").height();
+    var w = $(".pic_box_img").width();
+    var wz = Number(w)*0.75;
+    $(".pic_box_img").css({height:wz+"px"});
+    $(".pic_box img").css({width:w+"px",height:wz+"px"});
+    //                        if(Number(x)<Number(y)){
+    //                            $(".pic_box img").css({"height":wz+"px",width:"auto"})
+    //                        }else if(Number(x)>Number(y)){
+    //                            $(".pic_box img").css({width:w+"px",height:"auto"})
+    //                        }
+    var a =Number(w)*0.25;
+    $(".pic_box_text").css({height:a+"px"});
+</script>
 </body>
 </html>

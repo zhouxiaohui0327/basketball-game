@@ -24,6 +24,7 @@ body{
     margin: 0 auto;
     min-width:930px;
     overflow:hidden;
+    max-width: 1280px;
 }
 .left{
     float: left;
@@ -154,7 +155,8 @@ body{
 
 }
 .pic_wrap .pic_box_img{
-    height: 159px;
+    /*height: 159px;*/
+    text-align: center;
 }
 .pic_wrap .pic_box_img img{
     width: 100%;
@@ -162,13 +164,16 @@ body{
     cursor:pointer;
 }
 .pic_box_text{
-    padding: 20px;
+
     font-size: 13px;
     color: #333;
     cursor: pointer;
+    overflow:inherit;
 }
 .pic_box_text a{
     color:#333;
+    margin:20px;
+    display: block;
 }
 .nav_wrap{
     text-align: center;
