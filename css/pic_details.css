@@ -39,3 +39,42 @@ body{
     line-height: 24px;
     margin-top:10px;
 }
+
+.description span{
+    font-family:"Microsoft Yahei","微软雅黑","SimSun","宋体","Arial Narrow",serif;
+}
+.next li{
+    background:url(../usr/themes/aoting/img/icon_all.png)-63px 276px;
+    width: 50px;
+    height:50px;
+    position: absolute;
+    right: 0;
+    top:210px;
+    background-color: #ccc;
+    opacity: 0.5;
+    display: none;
+}
+.next li:hover{
+    opacity: 0.8;
+}
+.prev li{
+    background:url(../usr/themes/aoting/img/icon_all.png)13px 276px;
+
+    width: 50px;
+    height:50px;
+    position: absolute;
+    left:0;
+    top:210px;
+    background-color: #ccc;
+    opacity: 0.5;
+    display: none;
+}
+.prev li:hover{
+    opacity: 0.8;
+}
+.pic_Box:hover .next li{
+    display: block;
+}
+.pic_Box:hover .prev li{
+    display: block;
+}

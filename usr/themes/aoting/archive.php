@@ -20,8 +20,11 @@
 <div class="news-text-wrap">
     <div class="news-text-nav">
         <div class="w-800">
-
+            <?php if($this->category !== "video") : ?>
+            <ul class="newNav">
+            <?php else:?>
             <ul>
+            <?php endif;?>
                 <li><a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页');?></a></li>
                 <li>><?php $this->archiveTitle(array(
 
