@@ -10,7 +10,7 @@ function connectDb(){
     if(!$con){
         die('can not connect db');
     }
-    mysql_select_db('aoting');
+    mysql_select_db('typecho');
     mysql_query("SET NAMES 'utf8'");
     return $con;
 }

@@ -171,7 +171,7 @@ $count = mysql_num_rows($query);
         <?php foreach($pic_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <a><img src="<?php echo $row['image'] ?>" id="<?php echo $row['gid'];?>" sort="<?php echo $id;?>" alt=""/></a>
+                    <a><img src="<?php echo $row['thumb'] ?>" id="<?php echo $row['gid'];?>" sort="<?php echo $id;?>" alt=""/></a>
                 </div>
                 <div class="pic_box_text" id="<?php echo $row['gid'];?>" sort="<?php echo $id;?>">
                     <a><?php echo $row['description'] ?></a>
