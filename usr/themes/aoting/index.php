@@ -94,23 +94,23 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </ul>
                         <ul class="list_text list">
                             <li>第一名</li>
-                            <li>浙江大学</li>
+                            <li title="浙江大学">浙江大学</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第二名</li>
-                            <li>中国计量学院</li>
+                            <li title="中国计量学院">中国计量学院</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第三名</li>
-                            <li>宁波工程学院</li>
+                            <li title="宁波工程学院">宁波工程学院</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第四名</li>
-                            <li>温州大学</li>
+                            <li title="温州大学">温州大学</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第五名</li>
-                            <li>树人大学</li>
+                            <li title="树人大学">树人大学</li>
                         </ul>
                     </div>
                     <div class="participants_list left">
@@ -121,23 +121,23 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         </ul>
                         <ul class="list_text list">
                             <li>第一名</li>
-                            <li>浙江理工大学</li>
+                            <li title="浙江理工大学">浙江理工大学</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第二名</li>
-                            <li>浙江大学</li>
+                            <li title="浙江大学">浙江大学</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第三名</li>
-                            <li>浙江树人大学</li>
+                            <li title="浙江树人大学">浙江树人大学</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第四名</li>
-                            <li>温州大学</li>
+                            <li title="温州大学">温州大学</li>
                         </ul>
                         <ul class="list_text list">
                             <li>第五名</li>
-                            <li>浙江警察学院</li>
+                            <li title="浙江警察学院">浙江警察学院</li>
                         </ul>
 
                     </div>
@@ -148,24 +148,24 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                             <li>学校</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第一名</li>
+                            <li title="浙江工业职业技术学院">浙江工业职业技术学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第二名</li>
+                            <li title="浙江育英职业技术学院">浙江育英职业技术学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第三名</li>
+                            <li title="浙江经济职业技术学院">浙江经济职业技术学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第四名</li>
+                            <li title="浙江商业职业技术学院">浙江商业职业技术学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第五名</li>
+                            <li title="浙江纺织服装职业技术学院">浙江纺织服装职业技术学院</li>
                         </ul>
 
                     </div>
@@ -176,24 +176,24 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                             <li>学校</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第一名</li>
+                            <li title="浙江经济职业技术学院">浙江经济职业技术学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第二名</li>
+                            <li title="绍兴职业技术学院">绍兴职业技术学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第三名</li>
+                            <li title="浙江纺织服装职业技术学院">浙江纺织服装职业技术学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第四名</li>
+                            <li title="浙江旅游职业学院">浙江旅游职业学院</li>
                         </ul>
                         <ul class="list_text list">
-                            <li>1</li>
-                            <li>浙大</li>
+                            <li>第五名</li>
+                            <li title="浙江广厦建设职业技术学院">浙江广厦建设职业技术学院</li>
                         </ul>
                     </div>
                 </div>
@@ -241,7 +241,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic3.png" style="width: 100%;display: block" alt=""/></th>
                 </tr>
                 <tr>
-                    <th style="background-color:#005088"><a href="/picture.php"><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多数据库信息</p></th>
+                    <th style="background-color:#005088"><a href="/picture.php"><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多联赛图片信息</p></th>
                     <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
                             <a href=""><p style="color:#6f706c;">Files</p><p style="color:#6f706c;">联赛数据库</p></a>

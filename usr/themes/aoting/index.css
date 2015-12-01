@@ -175,6 +175,9 @@ margin-top: 20px;
     width: 45%;
     line-height: 25px;
     color: #DA7826;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .content_table {
@@ -478,14 +481,15 @@ margin-top: 20px;
     .header .header-wrap .w-800 .nav-bar ul li a{font-size: 20px}
     .content_table .th_gray_above p{font-size:20px}
     .content_table .th_gray_bottom p {font-size:14px}
+
+    .wrap .content .content_below .yellow_box_wrap{height: 220px;}
     .wrap .content .content_below .yellow_box_wrap .left-side{width:560px;margin-top: 40px;margin-left: 50px}
     .wrap .content .content_below .yellow_box_wrap .left-side ul, .left-side a{font-size: 15px;}
     .left-side .number-first{font-size: 17px;}
     .left-side .number{font-size: 18px;}
-    .wrap .content .content_below .yellow_box_wrap{height: 220px;}
     .wrap .content .content_below .yellow_box_wrap .right-side .right-side-img{ margin-top: 50px;  margin-right: 50px;}
     .wrap .content .content_below .yellow_box_wrap .right-side .right-side-text{margin-top:110px;margin-right: 50px}
-    .wrap .content .content_below .yellow_box_wrap .left-side ul li{line-height: 50px;margin-left: 12%}
+    .wrap .content .content_below .yellow_box_wrap .left-side ul li{line-height: 50px;margin-right: 70px}
     .left-side .first{font-size: 16px;}
     .nav>li>a{padding:10px 40px;font-size:18px}
 
