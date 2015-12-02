@@ -24,15 +24,8 @@ $query = mysql_query("SELECT * FROM typecho_gallery WHERE sort=$sort");
 $count = mysql_num_rows($query);
 
 function get_list($table_name,$sort){
-    if (!isset($_GET['page'])) {
-        $page = 1;
-    } else {
-        $page = $_GET['page'];
-    }
-    $limit=16;
-    $startCount = ($page - 1) * $limit;
     $list = array();
-    $query = mysql_query("SELECT * FROM $table_name WHERE sort=$sort limit $startCount ,$limit");
+    $query = mysql_query("SELECT * FROM $table_name WHERE sort=$sort");
     $count1 = mysql_num_rows($query);
 
     if ($count1 <= 0) {
