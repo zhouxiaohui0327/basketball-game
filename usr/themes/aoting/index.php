@@ -241,7 +241,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                     <th><img src="<?php $this->options->themeUrl(); ?>img/pic3.png" style="width: 100%;display: block" alt=""/></th>
                 </tr>
                 <tr>
-                    <th style="background-color:#005088"><a href="/picture.php"><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/icon_19.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多联赛图片信息</p></th>
+                    <th style="background-color:#005088"><a href="/picture.php"><img class="clickImg" src="<?php $this->options->themeUrl(); ?>img/photo.png" alt="" /></a><p class="click_text" style="color:white">点击查看更多联赛图片信息</p></th>
                     <th bgcolor="#E6E5E2">
                         <div class="th_gray_above">
                             <a href=""><p style="color:#6f706c;">Files</p><p style="color:#6f706c;">联赛数据库</p></a>
