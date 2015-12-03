@@ -31,8 +31,13 @@ if (!isset($_GET['page'])) {
 } else {
     $page = $_GET['page'];
 }
+if(!isset($_GET['id'])){
+    $id=1;
+}else{
+    $id=$_GET['id'];
+}
 $limit = 16;
-$count=mysql_query("SELECT * FROM typecho_gallery");
+$count=mysql_query("SELECT * FROM typecho_gallery WHERE sort=$id");
 $totalNumber = mysql_num_rows($count);
 $totalPage=ceil($totalNumber/$limit);
 $b = 3 ;
@@ -57,11 +62,7 @@ function get_list($table_name,$sort){
         return $list;
     }
 }
-if(!isset($_GET['id'])){
-    $id=1;
-}else{
-    $id=$_GET['id'];
-}
+
 
 $pic_list=get_list('typecho_gallery',$id);
 $query = mysql_query("SELECT * FROM typecho_gallery WHERE sort=$id");
