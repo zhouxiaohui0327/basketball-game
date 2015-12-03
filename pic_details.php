@@ -150,10 +150,12 @@ $pic_list=get_list('typecho_gallery',$sort);
         var id = $(".pic_box").eq(order+1).attr("id");
         window.location.href="pic_details.php?id="+id+"&sort="+sort+"&order="+order;
     }
-
-
 </script>
-
+<script>
+    var hh = $(".pic_Box img").height();
+    var h = hh/2;
+    $(".next li , .prev li").css({top:h+"px"});
+</script>
 
 <!-- 多说评论框 start -->
 <div class="ds-thread w-800" data-thread-key="<?php echo $id;?>" data-title="<?php echo $name;?>" data-url="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];;?>"></div>
