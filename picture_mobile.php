@@ -170,7 +170,7 @@ $count = mysql_num_rows($query);
                 }else {
                     ?>
                     <li>
-                        <a href="picture.php?id=<?php echo $id;?>&page=<?php echo $page - 1;?>" aria-label="Previous">
+                        <a href="picture_mobile.php?id=<?php echo $id;?>&page=<?php echo $page - 1;?>" aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
@@ -185,7 +185,7 @@ $count = mysql_num_rows($query);
                 <?php
                 for ($i=$page;$i<=$page+$b&&$i<=$totalPage;$i++) {
                     ?>
-                    <li><a href="picture.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
+                    <li><a href="picture_mobile.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
                 <?php
                 }
                 ?>
@@ -202,7 +202,7 @@ $count = mysql_num_rows($query);
                 }else {
                     ?>
                     <li>
-                        <a href="picture.php?id=<?php echo $id;?>&page=<?php echo $page + 1;?>" aria-label="Next">
+                        <a href="picture_mobile.php?id=<?php echo $id;?>&page=<?php echo $page + 1;?>" aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </a>
                     </li>
