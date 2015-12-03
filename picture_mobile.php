@@ -20,7 +20,7 @@ $limit = 16;
 $count=mysql_query("SELECT * FROM typecho_gallery");
 $totalNumber = mysql_num_rows($count);
 $totalPage=ceil($totalNumber/$limit);
-$b = 3 ;
+$b = 2 ;
 function get_list($table_name,$sort){
     if (!isset($_GET['page'])) {
         $page = 1;
@@ -182,13 +182,21 @@ $count = mysql_num_rows($query);
                 <!--                        <span aria-hidden="true">&laquo;</span>-->
                 <!--                    </a>-->
                 <!--                </li>-->
-                <?php
-                for ($i=$page;$i<=$page+$b&&$i<=$totalPage;$i++) {
-                    ?>
-                    <li><a href="picture_mobile.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
-                <?php
-                }
-                ?>
+                <?php if($totalPage<=5):?>
+                    <?php for ($i=1;$i<=$totalPage;$i++):?>
+                        <li><a href="picture_mobile.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
+                    <?php endfor;?>
+                <?php elseif($totalPage>5&&$page>=4):?>
+                    <?php for ($i=$page-$b;$i<=$page+$b&&$i<=$totalPage;$i++):?>
+                        <li><a href="picture_mobile.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
+                    <?php endfor;?>
+                <?php elseif($totalPage>5&&$page<4):?>
+                    <?php for ($i=1;$i<=$page+3&&$i<=$totalPage;$i++):?>
+                        <li><a href="picture_mobile.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
+                    <?php endfor;?>
+                <?php endif;?>
+
+
                 <?php
                 if($page>=$totalPage){
                     ?>

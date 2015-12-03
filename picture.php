@@ -206,13 +206,26 @@ $count = mysql_num_rows($query);
 <!--                        <span aria-hidden="true">&laquo;</span>-->
 <!--                    </a>-->
 <!--                </li>-->
-                <?php
-                for ($i=$page;$i<=$page+$b&&$i<=$totalPage;$i++) {
-                    ?>
-                    <li><a href="picture.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
-                <?php
-                }
-                ?>
+<!--                --><?php
+//                for ($i=$page;$i<=$page+$b&&$i<=$totalPage;$i++) {
+//                    ?>
+<!--                    <li><a href="picture.php?id=--><?php //echo $id;?><!--&page=--><?php //echo $i;?><!--">--><?php //echo $i ;?><!--</a></li>-->
+<!--                --><?php
+//                }
+//                ?>
+                <?php if($totalPage<=5):?>
+                    <?php for ($i=1;$i<=$totalPage;$i++):?>
+                        <li><a href="picture.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
+                    <?php endfor;?>
+                <?php elseif($totalPage>5&&$page>=4):?>
+                    <?php for ($i=$page-$b;$i<=$page+$b&&$i<=$totalPage;$i++):?>
+                        <li><a href="picture.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
+                    <?php endfor;?>
+                <?php elseif($totalPage>5&&$page<4):?>
+                    <?php for ($i=1;$i<=$page+3&&$i<=$totalPage;$i++):?>
+                        <li><a href="picture.php?id=<?php echo $id;?>&page=<?php echo $i;?>"><?php echo $i ;?></a></li>
+                    <?php endfor;?>
+                <?php endif;?>
                 <?php
                 if($page>=$totalPage){
                     ?>

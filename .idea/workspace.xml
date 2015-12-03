@@ -45,16 +45,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="picture_mobile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="picture_mobile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/picture_mobile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7112299" vertical-offset="3477" max-vertical-offset="4218">
-              <caret line="204" column="47" selection-start-line="204" selection-start-column="47" selection-end-line="204" selection-end-column="47" />
+            <state vertical-scroll-proportion="-3.392857" vertical-offset="3401" max-vertical-offset="4370">
+              <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="196" selection-end-column="30" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1449116474731" expanded="true" signature="253:282" placeholder="SELECT * FRO..typecho_gallery..." />
-                <marker date="1449116474731" expanded="true" signature="614:676" placeholder="SELECT * FRO..." />
-                <marker date="1449116474731" expanded="true" signature="1048:1089" placeholder="SELECT * FRO..typecho_gallery..." />
+                <marker date="1449118146592" expanded="true" signature="253:282" placeholder="SELECT * FRO..typecho_gallery..." />
+                <marker date="1449118146592" expanded="true" signature="614:676" placeholder="SELECT * FRO..." />
+                <marker date="1449118146592" expanded="true" signature="1048:1089" placeholder="SELECT * FRO..typecho_gallery..." />
               </folding>
             </state>
           </provider>
@@ -136,16 +136,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="picture.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="picture.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/picture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.071428" vertical-offset="3271" max-vertical-offset="4959">
-              <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5492701" vertical-offset="3917" max-vertical-offset="5206">
+              <caret line="222" column="35" selection-start-line="222" selection-start-column="35" selection-end-line="222" selection-end-column="35" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1449115556814" expanded="true" signature="1911:1940" placeholder="SELECT * FRO..typecho_gallery..." />
-                <marker date="1449115556814" expanded="true" signature="2272:2334" placeholder="SELECT * FRO..." />
-                <marker date="1449115556814" expanded="true" signature="2706:2747" placeholder="SELECT * FRO..typecho_gallery..." />
+                <marker date="1449118146610" expanded="true" signature="1911:1940" placeholder="SELECT * FRO..typecho_gallery..." />
+                <marker date="1449118146610" expanded="true" signature="2272:2334" placeholder="SELECT * FRO..." />
+                <marker date="1449118146610" expanded="true" signature="2706:2747" placeholder="SELECT * FRO..typecho_gallery..." />
               </folding>
             </state>
           </provider>
@@ -189,9 +189,9 @@
         <option value="$PROJECT_DIR$/usr/themes/aoting/index.css" />
         <option value="$PROJECT_DIR$/pic_details.php" />
         <option value="$PROJECT_DIR$/album.php" />
-        <option value="$PROJECT_DIR$/picture.php" />
         <option value="$PROJECT_DIR$/mysql.php" />
         <option value="$PROJECT_DIR$/picture_mobile.php" />
+        <option value="$PROJECT_DIR$/picture.php" />
       </list>
     </option>
   </component>
@@ -787,19 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/picture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.071428" vertical-offset="3271" max-vertical-offset="4959">
-          <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1449115556814" expanded="true" signature="1911:1940" placeholder="SELECT * FRO..typecho_gallery..." />
-            <marker date="1449115556814" expanded="true" signature="2272:2334" placeholder="SELECT * FRO..." />
-            <marker date="1449115556814" expanded="true" signature="2706:2747" placeholder="SELECT * FRO..typecho_gallery..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="399">
@@ -810,13 +797,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/picture_mobile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7112299" vertical-offset="3477" max-vertical-offset="4218">
-          <caret line="204" column="47" selection-start-line="204" selection-start-column="47" selection-end-line="204" selection-end-column="47" />
+        <state vertical-scroll-proportion="-3.392857" vertical-offset="3401" max-vertical-offset="4370">
+          <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="196" selection-end-column="30" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1449116474731" expanded="true" signature="253:282" placeholder="SELECT * FRO..typecho_gallery..." />
-            <marker date="1449116474731" expanded="true" signature="614:676" placeholder="SELECT * FRO..." />
-            <marker date="1449116474731" expanded="true" signature="1048:1089" placeholder="SELECT * FRO..typecho_gallery..." />
+            <marker date="1449118146592" expanded="true" signature="253:282" placeholder="SELECT * FRO..typecho_gallery..." />
+            <marker date="1449118146592" expanded="true" signature="614:676" placeholder="SELECT * FRO..." />
+            <marker date="1449118146592" expanded="true" signature="1048:1089" placeholder="SELECT * FRO..typecho_gallery..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5492701" vertical-offset="3917" max-vertical-offset="5206">
+          <caret line="222" column="35" selection-start-line="222" selection-start-column="35" selection-end-line="222" selection-end-column="35" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1449118146610" expanded="true" signature="1911:1940" placeholder="SELECT * FRO..typecho_gallery..." />
+            <marker date="1449118146610" expanded="true" signature="2272:2334" placeholder="SELECT * FRO..." />
+            <marker date="1449118146610" expanded="true" signature="2706:2747" placeholder="SELECT * FRO..typecho_gallery..." />
           </folding>
         </state>
       </provider>
