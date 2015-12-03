@@ -101,17 +101,21 @@ $count = mysql_num_rows($query);
     <script>
         $(document).ready(function(){
             $(".pic_box img").click(function(){
+                var page = $(this).attr("page");
                 var id = $(this).attr("id");
                 var sort = $(this).attr("sort");
                 var order = $(this).parents(".pic_box").index();
-                window.open("pic_details.php?id="+id+"&sort="+sort+"&order="+order);
+                var order1 = (page-1)*16+order;
+                window.open("pic_details.php?id="+id+"&sort="+sort+"&order="+order1);
             });
             $(".pic_box_text").click(function(){
+                var page = $(this).attr("page");
                 var id = $(this).attr("id");
                 var sort = $(this).attr("sort");
                 var order = $(this).parents(".pic_box").index();
+                var order1 = (page-1)*16+order;
 //                window.location.href="pic_details.php?id="+id+"&sort="+sort+"&order="+order;
-                window.open("pic_details.php?id="+id+"&sort="+sort+"&order="+order);
+                window.open("pic_details.php?id="+id+"&sort="+sort+"&order="+order1);
             })
         })
     </script>
@@ -171,9 +175,9 @@ $count = mysql_num_rows($query);
         <?php foreach($pic_list as $row):?>
             <div class="pic_box">
                 <div class="pic_box_img">
-                    <a><img src="<?php echo $row['thumb'] ?>" id="<?php echo $row['gid'];?>" sort="<?php echo $id;?>" alt=""/></a>
+                    <a><img src="<?php echo $row['thumb'] ?>"page="<?php echo $page;?>" id="<?php echo $row['gid'];?>" sort="<?php echo $id;?>" alt=""/></a>
                 </div>
-                <div class="pic_box_text" id="<?php echo $row['gid'];?>" sort="<?php echo $id;?>">
+                <div class="pic_box_text" page="<?php echo $page;?>" id="<?php echo $row['gid'];?>" sort="<?php echo $id;?>">
                     <a><?php echo $row['description'] ?></a>
                 </div>
             </div>
