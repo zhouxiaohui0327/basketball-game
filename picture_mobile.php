@@ -75,14 +75,18 @@ $count = mysql_num_rows($query);
     <script>
         $(document).ready(function(){
             $(".pic_box img").click(function(){
+                var page  = $(this).attr("page");
                 var id=$(this).attr("id");
                 var order=$(this).parents(".pic_box").index();
-                window.location.href="/album.php?id="+id+"&order="+order;
+                var order1 = (page-1)*16+order;
+                window.location.href="/album.php?id="+id+"&order="+order1;
             });
             $(".pic_box_text").click(function(){
+                var page  = $(this).attr("page");
                 var id = $(this).attr("id");
                 var order =$(this).parents(".pic_box").index();
-                window.location.href="/album.php?id="+id+"&order="+order;
+                var order1 = (page-1)*16+order;
+                window.location.href="/album.php?id="+id+"&order="+order1;
             })
         })
     </script>
@@ -144,7 +148,7 @@ $count = mysql_num_rows($query);
                 <div class="pic_box_img">
                     <a><img src="<?php echo $row['image'] ?>" id="<?php echo $row['sort']; ?>" page="<?php echo $page;?>" alt=""/></a>
                 </div>
-                <div class="pic_box_text" id="<?php echo $row['sort']; ?>">
+                <div class="pic_box_text" page="<?php echo $page;?>"  id="<?php echo $row['sort']; ?>">
                     <a><?php echo $row['description'];?></a>
                 </div>
                 <div class="pic_box_text_right">
