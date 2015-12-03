@@ -183,7 +183,7 @@ $count = mysql_num_rows($query);
         <nav>
             <ul class="pagination">
                 <?php
-                if($page<=$totalPage){
+                if($page<=1){
                     ?>
                     <li>
                         <a aria-label="Previous">
