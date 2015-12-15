@@ -31,7 +31,7 @@ function thumbnail($content) {
         $imgSrc = $thumbUrl[1][0];
         echo $imgSrc;
     } else {
-        echo 'http://demo.trip007.cn/usr/uploads/2015/10/noimage.jpg';
+        echo '/usr/uploads/2015/10/noimage.jpg';
     }
 }
 
