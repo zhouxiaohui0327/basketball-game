@@ -39,12 +39,8 @@
 
 
    <div class="w-800">
-       <div class="col-mb-12 col-8" id="main" role="main" style="overflow:hidden">
-           <?php if($this->category !== "video") : ?>
+       <?php if($this->category !== "video") : ?>
            <div class="left-slide-nav hidden-xs hidden-sm left" >
-               <!--div class="left-above">
-            <img class="logo-above" src="<?php $this->options->themeUrl(); ?>img/aotinglogo.png" alt=""/>
-        </div-->
                <div class="left-bottom">
                    <ul>
                        <li><a href="">公司新闻</a></li>
@@ -53,7 +49,8 @@
                    </ul>
                </div>
            </div>
-           <?php endif; ?>
+       <?php endif; ?>
+       <div class="col-mb-12 col-8" id="main" role="main" style="overflow:hidden">
            <?php if ($this->have()): ?>
                <?php while($this->next()): ?>
 
