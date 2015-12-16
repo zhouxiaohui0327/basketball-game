@@ -88,19 +88,19 @@ $con = mysql_query("SELECT * FROM game order by id desc");
     <p>浙江省大学生篮球联赛</p>
 </div>
 <div class="container-fluid">
-    <div class="search">
-        <form class="form-inline" style="text-align: center;padding-bottom: 50px">
-            <div class="form-group">
-                <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
-                <div class="input-group">
-                    <div class="input-group-addon" style="background-color: #0782C1;color:#fff">请输入参赛队名称进行搜索</div>
-                    <input type="text" class="form-control" id="exampleInputAmount" style="width: 580px;background-color: #9b7674" >
-                    <div class="input-group-addon">选择组别进行搜索</div>
-                </div>
-            </div>
-        </form>
-    </div>
-    <div class="content">
+<!--    <div class="search">-->
+<!--        <form class="form-inline" style="text-align: center;padding-bottom: 50px">-->
+<!--            <div class="form-group">-->
+<!--                <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>-->
+<!--                <div class="input-group">-->
+<!--                    <div class="input-group-addon" style="background-color: #0782C1;color:#fff">请输入参赛队名称进行搜索</div>-->
+<!--                    <input type="text" class="form-control" id="exampleInputAmount" style="width: 580px;background-color: #9b7674" >-->
+<!--                    <div class="input-group-addon">选择组别进行搜索</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </form>-->
+<!--    </div>-->
+    <div class="content" style="margin-top: 50px">
         <table>
             <tbody>
             <tr class="row">
@@ -151,17 +151,22 @@ $con = mysql_query("SELECT * FROM game order by id desc");
         $(".details .inner_list li").click(function(){
             var x = $(this).index();
             var y = $(this).parent().parent().parent(".info").index();
-            $(".pic_box").eq(y).children().children("img").eq(x).css({display:"block"});
-            $(".pic_box").eq(y).children().children().eq(x).siblings().css({display:"none"});
-            $(".pic_box").eq(y).siblings().children().children().css({display:"none"});
+            $(".pic_box").eq(y-1).children(".pic").eq(x).slideDown("1000");
+            $("#d-mask").css({display:"block"})
         });
-        $(".pic_box .pic img").click(function(){
+        $(".pic_box").click(function(){
+            $(".pic_box .pic").slideUp("1000");
+            $("#d-mask").css({display:"none"})
+        });
+        $("#d-mask").click(function(){
             $(this).css({display:"none"});
+            $(".pic_box .pic").slideUp("1000");
         })
+        $('.dropdown-toggle').dropdown();
     })
 </script>
 
-<a class="btn btn-info" href="/game.php">回到页面</a>
+<a class="btn btn-info" href="/game.php" style="  display: block;width: 100px;margin: 0 auto;">回到页面</a>
 <form class="form-horizontal" action="addServer.php" method="post" style="margin-top: 30px">
     <div class="form-group">
         <label class="control-label col-md-2" >id</label>
@@ -199,7 +204,7 @@ $con = mysql_query("SELECT * FROM game order by id desc");
         <label class="control-label col-md-2" >动作记录表</label>
         <input class="col-md-8" type="text"  name="pic_4" placeholder="">
     </div>
-    <input class="btn btn-success btn-lg" type="submit" style="display: block;margin: 0 auto" value="确认添加"/>
+    <input class="btn btn-success btn-lg" type="submit" style="display: block;margin: 0 auto;margin-bottom: 20px" value="确认添加"/>
 
 </form>
 </body>
