@@ -246,6 +246,7 @@ input:focus{
     .pic_1{width:320px;height:210px;}
     .pic_2{width:260px;height:360px;}
     .dropdown-menu{min-width: 100px;left:-18px}
+    .i_form{padding-bottom: 10px;}
 }
 @media screen and (min-width: 360px){
     .check_list{left:-50px;}
@@ -272,7 +273,9 @@ input:focus{
     .pic_2{width:300px;height:400px;}
 }
 @media screen and (min-width: 600px){
+    .pic_box{top:20px}
     .dropdown-menu{min-width: 160px;left:0}
     .pic_1{width:768px;height:543px;}
     .pic_2{width:384px;height:543px;}
+    .i_form{padding-bottom: 40px;}
 }

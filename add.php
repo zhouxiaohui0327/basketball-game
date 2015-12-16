@@ -25,7 +25,8 @@ $con = mysql_query("SELECT * FROM game order by id desc");
             border:10px solid rgba(229, 171, 239, 0.23);
             box-shadow: 0 0 10px 1px #808080;
         }
-
+        input{border-radius: 5px}
+        *{padding:0;  margin: 0;}
     </style>
 
     <script>
@@ -84,10 +85,10 @@ $con = mysql_query("SELECT * FROM game order by id desc");
 <!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
-<div class="title container-fluid">
+<div class="title">
     <p>浙江省大学生篮球联赛</p>
 </div>
-<div class="container-fluid">
+<div class="w-800">
 <!--    <div class="search">-->
 <!--        <form class="form-inline" style="text-align: center;padding-bottom: 50px">-->
 <!--            <div class="form-group">-->
@@ -131,13 +132,11 @@ $con = mysql_query("SELECT * FROM game order by id desc");
                     <td class="col-md-1"><a id="<?php echo $row[0];?>" class="btn btn-danger" href="javascript:del_confirm(<?php echo $row[0];?>)">删除</a></td>
                 </tr>
                 <div>
-                    <div class="pic_box" style="position: fixed;top: 20px;left: 300px;z-index:2000">
-                        <div class="pic" style="position: relative">
-                            <img width="768px" height="543px" style="position: absolute" src="<?php echo $row[5];?>" alt=""/>
-                            <img width="384px" height="543px" style="position: absolute" src="<?php echo $row[6];?>" alt=""/>
-                            <img width="384px" height="543px" style="position: absolute" src="<?php echo $row[7];?>" alt=""/>
-                            <img width="384px" height="534px" style="position: absolute" src="<?php echo $row[8];?>" alt=""/>
-                        </div>
+                    <div class="pic_box">
+                        <img class="pic pic_1" width="768px" height="543px"  src="<?php echo $row[5];?>" alt=""/>
+                        <img class="pic pic_2" width="384px" height="543px"  src="<?php echo $row[6];?>" alt=""/>
+                        <img class="pic pic_2" width="384px" height="543px"  src="<?php echo $row[7];?>" alt=""/>
+                        <img class="pic pic_2" width="384px" height="534px"  src="<?php echo $row[8];?>" alt=""/>
                     </div>
                 </div>
             <?php endwhile;?>
@@ -162,7 +161,6 @@ $con = mysql_query("SELECT * FROM game order by id desc");
             $(this).css({display:"none"});
             $(".pic_box .pic").slideUp("1000");
         })
-        $('.dropdown-toggle').dropdown();
     })
 </script>
 

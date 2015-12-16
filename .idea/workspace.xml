@@ -58,13 +58,14 @@
       <file leaf-file-name="game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="31.892857" vertical-offset="3515" max-vertical-offset="5339">
-              <caret line="138" column="173" selection-start-line="138" selection-start-column="173" selection-end-line="138" selection-end-column="173" />
+            <state vertical-scroll-proportion="-3.9285715" vertical-offset="3443" max-vertical-offset="5339">
+              <caret line="187" column="45" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,10 +79,10 @@
                 <element signature="n#style#0;n#li#2;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1450243419619" expanded="true" signature="199:234" placeholder="SELECT * FRO..game..." />
-                <marker date="1450243419619" expanded="true" signature="387:454" placeholder="SELECT * FRO..." />
-                <marker date="1450243419619" expanded="true" signature="961:1047" placeholder="SELECT * FRO..." />
-                <marker date="1450243419619" expanded="true" signature="1618:1660" placeholder="SELECT * FRO..." />
+                <marker date="1450244358642" expanded="true" signature="199:234" placeholder="SELECT * FRO..game..." />
+                <marker date="1450244358642" expanded="true" signature="387:454" placeholder="SELECT * FRO..." />
+                <marker date="1450244358642" expanded="true" signature="961:1047" placeholder="SELECT * FRO..." />
+                <marker date="1450244358642" expanded="true" signature="1618:1660" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -90,8 +91,8 @@
       <file leaf-file-name="game.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/game.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4751" max-vertical-offset="5396">
-              <caret line="276" column="33" selection-start-line="276" selection-start-column="33" selection-end-line="276" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="5453">
+              <caret line="275" column="18" selection-start-line="275" selection-start-column="18" selection-end-line="275" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -110,11 +111,12 @@
       <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.821428" vertical-offset="3639" max-vertical-offset="4218">
-              <caret line="206" column="112" selection-start-line="206" selection-start-column="112" selection-end-line="206" selection-end-column="112" />
+            <state vertical-scroll-proportion="-10.035714" vertical-offset="251" max-vertical-offset="4180">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding>
-                <marker date="1450166493622" expanded="true" signature="197:232" placeholder="SELECT * FRO..game..." />
-                <marker date="1450166493622" expanded="true" signature="5869:5901" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1450245691410" expanded="true" signature="197:232" placeholder="SELECT * FRO..game..." />
               </folding>
             </state>
           </provider>
@@ -164,10 +166,10 @@
         <option value="$PROJECT_DIR$/addServer.php" />
         <option value="$PROJECT_DIR$/usr/themes/aoting/index.css" />
         <option value="$PROJECT_DIR$/usr/themes/aoting/archive.php" />
-        <option value="$PROJECT_DIR$/add.php" />
         <option value="$PROJECT_DIR$/select.php" />
         <option value="$PROJECT_DIR$/game.php" />
         <option value="$PROJECT_DIR$/css/game.css" />
+        <option value="$PROJECT_DIR$/add.php" />
         <option value="$PROJECT_DIR$/mysql.php" />
       </list>
     </option>
@@ -662,26 +664,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.821428" vertical-offset="3639" max-vertical-offset="4218">
-          <caret line="206" column="112" selection-start-line="206" selection-start-column="112" selection-end-line="206" selection-end-column="112" />
-          <folding>
-            <marker date="1450166493622" expanded="true" signature="197:232" placeholder="SELECT * FRO..game..." />
-            <marker date="1450166493622" expanded="true" signature="5869:5901" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.892857" vertical-offset="3515" max-vertical-offset="5339">
-          <caret line="138" column="173" selection-start-line="138" selection-start-column="173" selection-end-line="138" selection-end-column="173" />
+        <state vertical-scroll-proportion="-3.9285715" vertical-offset="3443" max-vertical-offset="5339">
+          <caret line="187" column="45" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -695,18 +687,30 @@
             <element signature="n#style#0;n#li#2;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1450243419619" expanded="true" signature="199:234" placeholder="SELECT * FRO..game..." />
-            <marker date="1450243419619" expanded="true" signature="387:454" placeholder="SELECT * FRO..." />
-            <marker date="1450243419619" expanded="true" signature="961:1047" placeholder="SELECT * FRO..." />
-            <marker date="1450243419619" expanded="true" signature="1618:1660" placeholder="SELECT * FRO..." />
+            <marker date="1450244358642" expanded="true" signature="199:234" placeholder="SELECT * FRO..game..." />
+            <marker date="1450244358642" expanded="true" signature="387:454" placeholder="SELECT * FRO..." />
+            <marker date="1450244358642" expanded="true" signature="961:1047" placeholder="SELECT * FRO..." />
+            <marker date="1450244358642" expanded="true" signature="1618:1660" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.035714" vertical-offset="251" max-vertical-offset="4180">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1450245691410" expanded="true" signature="197:232" placeholder="SELECT * FRO..game..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/game.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4751" max-vertical-offset="5396">
-          <caret line="276" column="33" selection-start-line="276" selection-start-column="33" selection-end-line="276" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="5453">
+          <caret line="275" column="18" selection-start-line="275" selection-start-column="18" selection-end-line="275" selection-end-column="18" />
           <folding />
         </state>
       </provider>

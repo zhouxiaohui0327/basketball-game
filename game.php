@@ -132,7 +132,7 @@ if(isset($_GET['id'])&&!isset($_GET['team'])){
 </div>
 <div class="container w-800">
     <div class="search">
-        <form class="form-inline" style="text-align: center;padding-bottom: 50px">
+        <form class="form-inline i_form" style="text-align: center;">
             <div class="form-group" style="width: 100%">
                 <div class="input-group row" style="width:100%;margin-left:0;margin-right:0">
                     <div class="input-group-addon hidden-xs hidden-sm" id="hunt"  style="background-color: #0782C1;color:#fff;width: 20%;cursor: pointer">请输入参赛队名称进行搜索</div>
