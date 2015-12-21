@@ -49,7 +49,7 @@ if($action == 'upload') {
     $pic_4 = isset($_POST['pic_4']) ? $_POST['pic_4'] : '';
     require_once "../mysql.php";
     connectDb();
-    $sql = "INSERT INTO game(id,date_time,saiji,host_team,guest_team,category,pic_1,pic_2,pic_3,pic_4)VALUES('$id','$date_time','$saiji','$host_team','$guest_team','$category','$pic_1','$pic_2','$pic_3','$pic_4')";
+    $sql = "INSERT INTO game(date_time,saiji,host_team,guest_team,category,pic_1,pic_2,pic_3,pic_4)VALUES('$date_time','$saiji','$host_team','$guest_team','$category','$pic_1','$pic_2','$pic_3','$pic_4')";
 
     if (!mysql_query($sql))
     {
