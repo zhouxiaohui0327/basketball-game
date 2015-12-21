@@ -127,7 +127,7 @@ class Widget_Menu extends Typecho_Widget
         ),
         array(
             array(_t('新闻'), _t('管理新闻'), 'manage-posts.php', 'contributor', false, 'write-post.php'),
-            array(_t('赛事数据'), _t('管理赛事数据'), '../add.php'),
+            array(_t('赛事数据'), _t('管理赛事数据'), 'add_game.php'),
             array(array('Widget_Contents_Post_Admin', 'getMenuTitle'), array('Widget_Contents_Post_Admin', 'getMenuTitle'), 'manage-posts.php?uid=', 'contributor', true),
             array(_t('独立页面'), _t('管理独立页面'), 'manage-pages.php', 'editor', false, 'write-page.php'),
 //            array(_t('评论'), _t('管理评论'), 'manage-comments.php', 'contributor'),
