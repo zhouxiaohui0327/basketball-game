@@ -8,6 +8,7 @@
 header("Content-type: text/html; charset=utf-8");
 require_once "mysql.php";
 connectDb();
+
 $limit = 20;
 $b = 3 ;
 function get_list($table_name,$where){

@@ -59,7 +59,6 @@ if($action == 'upload') {
 
     mysql_close();
 
-
     header("Location:/admin/add_game.php");
 
 }
