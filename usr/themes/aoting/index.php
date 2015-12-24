@@ -45,10 +45,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
     <div class="content">
         <div class="w-800">
             <div class="content_above">
+                <div style="overflow: hidden">
                 <div class="logo_pic left">
-                    <img src="<?php $this->options->themeUrl(); ?>img/game_logo.png" alt=""/>
-                    <p>联赛排行榜 /</p>
-                    <p>Rarking list</p>
+                    <img src="<?php $this->options->themeUrl(); ?>img/zuba_logo.png" alt=""/>
                 </div>
 
 
@@ -83,6 +82,11 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 <a href="<?php $categoryPosts->permalink(); ?>"><?php echo $categoryPosts->title; ?></a>
             <?php endwhile; ?>
                    </div>
+                </div>
+                </div>
+                <div style="background-color: #b11b34;padding-top: 10px;padding-bottom: 10px">
+                    <p style="text-align: center;color:#fff;font-size: 17px;margin-bottom: 0">联赛排行榜 /</p>
+                    <p style="text-align: center;color:#fff;font-size: 19px">Rarking list</p>
                 </div>
 
                 <div class="list_wrap">
