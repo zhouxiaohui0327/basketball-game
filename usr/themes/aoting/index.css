@@ -164,7 +164,15 @@ margin-top: 20px;
     width: 25%;
     margin-bottom: 20px;
 }
-
+.wrap .content .content_above .list_wrap .participants_list p{
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #004f87;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
 .wrap .content .content_above .list_wrap .participants_list .list li{
     font-size: 12px;
     width: 45%;
@@ -363,7 +371,7 @@ margin-top: 20px;
     .carousel-text-head{margin-top: 10px}
     .carousel-text-head p{font-size: 8px}
     .wrap .content .content_above .logo_pic img{margin-bottom: 5px}
-    .participants_list p{margin-top:0}
+    .wrap .content .content_above .list_wrap .participants_list p{margin-top:0}
     .content_table th{height: 80px}
     .wrap .content .content_above .carousel-pic{height:120px}
     .nav{width:100%}
@@ -398,7 +406,7 @@ margin-top: 20px;
     .carousel-text-head{margin-top: 10px}
     .carousel-text-head p{font-size: 8px}
     .wrap .content .content_above .logo_pic img{margin-bottom: 5px}
-    .participants_list p{margin-top:0}
+    .wrap .content .content_above .list_wrap .participants_list p{margin-top:0}
     .content_table th{height: 80px}
     .wrap .content .content_above .carousel-pic{height:100px}
     .nav{width:100%}
@@ -441,7 +449,7 @@ margin-top: 20px;
     .wrap .content .content_above .carousel-text , .wrap .content .content_above .logo_pic{height: 240px;}
     .wrap .content .content_above .logo_pic p{font-size: 20px}
     .wrap .content .content_above .list_wrap .participants_list{margin-bottom: 30px}
-    .participants_list p{font-size: 17px;}
+    .wrap .content .content_above .list_wrap .participants_list p{font-size: 17px;}
     .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 16px;width:45%;line-height: 42px;}
     .carousel-text-head{font-size: 20px;margin-top:30px;}
     #banner_text_list a{font-size: 17px;}
@@ -465,7 +473,7 @@ margin-top: 20px;
     .wrap .content .content_above .carousel-pic img{height: 320px}
     .wrap .content .content_above .carousel-text , .wrap .content .content_above .logo_pic{height: 320px;}
     .wrap .content .content_above .logo_pic p{  font-size: 25px}
-    .participants_list p{font-size: 19px;}
+    .wrap .content .content_above .list_wrap .participants_list p{font-size: 19px;}
     .wrap .content .content_above .list_wrap .participants_list .list li{font-size: 14px;width: 45%;line-height: 35px;}
     .carousel-text-head{font-size: 23px;margin-top:40px;}
     #banner_text_list a{font-size: 19px;}
