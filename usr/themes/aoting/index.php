@@ -69,8 +69,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 </div>
   
 
-           
-
                  <div class="carousel-text left">
                     <div class="carousel-text-head">            <!--新闻轮播-->
                         <p>联赛新闻快讯/ News</p>
@@ -84,9 +82,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                    </div>
                 </div>
                 </div>
-                <div style="background-color: #b11b34;padding-top: 10px;padding-bottom: 10px">
+                <div style="background-color: #b11b34;padding-top: 5px;padding-bottom: 5px">
                     <p style="text-align: center;color:#fff;font-size: 17px;margin-bottom: 0">联赛排行榜 /</p>
-                    <p style="text-align: center;color:#fff;font-size: 19px">Rarking list</p>
+                    <p style="text-align: center;color:#fff;font-size: 19px;margin-bottom: 0">Rarking list</p>
                 </div>
 
                 <div class="list_wrap">

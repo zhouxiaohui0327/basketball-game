@@ -115,7 +115,6 @@ li {
      margin-top: -200px;
 	 overflow:hidden;
  }
-
 .wrap .content .content_above{
     background-color: #E6E5E2;
     position: relative;
@@ -168,7 +167,9 @@ margin-top: 20px;
 .wrap .content .content_above .list_wrap .participants_list p{
     color: white;
     font-weight: 500;
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #004f87;
     margin-bottom: 5px;
     font-size: 14px;
 }
