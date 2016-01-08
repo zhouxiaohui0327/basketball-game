@@ -193,7 +193,7 @@ $totalPage=ceil($totalNumber/$limit);
 <div class="container" style="position:relative;" id="tiaozhuan">
 
 <form class="form-horizontal" action="/admin/game.php?action=add_game" method="post" style="padding-top: 30px;background:#fff;">
-    <div class="form-group">
+    <div class="form-group" style="display: none">
         <label class="control-label col-md-2" >id</label>
         <div class="col-sm-1">
             <input class="form-control" type="text" name="id">
