@@ -47,15 +47,28 @@ if($action == 'upload') {
     $pic_2 = isset($_POST['pic_2']) ? $_POST['pic_2'] : '';
     $pic_3 = isset($_POST['pic_3']) ? $_POST['pic_3'] : '';
     $pic_4 = isset($_POST['pic_4']) ? $_POST['pic_4'] : '';
+
     require_once "../mysql.php";
     connectDb();
-    $sql = "INSERT INTO game(date_time,saiji,host_team,guest_team,category,pic_1,pic_2,pic_3,pic_4)VALUES('$date_time','$saiji','$host_team','$guest_team','$category','$pic_1','$pic_2','$pic_3','$pic_4')";
+    if(empty($id)){
+        $sql = "INSERT INTO game(date_time,saiji,host_team,guest_team,category,pic_1,pic_2,pic_3,pic_4)VALUES('$date_time','$saiji','$host_team','$guest_team','$category','$pic_1','$pic_2','$pic_3','$pic_4')";
 
-    if (!mysql_query($sql))
-    {
-        die('Error: ' . mysql_error());
+        if (!mysql_query($sql))
+        {
+            die('Error: ' . mysql_error());
+        }
+        echo "添加成功";
+
+    }else{
+        $sql = "UPDATE game SET date_time='$date_time',saiji='$saiji',host_team='$host_team',guest_team='$guest_team',category='$category',pic_1='$pic_1',pic_2='$pic_2',pic_3='$pic_3',pic_4='$pic_4' WHERE id=$id";
+
+        if (!mysql_query($sql))
+        {
+            die('Error: ' . mysql_error());
+        }
+        echo " 修改成功";
+
     }
-    echo "添加成功";
 
     mysql_close();
 

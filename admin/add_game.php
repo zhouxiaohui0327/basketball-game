@@ -122,7 +122,10 @@ $totalPage=ceil($totalNumber/$limit);
                             <li><a>动作记录表</a></li>
                         </ul>
                     </td>
-                    <td><a game_id="<?php echo $row[0];?>" class="btn btn-xs btn-danger delete-row" href="javascript:void(0);">删除</a></td>
+                    <td>
+                        <a game_id="<?php echo $row[0];?>" class="btn btn-xs btn-danger delete-row" href="javascript:void(0);">删除</a>
+                        <a game_id="<?php echo $row[0];?>" id="modifyBtn" class="btn btn-xs btn-success modify-row">修改</a>
+                    </td>
                 </tr>
                 <div>
                     <div class="pic_box">
@@ -136,6 +139,7 @@ $totalPage=ceil($totalNumber/$limit);
             </tbody>
         </table>
     </div>
+
     <?php if($totalNumber>$limit):?>
         <div class="nav_wrap container" style="text-align: center">
             <nav>
@@ -189,6 +193,12 @@ $totalPage=ceil($totalNumber/$limit);
 <div class="container" style="position:relative;">
 
 <form class="form-horizontal" action="/admin/game.php?action=add_game" method="post" style="padding-top: 30px;background:#fff;">
+    <div class="form-group">
+        <label class="control-label col-md-2" >id</label>
+        <div class="col-sm-1">
+            <input class="form-control" type="text" name="id">
+        </div>
+    </div>
     <div class="form-group">
         <label class="control-label col-md-2" >比赛日期</label>
         <div class="col-sm-2">
@@ -255,7 +265,7 @@ $totalPage=ceil($totalNumber/$limit);
     <div class="form-group">
         <label class="control-label col-md-2" >比赛记录表</label>
         <div class="col-sm-4">
-            <input class="form-control" type="hidden" value="" name="pic2" placeholder="">
+            <input class="form-control" type="hidden" value="" name="pic_2" placeholder="">
             <span class="btn btn-xs btn-info fileinput-button">
                 <i class="glyphicon glyphicon-plus"></i>
                 <span>选择图片</span>
@@ -296,15 +306,36 @@ $totalPage=ceil($totalNumber/$limit);
     </div>
     <div class="form-group">
         <div class="col-sm-offset-2">
-            <button class="btn btn-success" type="submit"  value="">确认添加</button>
+            <button class="btn btn-success sure" type="submit"  value="">确认添加</button>
         </div>
     </div>
 </form>
 
-
+    <script>
+        $(".modify-row").click(function(){
+            var id = $(this).attr("game_id");
+            $.get('/admin/game_modify.php?id='+id,function(result){
+                var modify = $.parseJSON(result);
+                $("input[name=host_team]").val(modify.host_team);
+                $("input[name=guest_team]").val(modify.guest_team);
+                $("input[name=date_time]").val(modify.date_time);
+                $("select[name=saiji]").val(modify.saiji);
+                $("select[name=category]").val(modify.category);
+                $('input[name=pic_1]').val(modify.pic_1);
+                $('.image_1').html('<img width=80 src="' + modify.pic_1 + '" />');
+                $('input[name=pic_2]').val(modify.pic_2);
+                $('.image_2').html('<img width=80 src="' + modify.pic_2 + '" />');
+                $('input[name=pic_3]').val(modify.pic_3);
+                $('.image_3').html('<img width=80 src="' + modify.pic_3 + '" />');
+                $('input[name=pic_4]').val(modify.pic_4);
+                $('.image_4').html('<img width=80 src="' + modify.pic_4 + '" />');
+                $(".sure").html("确认修改");
+                $("input[name=id]").val(modify.id);
+            })
+        })
+    </script>
     <script>
         $(document).ready(function(){
-
             $(".delete-row").click(function(a){
                 var id = $(this).attr('game_id');
                 var line = $(this).parents('tr');
