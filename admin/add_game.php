@@ -124,7 +124,7 @@ $totalPage=ceil($totalNumber/$limit);
                     </td>
                     <td>
                         <a game_id="<?php echo $row[0];?>" class="btn btn-xs btn-danger delete-row" href="javascript:void(0);">删除</a>
-                        <a game_id="<?php echo $row[0];?>" id="modifyBtn" class="btn btn-xs btn-success modify-row">修改</a>
+                        <a game_id="<?php echo $row[0];?>" id="modifyBtn" href="#tiaozhuan" class="btn btn-xs btn-success modify-row">修改</a>
                     </td>
                 </tr>
                 <div>
@@ -190,7 +190,7 @@ $totalPage=ceil($totalNumber/$limit);
     <?php endif;?>
 </div>
 
-<div class="container" style="position:relative;">
+<div class="container" style="position:relative;" id="tiaozhuan">
 
 <form class="form-horizontal" action="/admin/game.php?action=add_game" method="post" style="padding-top: 30px;background:#fff;">
     <div class="form-group">
