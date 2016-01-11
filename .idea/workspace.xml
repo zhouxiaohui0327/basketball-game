@@ -52,12 +52,12 @@
       <file leaf-file-name="add_game.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/add_game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.28462997" vertical-offset="2221" max-vertical-offset="7999">
-              <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5483871" vertical-offset="2447" max-vertical-offset="7999">
+              <caret line="144" column="59" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
               <folding>
-                <marker date="1452494615466" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
-                <marker date="1452494615466" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
-                <marker date="1452494615466" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
+                <marker date="1452494962382" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
+                <marker date="1452494962382" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
+                <marker date="1452494962382" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
               </folding>
             </state>
           </provider>
@@ -836,12 +836,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/add_game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28462997" vertical-offset="2221" max-vertical-offset="7999">
-          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5483871" vertical-offset="2447" max-vertical-offset="7999">
+          <caret line="144" column="59" selection-start-line="144" selection-start-column="59" selection-end-line="144" selection-end-column="59" />
           <folding>
-            <marker date="1452494615466" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
-            <marker date="1452494615466" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
-            <marker date="1452494615466" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
+            <marker date="1452494962382" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
+            <marker date="1452494962382" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
+            <marker date="1452494962382" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
           </folding>
         </state>
       </provider>

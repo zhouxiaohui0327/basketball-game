@@ -107,7 +107,7 @@ $totalPage=ceil($totalNumber/$limit);
             <tbody>
 
             <?php while($row = mysql_fetch_array($con)):?>
-                <tr>
+                <tr class="pic-info">
                     <td><?php echo $row['date_time'];?></td>
                     <td><?php echo $row['saiji'];?></td>
                     <td><?php echo $row['host_team'];?></td>
@@ -142,7 +142,7 @@ $totalPage=ceil($totalNumber/$limit);
     <script>
         $(".details .inner_list li").click(function(){
             var x = $(this).index();
-            var y = $(this).parent().parent().parent(".info").index();
+            var y = $(this).parent().parent().parent(".pic-info").index();
             $(".pic_box").eq(y-1).children(".pic").eq(x).slideDown("1000");
             $("#d-mask").css({display:"block"})
         });
