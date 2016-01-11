@@ -143,7 +143,7 @@ $totalPage=ceil($totalNumber/$limit);
         $(".details .inner_list li").click(function(){
             var x = $(this).index();
             var y = $(this).parent().parent().parent(".pic-info").index();
-            $(".pic_box").eq(y-1).children(".pic").eq(x).slideDown("1000");
+            $(".pic_box").eq(y).children(".pic").eq(x).slideDown("1000");
             $("#d-mask").css({display:"block"})
         });
         $(".pic_box").click(function(){

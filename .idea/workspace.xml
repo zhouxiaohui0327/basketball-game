@@ -38,7 +38,7 @@
       <file leaf-file-name="game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.928571" vertical-offset="5288" max-vertical-offset="9120">
+            <state vertical-scroll-proportion="71.46429" vertical-offset="7511" max-vertical-offset="9120">
               <caret line="290" column="31" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="31" />
               <folding>
                 <marker date="1450707267456" expanded="true" signature="363:425" placeholder="SELECT * FRO..." />
@@ -52,12 +52,12 @@
       <file leaf-file-name="add_game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/add_game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="156.85715" vertical-offset="7071" max-vertical-offset="7999">
-              <caret line="141" column="12" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
+            <state vertical-scroll-proportion="-12.714286" vertical-offset="2399" max-vertical-offset="7999">
+              <caret line="145" column="30" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
               <folding>
-                <marker date="1452496232274" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
-                <marker date="1452496232274" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
-                <marker date="1452496232274" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
+                <marker date="1452497239824" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
+                <marker date="1452497239824" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
+                <marker date="1452497239824" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
               </folding>
             </state>
           </provider>
@@ -122,8 +122,8 @@
       <file leaf-file-name="mysql.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5277778" vertical-offset="0" max-vertical-offset="540">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.42222223" vertical-offset="0" max-vertical-offset="540">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -814,21 +814,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="156.85715" vertical-offset="7071" max-vertical-offset="7999">
-          <caret line="141" column="12" selection-start-line="141" selection-start-column="12" selection-end-line="141" selection-end-column="12" />
-          <folding>
-            <marker date="1452496232274" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
-            <marker date="1452496232274" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
-            <marker date="1452496232274" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.928571" vertical-offset="5288" max-vertical-offset="9120">
+        <state vertical-scroll-proportion="71.46429" vertical-offset="7511" max-vertical-offset="9120">
           <caret line="290" column="31" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="31" />
           <folding>
             <marker date="1450707267456" expanded="true" signature="363:425" placeholder="SELECT * FRO..." />
@@ -838,10 +826,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/add_game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.714286" vertical-offset="2399" max-vertical-offset="7999">
+          <caret line="145" column="30" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
+          <folding>
+            <marker date="1452497239824" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
+            <marker date="1452497239824" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
+            <marker date="1452497239824" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5277778" vertical-offset="0" max-vertical-offset="540">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.42222223" vertical-offset="0" max-vertical-offset="540">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
