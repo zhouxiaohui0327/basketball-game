@@ -107,7 +107,7 @@ $totalPage=ceil($totalNumber/$limit);
             <tbody>
 
             <?php while($row = mysql_fetch_array($con)):?>
-                <tr>
+                <tr class="info">
                     <td><?php echo $row['date_time'];?></td>
                     <td><?php echo $row['saiji'];?></td>
                     <td><?php echo $row['host_team'];?></td>
@@ -139,7 +139,23 @@ $totalPage=ceil($totalNumber/$limit);
             </tbody>
         </table>
     </div>
+    <script>
+        $(".details .inner_list li").click(function(){
+            var x = $(this).index();
+            var y = $(this).parent().parent().parent(".info").index();
+            $(".pic_box").eq(y-1).children(".pic").eq(x).slideDown("1000");
+            $("#d-mask").css({display:"block"})
+        });
+        $(".pic_box").click(function(){
+            $(".pic_box .pic").slideUp("1000");
+            $("#d-mask").css({display:"none"})
+        });
+        $("#d-mask").click(function(){
+            $(this).css({display:"none"});
+            $(".pic_box .pic").slideUp("1000");
+        })
 
+    </script>
     <?php if($totalNumber>$limit):?>
         <div class="nav_wrap container" style="text-align: center">
             <nav>
@@ -358,20 +374,6 @@ $totalPage=ceil($totalNumber/$limit);
                 }
             });
 
-            $(".details .inner_list li").click(function(){
-                var x = $(this).index();
-                var y = $(this).parent().parent().parent(".info").index();
-                $(".pic_box").eq(y-1).children(".pic").eq(x).slideDown("1000");
-                $("#d-mask").css({display:"block"})
-            });
-            $(".pic_box").click(function(){
-                $(".pic_box .pic").slideUp("1000");
-                $("#d-mask").css({display:"none"})
-            });
-            $("#d-mask").click(function(){
-                $(this).css({display:"none"});
-                $(".pic_box .pic").slideUp("1000");
-            })
 
 
             $('input[name=date_time]').datepicker({

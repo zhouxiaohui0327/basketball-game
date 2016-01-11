@@ -25,12 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/usr/themes/aoting/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="171" max-vertical-offset="1710">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.5" vertical-offset="399" max-vertical-offset="9120">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
+            <state vertical-scroll-proportion="-2.8448277" vertical-offset="5345" max-vertical-offset="9120">
+              <caret line="290" column="31" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="31" />
               <folding>
+                <element signature="n#style#0;n#ul#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1450707267456" expanded="true" signature="363:425" placeholder="SELECT * FRO..." />
                 <marker date="1450707267456" expanded="true" signature="363:445" placeholder="SELECT * FRO..." />
                 <marker date="1450707267456" expanded="true" signature="1574:1629" placeholder="SELECT * FRO..." />
@@ -39,12 +51,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usr/themes/aoting/header.php">
+      <file leaf-file-name="add_game.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/add_game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1710">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="123" />
-              <folding />
+            <state vertical-scroll-proportion="-7.4310346" vertical-offset="2039" max-vertical-offset="7999">
+              <caret line="130" column="41" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1452494212595" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
+                <marker date="1452494212595" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
+                <marker date="1452494212595" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,23 +73,6 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="3819" max-vertical-offset="9633">
               <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_game.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/add_game.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44212523" vertical-offset="3472" max-vertical-offset="7961">
-              <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1452273922098" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
-                <marker date="1452273922098" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
-                <marker date="1452273922098" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +94,8 @@
       <file leaf-file-name="game.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/game.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.7586207" vertical-offset="918" max-vertical-offset="1482">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.2142856" vertical-offset="955" max-vertical-offset="1482">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <marker date="1452272955682" expanded="true" signature="1779:1970" placeholder="INSERT INTO ..." />
                 <marker date="1452272955682" expanded="true" signature="2119:2157" placeholder="UPDATE game ..." />
@@ -122,10 +123,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysql.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mysql.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="399">
+            <state vertical-scroll-proportion="0.42222223" vertical-offset="0" max-vertical-offset="540">
               <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
@@ -135,7 +136,7 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="703">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -198,13 +199,13 @@
         <option value="$PROJECT_DIR$/add_game.php" />
         <option value="$PROJECT_DIR$/var/Widget/Menu.php" />
         <option value="$PROJECT_DIR$/delete.php" />
-        <option value="$PROJECT_DIR$/game.php" />
         <option value="$PROJECT_DIR$/css/game.css" />
         <option value="$PROJECT_DIR$/usr/themes/aoting/index.css" />
         <option value="$PROJECT_DIR$/usr/themes/aoting/index.php" />
         <option value="$PROJECT_DIR$/admin/game_modify.php" />
         <option value="$PROJECT_DIR$/admin/game.php" />
         <option value="$PROJECT_DIR$/mysql.php" />
+        <option value="$PROJECT_DIR$/game.php" />
         <option value="$PROJECT_DIR$/admin/add_game.php" />
       </list>
     </option>
@@ -241,6 +242,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,13 +345,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jikexueyuan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ups" />
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="options.lastSelected" value="reference.webide.settings.project.settings.php" />
@@ -414,7 +415,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -423,7 +424,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16921899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17381316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -735,9 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="646">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <marker date="1450093355701" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,26 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3374" max-vertical-offset="6498">
           <caret line="187" column="0" selection-start-line="187" selection-start-column="0" selection-end-line="197" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.5" vertical-offset="399" max-vertical-offset="9120">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <marker date="1450707267456" expanded="true" signature="363:425" placeholder="SELECT * FRO..." />
-            <marker date="1450707267456" expanded="true" signature="363:445" placeholder="SELECT * FRO..." />
-            <marker date="1450707267456" expanded="true" signature="1574:1629" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usr/themes/aoting/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="171" max-vertical-offset="1710">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="123" />
           <folding />
         </state>
       </provider>
@@ -797,14 +775,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2603">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/game_modify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="399">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <marker date="1452268787923" expanded="true" signature="216:244" placeholder="SELECT * FRO..game..." />
+            <marker date="1452268787923" expanded="true" signature="216:245" placeholder="SELECT * FRO..game..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/game.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.7586207" vertical-offset="918" max-vertical-offset="1482">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.2142856" vertical-offset="955" max-vertical-offset="1482">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <marker date="1452272955682" expanded="true" signature="1779:1970" placeholder="INSERT INTO ..." />
             <marker date="1452272955682" expanded="true" signature="2119:2157" placeholder="UPDATE game ..." />
@@ -821,38 +810,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/game_modify.php">
+    <entry file="file://$PROJECT_DIR$/usr/themes/aoting/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="399">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="171" max-vertical-offset="1710">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8448277" vertical-offset="5345" max-vertical-offset="9120">
+          <caret line="290" column="31" selection-start-line="290" selection-start-column="27" selection-end-line="290" selection-end-column="31" />
           <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-            <marker date="1452268787923" expanded="true" signature="216:244" placeholder="SELECT * FRO..game..." />
-            <marker date="1452268787923" expanded="true" signature="216:245" placeholder="SELECT * FRO..game..." />
+            <element signature="n#style#0;n#ul#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1450707267456" expanded="true" signature="363:425" placeholder="SELECT * FRO..." />
+            <marker date="1450707267456" expanded="true" signature="363:445" placeholder="SELECT * FRO..." />
+            <marker date="1450707267456" expanded="true" signature="1574:1629" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/add_game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4310346" vertical-offset="2039" max-vertical-offset="7999">
+          <caret line="130" column="41" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1452494212595" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
+            <marker date="1452494212595" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
+            <marker date="1452494212595" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="399">
+        <state vertical-scroll-proportion="0.42222223" vertical-offset="0" max-vertical-offset="540">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/add_game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44212523" vertical-offset="3472" max-vertical-offset="7961">
-          <caret line="195" column="48" selection-start-line="195" selection-start-column="48" selection-end-line="195" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1452273922098" expanded="true" signature="340:382" placeholder="SELECT * FRO..game..." />
-            <marker date="1452273922098" expanded="true" signature="340:402" placeholder="SELECT * FRO..game..." />
-            <marker date="1452273922098" expanded="true" signature="434:476" placeholder="SELECT * FRO..game..." />
-          </folding>
         </state>
       </provider>
     </entry>
