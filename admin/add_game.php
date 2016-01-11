@@ -129,10 +129,10 @@ $totalPage=ceil($totalNumber/$limit);
                 </tr>
                 <div>
                     <div class="pic_box">
-                        <img class="pic pic_1" width="768px" height="543px"  src="<?php echo $row[5];?>" alt=""/>
-                        <img class="pic pic_2" width="384px" height="543px"  src="<?php echo $row[6];?>" alt=""/>
-                        <img class="pic pic_2" width="384px" height="543px"  src="<?php echo $row[7];?>" alt=""/>
-                        <img class="pic pic_2" width="384px" height="534px"  src="<?php echo $row[8];?>" alt=""/>
+                        <img class="pic pic_1" width="768px" height="543px"  src="<?php echo $row['pic_1'];?>" alt=""/>
+                        <img class="pic pic_2" width="384px" height="543px"  src="<?php echo $row['pic_2'];?>" alt=""/>
+                        <img class="pic pic_2" width="384px" height="543px"  src="<?php echo $row['pic_3'];?>" alt=""/>
+                        <img class="pic pic_2" width="384px" height="534px"  src="<?php echo $row['pic_4'];?>" alt=""/>
                     </div>
                 </div>
             <?php endwhile;?>
