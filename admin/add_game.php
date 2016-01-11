@@ -107,7 +107,7 @@ $totalPage=ceil($totalNumber/$limit);
             <tbody>
 
             <?php while($row = mysql_fetch_array($con)):?>
-                <tr class="info">
+                <tr>
                     <td><?php echo $row['date_time'];?></td>
                     <td><?php echo $row['saiji'];?></td>
                     <td><?php echo $row['host_team'];?></td>
